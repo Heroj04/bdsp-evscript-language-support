@@ -4,6 +4,10 @@ All notable changes to the "bdsp-evscript-language-support" extension will be do
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1]
+
+- Snippets for all known ev commands
+
 ## [1.0]
 
 - Initial release
