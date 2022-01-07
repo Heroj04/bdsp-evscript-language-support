@@ -3,7 +3,8 @@
     "displayName": "BDSP EvScript Language Support",
     "description": "Language Suppport for Pokemon BDSP EvScript Files",
     "version": "1.1.0",
-    "homepage": "https://github.com/Heroj04/bdsp-evscript-language-support",
+    "repository": "https://github.com/Heroj04/bdsp-evscript-language-support",
+    "publisher": "Heroj04",
     "engines": {
         "vscode": "^1.63.0"
     },
