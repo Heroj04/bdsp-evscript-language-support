@@ -1,0 +1,91 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "EvScript",
+	"patterns": [
+		{
+			"include": "#labels"
+		},
+		{
+			"include": "#commands"
+		},
+		{
+			"include": "#commands-paren"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"labels": {
+			"patterns": [{
+				"name": "entity.name.section.label.evscript",
+				"begin": "\\b\\w+\\b:",
+				"while": "\\t.*",
+				"beginCaptures": { "0": { "name": "entity.name.tag.label.evscript" } },
+				"whileCaptures": { "0": { "patterns": [ {"include": "$self" } ] } }
+			}]
+		},
+		"commands": {
+			"patterns": [{
+				"name": "entity.name.function.command.evscript",
+				"match": "\\b_\\w+\\b"
+			}]
+		},
+		"commands-paren": {
+			"patterns": [{
+				"begin": "\\(",
+				"end": "\\)",
+				"beginCaptures": {
+				  "0": { "name": "punctuation.paren.open" }
+				},
+				"endCaptures": {
+				  "0": { "name": "punctuation.paren.close" }
+				},
+				"name": "command.group",
+				"patterns": [{ "include": "#strings" }, { "include": "#constants" }]
+			  }]
+		},
+		"strings": {
+			"name": "string.quoted.evscript",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.evscript",
+					"match": "\\\\."
+				}
+			]
+		},
+		"constants": {
+			"patterns": [{
+				"name": "variable.parameter.work.evscript",
+				"match": "@\\d+"
+			},
+			{
+				"name": "variable.parameter.flag.evscript",
+				"match": "\\#\\d+"
+			},
+			{
+				"name": "variable.parameter.system.flag.evscript",
+				"match": "\\$\\d+"
+			},
+			{
+				"name": "constant.numeric.evscript",
+				"match": "((?<!@|#|\\$)\\b|(?<=\\W)-)\\d+(\\.\\d+)?\\b"
+			}]
+		},
+		"comments": {
+			"patterns": [{
+				"name": "comment.evscript",
+				"match": ";.*"
+			}]
+		}
+	},
+	"scopeName": "source.ev"
+}
