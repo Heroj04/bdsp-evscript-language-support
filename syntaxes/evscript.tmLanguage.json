@@ -15,7 +15,7 @@
 			"include": "#strings"
 		},
 		{
-			"include": "#constants"
+			"include": "#arguments"
 		},
 		{
 			"include": "#comments"
@@ -62,7 +62,7 @@
 				}
 			]
 		},
-		"constants": {
+		"arguments": {
 			"patterns": [{
 				"name": "variable.parameter.work.evscript",
 				"match": "@\\d+"
@@ -72,7 +72,7 @@
 				"match": "\\#\\d+"
 			},
 			{
-				"name": "variable.parameter.system.flag.evscript",
+				"name": "variable.parameter.sysflag.evscript",
 				"match": "\\$\\d+"
 			},
 			{
