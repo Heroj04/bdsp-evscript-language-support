@@ -12,7 +12,8 @@
         "Programming Languages"
     ],
     "activationEvents": [
-        "onCommand:test.helloWorld"
+        "onCommand:evscript.parse",
+        "onCommand:evscript.assemble"
 	],
 	"main": "./extension.js",
     "contributes": {
@@ -32,8 +33,13 @@
             "path": "./snippets.json"
         }],
         "commands": [{
-            "command": "test.helloWorld",
-            "title": "Hello World"
+            "command": "evscript.parse",
+            "title": "EvScript Parse"
+
+		},
+        {
+            "command": "evscript.assemble",
+            "title": "EvScript Assemble"
 
 		}]
     },
