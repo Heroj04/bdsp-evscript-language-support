@@ -12,12 +12,6 @@
 			"include": "#commands-paren"
 		},
 		{
-			"include": "#strings"
-		},
-		{
-			"include": "#arguments"
-		},
-		{
 			"include": "#comments"
 		}
 	],
