@@ -13,7 +13,8 @@
     ],
     "activationEvents": [
         "onCommand:evscript.parse",
-        "onCommand:evscript.assemble"
+        "onCommand:evscript.assemble",
+        "onCommand:evscript.assemble.all"
 	],
 	"main": "./extension.js",
     "contributes": {
@@ -40,6 +41,11 @@
         {
             "command": "evscript.assemble",
             "title": "EvScript Assemble"
+
+		},
+        {
+            "command": "evscript.assemble.all",
+            "title": "EvScript Assemble All"
 
 		}]
     },
