@@ -34,7 +34,7 @@
 		"commands": {
 			"patterns": [{
 				"name": "entity.name.function.command.evscript",
-				"match": "\\b_\\w+\\b"
+				"match": "\\b_\\w+\\b(?=\\(.*\\))"
 			}]
 		},
 		"commands-paren": {
@@ -48,7 +48,7 @@
 				  "0": { "name": "punctuation.paren.close" }
 				},
 				"name": "command.group",
-				"patterns": [{ "include": "#strings" }, { "include": "#constants" }]
+				"patterns": [{ "include": "#strings" }, { "include": "#arguments" }]
 			  }]
 		},
 		"strings": {
