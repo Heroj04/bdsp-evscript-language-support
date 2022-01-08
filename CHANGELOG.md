@@ -2,7 +2,7 @@
 
 All notable changes to the "bdsp-evscript-language-support" extension will be documented in this file.
 
-## [1.1]
+## [1.2]
 
 - Support Named Work, Flags, SysFlags and Commands
 
