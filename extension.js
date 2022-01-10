@@ -108,26 +108,28 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 		vscode.window.showInformationMessage('Select your base directory');
 		vscode.window.showOpenDialog({canSelectFiles: false, canSelectFolders: true, title: "Base Directory"}).then(base_uri => {
-			vscode.window.showInformationMessage('Assembling ...');
-			let parser
-			if (osvar == "win32") {
-				parser = spawn("python", [path.join(evasPath, "src/ev_as.py")], {cwd: base_uri[0].fsPath});
-			} else {
-				parser = spawn("python3", [path.join(evasPath, "src/ev_as.py")], {cwd: base_uri[0].fsPath});
-			}
-			parser.stdout.on("data", data => {
-				vscode.window.showInformationMessage(data);
-			})
-			parser.stderr.on("data", data => {
-				vscode.window.showErrorMessage(data);
-			})
-			parser.on("close", code => {
-				if (code == 0) {
-					vscode.window.showInformationMessage(`Completed Assembling ev_script File`);
+			if (base_uri) {
+				vscode.window.showInformationMessage('Assembling ...');
+				let parser
+				if (osvar == "win32") {
+					parser = spawn("python", [path.join(evasPath, "src/ev_as.py")], {cwd: base_uri[0].fsPath});
 				} else {
-					vscode.window.showErrorMessage("Error Assembling ev_script File");
+					parser = spawn("python3", [path.join(evasPath, "src/ev_as.py")], {cwd: base_uri[0].fsPath});
 				}
-			})
+				parser.stdout.on("data", data => {
+					vscode.window.showInformationMessage(data);
+				})
+				parser.stderr.on("data", data => {
+					vscode.window.showErrorMessage(data);
+				})
+				parser.on("close", code => {
+					if (code == 0) {
+						vscode.window.showInformationMessage(`Completed Assembling ev_script File`);
+					} else {
+						vscode.window.showErrorMessage("Error Assembling ev_script File");
+					}
+				})
+			}
 		})
 	}));
 }
