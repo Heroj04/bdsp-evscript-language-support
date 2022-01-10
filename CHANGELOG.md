@@ -14,6 +14,10 @@ All notable changes to the "bdsp-evscript-language-support" extension will be do
 
 - More Generic Matching of for commands, work and flags. (No Need to explicitly name every possible option)
 
+### [1.2.3]
+
+- Support Auto Indenting after Labels
+
 ## [1.1]
 
 - Snippets for all known ev commands

@@ -16,5 +16,14 @@
     "surroundingPairs": [
         ["(", ")"],
         ["'", "'"]
-    ]
+    ],
+    "indentationRules": {
+        "increaseIndentPattern": "^(\\w|\\\\)+:$"
+    },
+    "onEnterRules": [
+        {
+            "beforeText": "^(\\w|\\\\)+:$",
+            "action": { "indent": "indent" }
+        }
+      ]
 }
