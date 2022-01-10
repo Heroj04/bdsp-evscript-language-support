@@ -2,6 +2,10 @@
 
 All notable changes to the "bdsp-evscript-language-support" extension will be documented in this file.
 
+## [1.3]
+
+- Command Palette commands for parsing and assembling ev_scripts using ev-as
+
 ## [1.2]
 
 - Support Named Work, Flags, SysFlags and Commands
