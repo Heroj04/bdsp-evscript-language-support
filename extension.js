@@ -6,7 +6,7 @@ const path = require("path");
 const evasPath = path.join(__dirname, "ev-as");
 const requirements = path.join(evasPath, "requirements.txt");
 const osvar = process.platform;
-const evasRepo = "https://github.com/z80rotom/ev-as";
+const evasRepo = "https://github.com/Heroj04/ev-as";
 
 spawn("git", ["-C", evasPath, "pull", evasRepo + ".git"]);
 spawn("git", ["clone", evasRepo + ".git", evasPath]);
