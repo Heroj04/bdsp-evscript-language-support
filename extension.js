@@ -77,11 +77,23 @@ function activate(context) {
 						vscode.window.showInputBox({value: ev_uri[0].path.replace(/.+/, ''), prompt: "Assembled Script Name"}).then(script_name => {
 							if (script_name) {
 								vscode.window.showInformationMessage('Assembling ...');
+								// Get message validation config
+								let config = vscode.workspace.getConfiguration('evscript')
+								let messageArgs
+								if (config.get("enableMessageValidation")) {
+									if (config.get("messageExportsFolder") != "") {
+										messageArgs = ["-v", "-m", config.get("messageExportsFolder")]
+									} else {
+										messageArgs = ["-v"]
+									}
+								} else {
+									messageArgs = ["-nv"]
+								}
 								let parser
 								if (osvar == "win32") {
-									parser = spawn("python", [path.join(evasPath, "src/ev_parse.py"), "-i", ev_uri[0].fsPath, "-o", ev_script_uri[0].fsPath, "-s", script_name]);
+									parser = spawn("python", [path.join(evasPath, "src/ev_parse.py"), "-i", ev_uri[0].fsPath, "-o", ev_script_uri[0].fsPath, "-s", script_name].concat(messageArgs));
 								} else {
-									parser = spawn("python3", [path.join(evasPath, "src/ev_parse.py"), "-i", ev_uri[0].fsPath, "-o", ev_script_uri[0].fsPath, "-s", script_name]);
+									parser = spawn("python3", [path.join(evasPath, "src/ev_parse.py"), "-i", ev_uri[0].fsPath, "-o", ev_script_uri[0].fsPath, "-s", script_name].concat(messageArgs));
 								}
 								parser.stdout.on("data", data => {
 									vscode.window.showInformationMessage(data);
@@ -111,11 +123,23 @@ function activate(context) {
 			vscode.window.showInformationMessage('Select output ev_script file');
 			vscode.window.showOpenDialog({title: "Output ev_script File"}).then(ev_script_uri => {
 				vscode.window.showInformationMessage('Assembling ...');
+				// Get message validation config
+				let config = vscode.workspace.getConfiguration('evscript')
+				let messageArgs
+				if (config.get("enableMessageValidation")) {
+					if (config.get("messageExportsFolder") != "") {
+						messageArgs = ["-v", "-m", config.get("messageExportsFolder")]
+					} else {
+						messageArgs = ["-v"]
+					}
+				} else {
+					messageArgs = ["-nv"]
+				}
 				let parser
 				if (osvar == "win32") {
-					parser = spawn("python", [path.join(evasPath, "src/ev_parse.py"), "-i", scripts_uri[0].fsPath, "-o", ev_script_uri[0].fsPath]);
+					parser = spawn("python", [path.join(evasPath, "src/ev_parse.py"), "-i", scripts_uri[0].fsPath, "-o", ev_script_uri[0].fsPath].concat(messageArgs));
 				} else {
-					parser = spawn("python3", [path.join(evasPath, "src/ev_parse.py"), "-i", scripts_uri[0].fsPath, "-o", ev_script_uri[0].fsPath]);
+					parser = spawn("python3", [path.join(evasPath, "src/ev_parse.py"), "-i", scripts_uri[0].fsPath, "-o", ev_script_uri[0].fsPath].concat(messageArgs));
 				}
 				parser.stdout.on("data", data => {
 					vscode.window.showInformationMessage(data);

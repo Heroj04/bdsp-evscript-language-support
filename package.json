@@ -47,7 +47,22 @@
             "command": "evscript.assemble.all",
             "title": "EvScript Assemble All"
 
-		}]
+		}],
+        "configuration": {
+            "title": "EvScript",
+            "properties": {
+              "evscript.enableMessageValidation": {
+                "type": "boolean",
+                "default": true,
+                "description": "Enable validation of stored message values when assembling scripts."
+              },
+              "evscript.messageExportsFolder": {
+                "type": "string",
+                "default": "",
+                "description": "Specifies the folder path containing the exported message .json files to use."
+              }
+            }
+        }
     },
     "scripts": {
 		"lint": "eslint .",
