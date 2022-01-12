@@ -2,7 +2,7 @@
     "name": "bdsp-evscript-language-support",
     "displayName": "BDSP EvScript Language Support",
     "description": "Language Suppport for Pokemon BDSP EvScript Files",
-    "version": "1.2.3",
+    "version": "1.3.0",
     "repository": "https://github.com/Heroj04/bdsp-evscript-language-support",
     "publisher": "Heroj04",
     "engines": {
@@ -11,6 +11,10 @@
     "categories": [
         "Programming Languages"
     ],
+    "activationEvents": [
+        "*"
+	],
+	"main": "./extension.js",
     "contributes": {
         "languages": [{
             "id": "evscript",
@@ -23,11 +27,55 @@
             "scopeName": "source.ev",
             "path": "./syntaxes/evscript.tmLanguage.json"
         }],
-        "snippets": [
-            {
-              "language": "evscript",
-              "path": "./snippets.json"
+        "snippets": [ {
+            "language": "evscript",
+            "path": "./snippets.json"
+        }],
+        "commands": [{
+            "command": "evscript.parse",
+            "title": "EvScript Parse"
+
+		},
+        {
+            "command": "evscript.assemble",
+            "title": "EvScript Assemble"
+
+		},
+        {
+            "command": "evscript.assemble.all",
+            "title": "EvScript Assemble All"
+
+		}],
+        "configuration": {
+            "title": "EvScript",
+            "properties": {
+              "evscript.enableMessageValidation": {
+                "type": "boolean",
+                "default": true,
+                "description": "Enable validation of stored message values when assembling scripts."
+              },
+              "evscript.messageExportsFolder": {
+                "type": "string",
+                "default": "",
+                "description": "Specifies the folder path containing the exported message .json files to use."
+              }
             }
-          ]
+        }
+    },
+    "scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+        "@types/vscode": "^1.63.0",
+        "@types/glob": "^7.1.4",
+        "@types/mocha": "^9.0.0",
+        "@types/node": "14.x",
+        "eslint": "^8.1.0",
+        "glob": "^7.1.7",
+        "mocha": "^9.1.3",
+        "typescript": "^4.4.4",
+        "@vscode/test-electron": "^1.6.2"
     }
 }
