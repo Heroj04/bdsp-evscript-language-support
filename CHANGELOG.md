@@ -7,6 +7,10 @@ All notable changes to the "bdsp-evscript-language-support" extension will be do
 - Command Palette commands for parsing and assembling ev_scripts using ev-as
 - Configuration Options to enable message validation during ev-as assembly
 
+### [1.3.1]
+
+- Change Activation back to commands
+
 ## [1.2]
 
 - Support Named Work, Flags, SysFlags and Commands
