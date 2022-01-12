@@ -11,7 +11,6 @@ const osvar = process.platform;
 const evasRepo = "https://github.com/Heroj04/ev-as";
 const internalConfigPath = path.join(__dirname, "internalConfig.json")
 const internalConfig = fs.existsSync(internalConfigPath) ? JSON.parse(fs.readFileSync(internalConfigPath)) : {}
-const ev_scripts = JSON.parse(fs.readFileSync(path.join(__dirname, "ev_scripts.json")))
 const argTypes = {
 	0: "CmdType",
     1: "Value",
@@ -24,6 +23,9 @@ const argTypes = {
 // Get ev-as from Git
 spawn("git", ["-C", evasPath, "pull", evasRepo + ".git"]);
 spawn("git", ["clone", evasRepo + ".git", evasPath]);
+
+// Load ev_scripts.json file from ev-as
+const ev_scripts = JSON.parse(fs.readFileSync(path.join(evasPath, "ev_scripts.json")))
 
 // Install python requirements for ev-as
 if (osvar == "win32") {
