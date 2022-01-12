@@ -12,9 +12,7 @@
         "Programming Languages"
     ],
     "activationEvents": [
-        "onCommand:evscript.parse",
-        "onCommand:evscript.assemble",
-        "onCommand:evscript.assemble.all"
+        "*"
 	],
 	"main": "./extension.js",
     "contributes": {
