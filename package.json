@@ -21,7 +21,8 @@
     "activationEvents": [
         "onCommand:evscript.parse",
         "onCommand:evscript.assemble",
-        "onCommand:evscript.assemble.all"
+        "onCommand:evscript.assemble.all",
+        "onLanguage:evscript"
 	],
 	"main": "./extension.js",
     "contributes": {
@@ -67,8 +68,16 @@
                 "type": "string",
                 "default": "",
                 "description": "Specifies the folder path containing the exported message .json files to use."
+              },
+              "evscript.enableHovers": {
+                "type": "boolean",
+                "default": true,
+                "description": "Enable information about EvCmds and Parameters to be displayed on hover."
               }
             }
+        },
+        "capabilities" : {
+            "hoverProvider" : "true"
         }
     },
     "scripts": {

@@ -72,6 +72,10 @@
 			{
 				"name": "constant.numeric.evscript",
 				"match": "((?<!@|#|\\$)\\b|(?<=\\W)-)\\d+(\\.\\d+)?\\b"
+			},
+			{
+				"name": "variable.parameter.other.evscript",
+				"match": "\\w+"
 			}]
 		},
 		"comments": {
