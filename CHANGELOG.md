@@ -2,6 +2,10 @@
 
 All notable changes to the "bdsp-evscript-language-support" extension will be documented in this file.
 
+## [1.4]
+
+- Implement a Hover provider that displays descriptions for EvCmds
+
 ## [1.3]
 
 - Command Palette commands for parsing and assembling ev_scripts using ev-as

@@ -8,6 +8,14 @@ Based off the amazing work done with [ev-as](https://github.com/z80rotom/ev-as) 
 - Syntax Highlighting
 - Snippets for known ev commands
 - Built in commands for Parsing and Assembling EvScripts
+- Hover Information for EvCmd Descriptions
+
+### Additional requirements
+
+Some features such as Hover Information and using the built in commands require some pre-requisets to be installed on your computer
+
+- `git`
+- `python`
 
 ## Configuration
 

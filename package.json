@@ -3,7 +3,7 @@
     "displayName": "BDSP EvScript Language Support",
     "description": "Language Suppport for Pokemon BDSP EvScript Files",
     "icon": "evBall.png",
-    "version": "1.3.1",
+    "version": "1.4.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Heroj04/bdsp-evscript-language-support"
