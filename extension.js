@@ -238,6 +238,11 @@ function activate(context) {
 	// Register Hover Provider Method
 	context.subscriptions.push(vscode.languages.registerHoverProvider("evscript", {
 		provideHover(document, position, token) {
+			// Check Config for Hover Enable
+			if (!vscode.workspace.getConfiguration("evscript").get("enableHovers")) {
+				return
+			}
+
 			// Get the word at current position
 			const range = document.getWordRangeAtPosition(position);
             const word = document.getText(range);
