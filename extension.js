@@ -21,18 +21,28 @@ const argTypes = {
 }
 
 // Get ev-as from Git
-spawn("git", ["-C", evasPath, "pull", evasRepo + ".git"]);
-spawn("git", ["clone", evasRepo + ".git", evasPath]);
+try {
+	spawn("git", ["-C", evasPath, "pull", evasRepo + ".git"]);
+	spawn("git", ["clone", evasRepo + ".git", evasPath]);
+} catch (error) {
+	vscode.window.showInformationMessage('Git not available, ev-as not usable from command palette.')
+}
+
+try {
+	// Install python requirements for ev-as
+	if (osvar == "win32") {
+		spawn("python", ["-m", "pip", "install", "-r", requirements]);
+	} else {
+		spawn("python3", ["-m", "pip3", "install", "-r", requirements]);
+	}
+} catch (error) {
+	vscode.window.showInformationMessage('Python not available, ev-as not usable from command palette.')
+}
 
 // Load ev_scripts.json file from ev-as
-const ev_scripts = JSON.parse(fs.readFileSync(path.join(evasPath, "ev_scripts.json")))
-
-// Install python requirements for ev-as
-if (osvar == "win32") {
-	spawn("python", ["-m", "pip", "install", "-r", requirements]);
-} else {
-	spawn("python3", ["-m", "pip3", "install", "-r", requirements]);
-}
+ev_scripts_path = path.join(evasPath, "ev_scripts.json")
+ev_scripts_path = fs.existsSync(ev_scripts_path) ? ev_scripts_path : path.join(__dirname, "ev_scripts.json")
+const ev_scripts = JSON.parse(fs.readFileSync(ev_scripts_path))
 
 /** Method called when extension is first activated
  * @param {vscode.ExtensionContext} context
