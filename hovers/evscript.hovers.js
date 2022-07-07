@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 const ev_scripts = JSON.parse(fs.readFileSync(path.join(__dirname, "../ev_scripts.json")))
+const enums = JSON.parse(fs.readFileSync(path.join(__dirname, "../enums.json")))
 const argTypes = {
 	0: "CmdType",
     1: "Value",
@@ -34,13 +35,13 @@ module.exports = {
 			let parameter = document.getText(new vscode.Range(range.start.line, range.start.character - 1, range.end.line, range.end.character))
 			if (/^@\w+$/.test(parameter)) {
 				// Is Work
-				return new vscode.Hover(`\`\`\`evscript\n(Work) ${parameter}\n\`\`\``)
+				return new vscode.Hover(`\`\`\`evscript\n(Work) @${enums.work[parameter.substring(1)]}: ${parameter}\n\`\`\``)
 			} else if (/^\#\w+$/.test(parameter)) {
 				// Is Flag
-				return new vscode.Hover(`\`\`\`evscript\n(Flag) ${parameter}\n\`\`\``)
+				return new vscode.Hover(`\`\`\`evscript\n(Flag) #${enums.flag[parameter.substring(1)]}: ${parameter}\n\`\`\``)
 			} else if (/^\$\w+$/.test(parameter)) {
 				// Is SysFlag
-				return new vscode.Hover(`\`\`\`evscript\n(SysFlag) ${parameter}\n\`\`\``)
+				return new vscode.Hover(`\`\`\`evscript\n(SysFlag) $${enums.sysFlag[parameter.substring(1)]}: ${parameter}\n\`\`\``)
 			}
 		}
 		
