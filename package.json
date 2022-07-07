@@ -30,16 +30,16 @@
             "id": "evscript",
             "aliases": ["EvScript", "evscript"],
             "extensions": [".ev"],
-            "configuration": "./language-configuration.json"
+            "configuration": "./languages/evscript.language-configuration.json"
         }],
         "grammars": [{
             "language": "evscript",
             "scopeName": "source.ev",
-            "path": "./syntaxes/evscript.tmLanguage.json"
+            "path": "./grammars/evscript.grammar.json"
         }],
         "snippets": [ {
             "language": "evscript",
-            "path": "./snippets.json"
+            "path": "./snippets/evscript.snippets.json"
         }],
         "commands": [{
             "command": "evscript.parse",

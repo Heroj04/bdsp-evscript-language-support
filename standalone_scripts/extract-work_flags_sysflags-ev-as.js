@@ -4,7 +4,7 @@ const fs = require('fs')
 let escapeRegex = /[-\/\\^$*+?.()|[\]{}]/g
 let escapeRegexReplace = '\\$&'
 
-let output = { work: [], flag: [], sysFlag: [], cmd: [] }
+//let output = { work: [], flag: [], sysFlag: [], cmd: [] }
 let workFileContent = fs.readFileSync('ev_work.py')
 let flagFileContent = fs.readFileSync('ev_flag.py')
 let sysFlagFileContent = fs.readFileSync('ev_sys_flag.py')
