@@ -2,6 +2,11 @@
 
 All notable changes to the "bdsp-evscript-language-support" extension will be documented in this file.
 
+## [1.4.1]
+
+- Fixed the extension breaking if git or python wasnt installed
+- Improved Directory Structure
+
 ## [1.4]
 
 - Implement a Hover provider that displays descriptions for EvCmds
