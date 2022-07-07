@@ -35,13 +35,13 @@ module.exports = {
 			let parameter = document.getText(new vscode.Range(range.start.line, range.start.character - 1, range.end.line, range.end.character))
 			if (/^@\w+$/.test(parameter)) {
 				// Is Work
-				return new vscode.Hover(`\`\`\`evscript\n(Work) @${enums.work[parameter.substring(1)]}: ${parameter}\n\`\`\``)
+				return new vscode.Hover(`\`\`\`evscript\n(Work) @${enums.work[parameter.substring(1)]} - ${parameter}\n\`\`\``)
 			} else if (/^\#\w+$/.test(parameter)) {
 				// Is Flag
-				return new vscode.Hover(`\`\`\`evscript\n(Flag) #${enums.flag[parameter.substring(1)]}: ${parameter}\n\`\`\``)
+				return new vscode.Hover(`\`\`\`evscript\n(Flag) #${enums.flag[parameter.substring(1)]} - ${parameter}\n\`\`\``)
 			} else if (/^\$\w+$/.test(parameter)) {
 				// Is SysFlag
-				return new vscode.Hover(`\`\`\`evscript\n(SysFlag) $${enums.sysFlag[parameter.substring(1)]}: ${parameter}\n\`\`\``)
+				return new vscode.Hover(`\`\`\`evscript\n(SysFlag) $${enums.sysFlag[parameter.substring(1)]} - ${parameter}\n\`\`\``)
 			}
 		}
 		
