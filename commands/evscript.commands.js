@@ -8,6 +8,7 @@ const evasPath = path.join(__dirname, "../ev-as");
 const evasRepo = "https://github.com/Heroj04/ev-as";
 const requirements = path.join(evasPath, "requirements.txt");
 const osvar = process.platform;
+const enums = JSON.parse(fs.readFileSync(path.join(__dirname, "../enums.json")))
 
 // Get ev-as from Git
 try {
@@ -222,17 +223,75 @@ async function AssembleAll() {
 	})
 }
 
-module.exports = [
-	{
-		"name": "evscript.parse",
-		"function": Parse
-	},
-	{
-		"name": "evscript.assemble",
-		"function": Assemble
-	},
-	{
-		"name": "evscript.assemble.all",
-		"function": AssembleAll
+function AllToNamed(editor, edit) {
+	let lines = editor.document.getText().split(/\r?\n/g);
+	for (let lineNumber = 0; lineNumber < lines.length; lineNumber++) {
+		const line = lines[lineNumber];
+		let work = line.matchAll(/(?<!;.*)\@(\d+)/g);
+		let flags = line.matchAll(/(?<!;.*)\#(\d+)/g);
+		let sysFlags = line.matchAll(/(?<!;.*)\$(\d+)/g);
+
+		for (const match of work) {
+			let range = new vscode.Range(lineNumber, match.index+1, lineNumber, match.index + match[1].length + 1);
+			edit.replace(range, enums.work[parseInt(match[1])]);
+		}
+		for (const match of flags) {
+			let range = new vscode.Range(lineNumber, match.index+1, lineNumber, match.index + match[1].length + 1);
+			edit.replace(range, enums.flag[parseInt(match[1])]);
+		}
+		for (const match of sysFlags) {
+			let range = new vscode.Range(lineNumber, match.index+1, lineNumber, match.index + match[1].length + 1);
+			edit.replace(range, enums.sysFlag[parseInt(match[1])]);
+		}
 	}
-];
+}
+
+function AllToIndex(editor, edit) {
+	let lines = editor.document.getText().split(/\r?\n/g);
+	for (let lineNumber = 0; lineNumber < lines.length; lineNumber++) {
+		const line = lines[lineNumber];
+		let work = line.matchAll(/(?<!;.*)\@(?!\d+)(\w+)/g);
+		let flags = line.matchAll(/(?<!;.*)\#(?!\d+)(\w+)/g);
+		let sysFlags = line.matchAll(/(?<!;.*)\$(?!\d+)(\w+)/g);
+
+		for (const match of work) {
+			let range = new vscode.Range(lineNumber, match.index+1, lineNumber, match.index + match[1].length + 1);
+			edit.replace(range, enums.work[match[1]]);
+		}
+		for (const match of flags) {
+			let range = new vscode.Range(lineNumber, match.index+1, lineNumber, match.index + match[1].length + 1);
+			edit.replace(range, enums.flag[match[1]]);
+		}
+		for (const match of sysFlags) {
+			let range = new vscode.Range(lineNumber, match.index+1, lineNumber, match.index + match[1].length + 1);
+			edit.replace(range, enums.sysFlag[match[1]]);
+		}
+	}
+}
+
+module.exports = {
+	"commands": [
+		{
+			"name": "evscript.parse",
+			"function": Parse
+		},
+		{
+			"name": "evscript.assemble",
+			"function": Assemble
+		},
+		{
+			"name": "evscript.assemble.all",
+			"function": AssembleAll
+		}
+	],
+	"textEditorCommands": [
+		{
+			"name": "evscript.convert.all.named",
+			"function": AllToNamed
+		},
+		{
+			"name": "evscript.convert.all.index",
+			"function": AllToIndex
+		}
+	]
+}

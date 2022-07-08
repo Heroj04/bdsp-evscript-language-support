@@ -26,36 +26,64 @@
 	],
 	"main": "./extension.js",
     "contributes": {
-        "languages": [{
-            "id": "evscript",
-            "aliases": ["EvScript", "evscript"],
-            "extensions": [".ev"],
-            "configuration": "./languages/evscript.language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "evscript",
-            "scopeName": "source.ev",
-            "path": "./grammars/evscript.grammar.json"
-        }],
-        "snippets": [ {
-            "language": "evscript",
-            "path": "./snippets/evscript.snippets.json"
-        }],
-        "commands": [{
-            "command": "evscript.parse",
-            "title": "EvScript Parse"
+        "languages": [
+            {
+                "id": "evscript",
+                "aliases": ["EvScript", "evscript"],
+                "extensions": [".ev"],
+                "configuration": "./languages/evscript.language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "evscript",
+                "scopeName": "source.ev",
+                "path": "./grammars/evscript.grammar.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "evscript",
+                "path": "./snippets/evscript.snippets.json"
+            }
+        ],
+        "commands": [
+            {
+                "command": "evscript.parse",
+                "title": "EvScript Parse"
 
-		},
-        {
-            "command": "evscript.assemble",
-            "title": "EvScript Assemble"
+            },
+            {
+                "command": "evscript.assemble",
+                "title": "EvScript Assemble"
 
-		},
-        {
-            "command": "evscript.assemble.all",
-            "title": "EvScript Assemble All"
+            },
+            {
+                "command": "evscript.assemble.all",
+                "title": "EvScript Assemble All"
 
-		}],
+            },
+            {
+                "command": "evscript.convert.all.named",
+                "title": "EvScript Convert Work and Flags to Named"
+            },
+            {
+                "command": "evscript.convert.all.index",
+                "title": "EvScript Convert Work and Flags to Index"
+            }
+        ],
+        "menus": {
+            "commandPalette": [
+                {
+                    "command": "evscript.convert.all.named",
+                    "when": "editorLangId == evscript && !editorReadonly"
+                },
+                {
+                    "command": "evscript.convert.all.index",
+                    "when": "editorLangId == evscript && !editorReadonly"
+                }
+            ]
+        },
         "configuration": {
             "title": "EvScript",
             "properties": {

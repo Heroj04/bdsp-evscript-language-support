@@ -10,8 +10,12 @@ const hovers = require("./hovers/evscript.hovers.js")
 function activate(context) {
 
 	// Register Commands
-	commands.forEach(command => {
+	commands.commands.forEach(command => {
 		context.subscriptions.push(vscode.commands.registerCommand(command.name, command.function))
+	});
+	// Register Text Editor Commands
+	commands.textEditorCommands.forEach(command => {
+		context.subscriptions.push(vscode.commands.registerTextEditorCommand(command.name, command.function))
 	});
 
 	// Register Hover Provider Method

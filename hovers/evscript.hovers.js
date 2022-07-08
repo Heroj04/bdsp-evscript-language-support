@@ -21,8 +21,8 @@ module.exports = {
 		}
 
 		// Get the word at current position
-		const range = document.getWordRangeAtPosition(position);
-		const word = document.getText(range);
+		let range = document.getWordRangeAtPosition(position);
+		let word = document.getText(range);
 
 		// Check for label
 		if (/^(\w|\\)+:$/.test(document.lineAt(position).text)) {
