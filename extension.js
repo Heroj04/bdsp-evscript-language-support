@@ -3,6 +3,7 @@ const vscode = require("vscode");
 
 const commands = require("./commands/evscript.commands.js")
 const hovers = require("./hovers/evscript.hovers.js")
+const signatureHelp = require("./signaturehelps/evscript.signaturehelp.js")
 
 /** Method called when extension is first activated
  * @param {vscode.ExtensionContext} context
@@ -20,6 +21,9 @@ function activate(context) {
 
 	// Register Hover Provider Method
 	context.subscriptions.push(vscode.languages.registerHoverProvider("evscript", hovers))
+
+	// Register Signature Help Provider Method
+	context.subscriptions.push(vscode.languages.registerSignatureHelpProvider("evscript", signatureHelp, "(", ","))
 }
 
 // this method is called when your extension is deactivated
