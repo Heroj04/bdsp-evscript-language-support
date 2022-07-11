@@ -22,6 +22,7 @@ module.exports = {
 
 		// Get the word at current position
 		let range = document.getWordRangeAtPosition(position);
+		if (range == null) {return null};
 		let word = document.getText(range);
 
 		// Check for label
