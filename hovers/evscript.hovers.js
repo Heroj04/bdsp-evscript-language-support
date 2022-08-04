@@ -16,7 +16,7 @@ const argTypes = {
 module.exports = {
 	provideHover(document, position, token) {
 		// Check Config for Hover Enable
-		if (!vscode.workspace.getConfiguration("evscript").get("enableHovers")) {
+		if (!vscode.workspace.getConfiguration("evscript.hovers").get("enableHovers")) {
 			return
 		}
 

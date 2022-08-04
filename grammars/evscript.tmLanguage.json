@@ -14,7 +14,7 @@
 			"patterns": [
 				{
 					"begin": "^((?:\\w|\\\\)+)(:)(.*)",
-					"while": "^\\t.*",
+					"while": "^(\\t)(.*)",
 					"beginCaptures": {
 						"1": {
 							"name": "entity.name.tag.label.evscript"
@@ -31,7 +31,7 @@
 						}
 					},
 					"whileCaptures": {
-						"0": {
+						"2": {
 							"patterns": [
 								{
 									"include": "#commands"
@@ -52,7 +52,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.function.command.evscript",
-					"match": "\\b\\w+\\b(?=\\(.*\\))"
+					"match": "\\b\\w+\\b(?=\\(.*)"
 				}
 			]
 		},
@@ -74,7 +74,7 @@
 					"patterns": [
 						{
 							"name": "punctuation.argument.seperator",
-							"match": "\\s*,\\s*"
+							"match": "(?<!\\()\\s*,\\s*"
 						},
 						{
 							"include": "#strings"
@@ -93,6 +93,16 @@
 			"name": "string.quoted.evscript",
 			"begin": "'",
 			"end": "'",
+			"beginCaptures": {
+				"0": {
+					"name": "string.quoted.open.evscript"
+				}
+			},
+			"endCaptures": {
+				"0": {
+					"name": "string.quoted.close.evscript"
+				}
+			},
 			"patterns": [
 				{
 					"name": "constant.character.escape.evscript",
@@ -107,23 +117,19 @@
 			"patterns": [
 				{
 					"name": "variable.parameter.work.evscript",
-					"match": "@\\w+\\b"
+					"match": "(?<=\\(\\s*|\\s*,\\s*)@\\w+\\b"
 				},
 				{
 					"name": "variable.parameter.flag.evscript",
-					"match": "\\#\\w+\\b"
+					"match": "(?<=\\(\\s*|\\s*,\\s*)\\#\\w+\\b"
 				},
 				{
 					"name": "variable.parameter.sysflag.evscript",
-					"match": "\\$\\w+\\b"
+					"match": "(?<=\\(\\s*|\\s*,\\s*)\\$\\w+\\b"
 				},
 				{
 					"name": "constant.numeric.evscript",
-					"match": "((?<!@|#|\\$)\\b|(?<=\\W)-)\\d+(\\.\\d+)?\\b"
-				},
-				{
-					"name": "variable.parameter.other.evscript",
-					"match": "\\w+"
+					"match": "(?<=\\(\\s*|\\s*,\\s*)((?<!@|#|\\$)\\b|(?<=\\W)-)\\d+(\\.\\d+)?\\b"
 				}
 			]
 		},
