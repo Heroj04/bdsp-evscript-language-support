@@ -14,7 +14,7 @@
 			"patterns": [
 				{
 					"begin": "^((?:\\w|\\\\)+)(:)(.*)",
-					"while": "^(\\t)(.*)",
+					"while": "^(\\t| {1,4})(.*)",
 					"beginCaptures": {
 						"1": {
 							"name": "entity.name.tag.label.evscript"
@@ -104,6 +104,20 @@
 				}
 			},
 			"patterns": [
+				{
+					"begin": "<[^\\\\][^<]+>",
+					"end": "<\\/\\w+>",
+					"beginCaptures": {
+						"0": {
+							"name": "markup.heading"
+						}
+					},
+					"endCaptures": {
+						"0": {
+							"name": "markup.heading"
+						}
+					}
+				},
 				{
 					"name": "constant.character.escape.evscript",
 					"match": "\\\\."
