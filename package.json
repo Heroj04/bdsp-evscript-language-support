@@ -3,7 +3,7 @@
     "displayName": "BDSP EvScript Language Support",
     "description": "Language Suppport for Pokemon BDSP EvScript Files",
     "icon": "evBall.png",
-    "version": "1.4.1",
+    "version": "1.5.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/Heroj04/bdsp-evscript-language-support"
@@ -111,7 +111,7 @@
                 },
                 "evscript.linter.enableLinting": {
                     "type": "boolean",
-                    "default": true,
+                    "default": false,
                     "description": "Enable warning/error message diagnostic linting."
                 },
                 "evscript.linter.filesToLint": {

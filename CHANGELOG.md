@@ -2,6 +2,19 @@
 
 All notable changes to the "bdsp-evscript-language-support" extension will be documented in this file.
 
+## [1.5.1]
+
+- Disable Linting by default until ev_Scripts has been updated
+
+## [1.5]
+
+- EvCmd Signature Help Provider
+- Support for Named Flags and Works
+  - Hovers Display both
+  - Commands available to convert between each
+- EvScript Linting Diagnostics Provider
+- Better token regex
+
 ## [1.4.1]
 
 - Fixed the extension breaking if git or python wasnt installed
