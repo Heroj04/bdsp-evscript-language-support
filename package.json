@@ -4,12 +4,12 @@
     "description": "Language Suppport for Pokemon BDSP EvScript Files",
     "icon": "evBall.png",
     "version": "1.4.1",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Heroj04/bdsp-evscript-language-support"
-	},
-	"homepage": "https://github.com/Heroj04/bdsp-evscript-language-support#readme",
-	"bugs": "https://github.com/Heroj04/bdsp-evscript-language-support/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Heroj04/bdsp-evscript-language-support"
+    },
+    "homepage": "https://github.com/Heroj04/bdsp-evscript-language-support#readme",
+    "bugs": "https://github.com/Heroj04/bdsp-evscript-language-support/issues",
     "publisher": "Heroj04",
     "engines": {
         "vscode": "^1.63.0"
@@ -23,8 +23,8 @@
         "onCommand:evscript.assemble",
         "onCommand:evscript.assemble.all",
         "onLanguage:evscript"
-	],
-	"main": "./extension.js",
+    ],
+    "main": "./extension.js",
     "contributes": {
         "languages": [
             {
@@ -89,21 +89,39 @@
         "configuration": {
             "title": "EvScript",
             "properties": {
-              "evscript.enableMessageValidation": {
-                "type": "boolean",
-                "default": true,
-                "description": "Enable validation of stored message values when assembling scripts."
-              },
-              "evscript.messageExportsFolder": {
-                "type": "string",
-                "default": "",
-                "description": "Specifies the folder path containing the exported message .json files to use."
-              },
+                "evscript.enableMessageValidation": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable validation of stored message values when assembling scripts."
+                },
+                "evscript.messageExportsFolder": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Specifies the folder path containing the exported message .json files to use."
+                },
                 "evscript.hovers.enableHovers": {
-                "type": "boolean",
-                "default": true,
-                "description": "Enable information about EvCmds and Parameters to be displayed on hover."
-              }
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable information about EvCmds and Parameters to be displayed on hover."
+                },
+                "evscript.linter.enableLinting": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable warning/error message diagnostic linting."
+                },
+                "evscript.linter.filesToLint": {
+                    "type": "string",
+                    "default": "Editor",
+                    "enum": [
+                        "Editor",
+                        "Workspace"
+                    ],
+                    "enumDescriptions": [
+                        "Only Lint files opened in the editor.",
+                        "Lint all files in open workspace folders."
+                    ],
+                    "description": "Which files are processed by the linter."
+                }
             }
         },
         "capabilities": {
@@ -117,11 +135,11 @@
         }
     },
     "scripts": {
-		"lint": "eslint .",
-		"pretest": "npm run lint",
-		"test": "node ./test/runTest.js"
-	},
-	"devDependencies": {
+        "lint": "eslint .",
+        "pretest": "npm run lint",
+        "test": "node ./test/runTest.js"
+    },
+    "devDependencies": {
         "@types/glob": "^7.1.4",
         "@types/mocha": "^9.0.0",
         "@types/node": "14.x",
@@ -131,5 +149,9 @@
         "glob": "^7.1.7",
         "mocha": "^9.2.2",
         "typescript": "^4.4.4"
+    },
+    "dependencies": {
+        "vscode-oniguruma": "^1.6.2",
+        "vscode-textmate": "^7.0.1"
     }
 }
