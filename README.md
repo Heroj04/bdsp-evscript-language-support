@@ -11,6 +11,8 @@ Based off the amazing work done with [ev-as](https://github.com/z80rotom/ev-as) 
 - Snippets for known ev commands
 - Built in commands for Parsing and Assembling EvScripts
 - Hover Information for EvCmd Descriptions
+- Signature Help for EvCmd Parameters
+- Basic Syntax Linting (Disabled by default currently)
 
 ### Additional requirements
 
@@ -22,6 +24,9 @@ Some features such as Hover Information and using the built in commands require 
 ## Configuration
 
 - Settings Available in VSCode Settigns menu to enable message validation during assembly
+- Enable Features Individually
+- Allow Using Custom `ev_scripts.json`
+- Lint just opened editors or your entire workspace
 
 ## Known Issues
 

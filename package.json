@@ -16,7 +16,8 @@
     },
     "categories": [
         "Programming Languages",
-        "Snippets"
+        "Snippets",
+        "Linters"
     ],
     "activationEvents": [
         "onCommand:evscript.parse",
