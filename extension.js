@@ -1,5 +1,6 @@
 // Import Modules
 const vscode = require("vscode");
+const fs = require("fs");
 const path = require("path");
 
 const commands = require("./commands/evscript.commands.js")
@@ -8,6 +9,9 @@ const signatureHelp = require("./signaturehelps/evscript.signaturehelp.js")
 const diagnostics = require("./diagnostics/evscript.diagnostics.js")
 
 let diagnosticCollection = vscode.languages.createDiagnosticCollection("evscript");
+
+const ev_scripts = JSON.parse(fs.readFileSync(path.join(__dirname, "./ev_scripts.json")));
+updateEvScripts()
 
 /** Method called when extension is first activated
  * @param {vscode.ExtensionContext} context
@@ -70,17 +74,42 @@ function activate(context) {
 		});
 	});
 
-	// Update Diagnostics with Configuration Changes
+	// Update with Configuration Changes
 	vscode.workspace.onDidChangeConfiguration((changeEvent) => {
 		if (changeEvent.affectsConfiguration("evscript.linter")) {
 			diagnosticCollection.clear();
 			performDiagnostics();
+		}
+		if (changeEvent.affectsConfiguration("evscript.customEv_ScriptsPath")) {
+			updateEvScripts();
 		}
 	})
 }
 
 // this method is called when your extension is deactivated
 function deactivate() {}
+
+function updateEvScripts() {
+	let path = vscode.workspace.getConfiguration("evscript").get("customEv_ScriptsPath");
+	if (path == "") {
+		hovers.setEvScripts(ev_scripts);
+		signatureHelp.setEvScripts(ev_scripts);
+		diagnostics.setEvScripts(ev_scripts);
+	} else {
+		try {
+			let contents = fs.readFileSync(path);
+			let newEvScripts = JSON.parse(contents);
+			hovers.setEvScripts(newEvScripts);
+			signatureHelp.setEvScripts(newEvScripts);
+			diagnostics.setEvScripts(newEvScripts);
+		} catch (error) {
+			vscode.window.showErrorMessage("Failed to use custom ev_scripts file")
+			hovers.setEvScripts(ev_scripts);
+			signatureHelp.setEvScripts(ev_scripts);
+			diagnostics.setEvScripts(ev_scripts);
+		}
+	}
+}
 
 async function documentDiagnostics(document) {
 	if (document.languageId != "evscript") {return;}

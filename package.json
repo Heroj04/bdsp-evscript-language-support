@@ -97,7 +97,12 @@
                 "evscript.messageExportsFolder": {
                     "type": "string",
                     "default": "",
-                    "description": "Specifies the folder path containing the exported message .json files to use."
+                    "description": "Specifies the folder path containing the exported message .json files to use. Requires a reload after changing."
+                },
+                "evscript.customEv_ScriptsPath": {
+                    "type": "string",
+                    "default": "",
+                    "description": "Specifies a path to a custom ev_scripts.json file to use."
                 },
                 "evscript.hovers.enableHovers": {
                     "type": "boolean",

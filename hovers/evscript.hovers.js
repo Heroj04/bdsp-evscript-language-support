@@ -2,7 +2,7 @@ const vscode = require("vscode");
 const fs = require("fs");
 const path = require("path");
 
-const ev_scripts = JSON.parse(fs.readFileSync(path.join(__dirname, "../ev_scripts.json")))
+var ev_scripts;
 const enums = JSON.parse(fs.readFileSync(path.join(__dirname, "../enums.json")))
 const argTypes = {
 	0: "CmdType",
@@ -81,5 +81,8 @@ module.exports = {
 
 		// Return nothing found
 		return
+	},
+	setEvScripts(evScripts) {
+		ev_scripts = evScripts;
 	}
 }

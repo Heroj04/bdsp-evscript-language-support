@@ -5,7 +5,7 @@ const oniguruma = require("vscode-oniguruma");
 const fs = require("fs");
 const path = require("path");
 
-const ev_scripts = JSON.parse(fs.readFileSync(path.join(__dirname, "../ev_scripts.json")))
+var ev_scripts;
 const argTypes = {
 	0: "CmdType",
     1: "Value",
@@ -225,5 +225,8 @@ async function doWorkspaceFolderDiagnostics(workspaceFolder) {
 
 module.exports = {
 	doDocumentDiagnostics,
-	doWorkspaceFolderDiagnostics
+	doWorkspaceFolderDiagnostics,
+	setEvScripts(evScripts) {
+		ev_scripts = evScripts;
+	}
 };

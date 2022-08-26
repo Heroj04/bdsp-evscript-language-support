@@ -1,7 +1,4 @@
-const fs = require("fs");
-const path = require("path");
-
-const ev_scripts = JSON.parse(fs.readFileSync(path.join(__dirname, "../ev_scripts.json")))
+var ev_scripts;
 const argTypes = {
 	0: "CmdType",
     1: "Value",
@@ -64,5 +61,8 @@ module.exports = {
 
 		// Didnt find a valid signature
 		return null;
+	},
+	setEvScripts(evScripts) {
+		ev_scripts = evScripts;
 	}
 }
