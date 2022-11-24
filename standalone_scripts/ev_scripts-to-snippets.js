@@ -13,7 +13,7 @@ for (const index in scripts) {
 		newSnippet.body = `${command.name}(`
 		for (let i = 1; i <= command.validArgs.length; i++) {
 			const arg = command.validArgs[i-1];
-			newSnippet.body += `\${${i}:${arg.name}}`
+			newSnippet.body += `\${${i}:${arg.name}${arg.optional ? '?' : ''}}`
 			if (i < command.validArgs.length) {
 				newSnippet.body += `, `
 			}

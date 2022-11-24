@@ -17,6 +17,22 @@
 		],
 		"body": "_TEMOTI_BOX_POKEMON_NAME(${1:arg0}, ${2:arg1}, ${3:arg2})"
 	},
+	"_BTWR_TOOL_CHK_ENTRY_POKE_NUM": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_TOOL_CHK_ENTRY_POKE_NUM",
+			"1002"
+		],
+		"body": "_BTWR_TOOL_CHK_ENTRY_POKE_NUM()"
+	},
+	"_BTWR_TOOL_CLEAR_PLAY_DATA": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_TOOL_CLEAR_PLAY_DATA",
+			"1003"
+		],
+		"body": "_BTWR_TOOL_CLEAR_PLAY_DATA()"
+	},
 	"_BTWR_TOOL_PUSH_NOW_LOCATION": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -25,6 +41,22 @@
 			"1004"
 		],
 		"body": "_BTWR_TOOL_PUSH_NOW_LOCATION()"
+	},
+	"_BTWR_TOOL_POP_NOW_LOCATION": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_TOOL_POP_NOW_LOCATION",
+			"1005"
+		],
+		"body": "_BTWR_TOOL_POP_NOW_LOCATION()"
+	},
+	"_BTWR_TOOL_GET_WIFI_RANK": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_TOOL_GET_WIFI_RANK",
+			"1006"
+		],
+		"body": "_BTWR_TOOL_GET_WIFI_RANK()"
 	},
 	"_BTWR_TOOL_SET_PLAY_MODE": {
 		"scope": "evscript",
@@ -53,6 +85,14 @@
 		],
 		"body": "_BTWR_TOOL_SET_RANK(${1:arg0}, ${2:arg1})"
 	},
+	"_BTWR_SUB_CHK_ENTRY_POKE": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_SUB_CHK_ENTRY_POKE",
+			"1010"
+		],
+		"body": "_BTWR_SUB_CHK_ENTRY_POKE()"
+	},
 	"_BTWR_SUB_GET_NOW_ROUND": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -70,6 +110,14 @@
 			"1012"
 		],
 		"body": "_BTWR_SUB_INC_ROUND()"
+	},
+	"_BTWR_SUB_IS_CLEAR": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_SUB_IS_CLEAR",
+			"1013"
+		],
+		"body": "_BTWR_SUB_IS_CLEAR()"
 	},
 	"_BTWR_SUB_GET_RENSHOU_CNT": {
 		"scope": "evscript",
@@ -89,6 +137,14 @@
 		],
 		"body": "_BTWR_SUB_SET_SCORE()"
 	},
+	"_BTWR_SUB_CHOICE_BTL_PARTNER": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_SUB_CHOICE_BTL_PARTNER",
+			"1016"
+		],
+		"body": "_BTWR_SUB_CHOICE_BTL_PARTNER()"
+	},
 	"_BTWR_SUB_LOCAL_BTL_CALL": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -106,6 +162,22 @@
 			"1018"
 		],
 		"body": "_BTWR_SUB_GET_PLAY_MODE(${1:arg0})"
+	},
+	"_BTWR_SUB_SET_LEADER_CLEAR_FLAG": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_SUB_SET_LEADER_CLEAR_FLAG",
+			"1019"
+		],
+		"body": "_BTWR_SUB_SET_LEADER_CLEAR_FLAG()"
+	},
+	"_BTWR_SUB_GET_LEADER_CLEAR_FLAG": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_SUB_GET_LEADER_CLEAR_FLAG",
+			"1020"
+		],
+		"body": "_BTWR_SUB_GET_LEADER_CLEAR_FLAG()"
 	},
 	"_BTWR_SUB_ADD_BATTLE_POINT": {
 		"scope": "evscript",
@@ -125,6 +197,14 @@
 		],
 		"body": "_BTWR_SUB_RENSHOU_RIBBON_SET()"
 	},
+	"_BTWR_SUB_GET_MINE_OBJ": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_SUB_GET_MINE_OBJ",
+			"1023"
+		],
+		"body": "_BTWR_SUB_GET_MINE_OBJ()"
+	},
 	"_BTWR_SUB_UPDATE_RANDOM": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -133,6 +213,14 @@
 			"1024"
 		],
 		"body": "_BTWR_SUB_UPDATE_RANDOM()"
+	},
+	"_BTWR_DEB_IS_WORK_NULL": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_DEB_IS_WORK_NULL",
+			"1025"
+		],
+		"body": "_BTWR_DEB_IS_WORK_NULL()"
 	},
 	"_BOUKENNOOTO_TIPS_WAIT": {
 		"scope": "evscript",
@@ -151,6 +239,30 @@
 			"1027"
 		],
 		"body": "_SAVE_RENDOU_ENABLE(${1:arg0}, ${2:arg1})"
+	},
+	"_RETURN_LOOP": {
+		"scope": "evscript",
+		"prefix": [
+			"_RETURN_LOOP",
+			"1028"
+		],
+		"body": "_RETURN_LOOP()"
+	},
+	"_INPUT_JUMP": {
+		"scope": "evscript",
+		"prefix": [
+			"_INPUT_JUMP",
+			"1029"
+		],
+		"body": "_INPUT_JUMP()"
+	},
+	"_BTWR_SUB_BTL_TRAINER_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTWR_SUB_BTL_TRAINER_SET",
+			"1030"
+		],
+		"body": "_BTWR_SUB_BTL_TRAINER_SET()"
 	},
 	"_BTWR_SUB_GET_RANK": {
 		"scope": "evscript",
@@ -377,6 +489,22 @@
 		],
 		"body": "_CASSET_VERSION_GET(${1:arg0}, ${2:arg1})"
 	},
+	"_BOX_OPEN_NORMAL": {
+		"scope": "evscript",
+		"prefix": [
+			"_BOX_OPEN_NORMAL",
+			"1056"
+		],
+		"body": "_BOX_OPEN_NORMAL()"
+	},
+	"_BOX_OPEN_SELECT": {
+		"scope": "evscript",
+		"prefix": [
+			"_BOX_OPEN_SELECT",
+			"1057"
+		],
+		"body": "_BOX_OPEN_SELECT()"
+	},
 	"_CALL_EFFECT_OBJ": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -440,6 +568,30 @@
 		],
 		"body": "_WAIT_SPECIAL_WIN_LABEL(${1:arg0})"
 	},
+	"_AK_LISNER_TRA": {
+		"scope": "evscript",
+		"prefix": [
+			"_AK_LISNER_TRA",
+			"1065"
+		],
+		"body": "_AK_LISNER_TRA()"
+	},
+	"_AK_LISNER_POS": {
+		"scope": "evscript",
+		"prefix": [
+			"_AK_LISNER_POS",
+			"1066"
+		],
+		"body": "_AK_LISNER_POS()"
+	},
+	"_AK_LISNER_ROT": {
+		"scope": "evscript",
+		"prefix": [
+			"_AK_LISNER_ROT",
+			"1067"
+		],
+		"body": "_AK_LISNER_ROT()"
+	},
 	"_UNION_PROC": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -457,6 +609,46 @@
 			"1069"
 		],
 		"body": "_CAMERA_CONTROLLER_WAIT(${1:arg0})"
+	},
+	"_SET_TV_INT": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_TV_INT",
+			"1070"
+		],
+		"body": "_SET_TV_INT()"
+	},
+	"_SET_TV_PLAYER_NAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_TV_PLAYER_NAME",
+			"1071"
+		],
+		"body": "_SET_TV_PLAYER_NAME()"
+	},
+	"_SET_TV_POKE_NICK_NAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_TV_POKE_NICK_NAME",
+			"1072"
+		],
+		"body": "_SET_TV_POKE_NICK_NAME()"
+	},
+	"_TV_TPIC_ENABLE": {
+		"scope": "evscript",
+		"prefix": [
+			"_TV_TPIC_ENABLE",
+			"1073"
+		],
+		"body": "_TV_TPIC_ENABLE()"
+	},
+	"_TV_TPIC_BRANCH": {
+		"scope": "evscript",
+		"prefix": [
+			"_TV_TPIC_BRANCH",
+			"1074"
+		],
+		"body": "_TV_TPIC_BRANCH()"
 	},
 	"_TUREARUKI_POKE_CREATE": {
 		"scope": "evscript",
@@ -566,6 +758,14 @@
 		],
 		"body": "_ZUKAN_TOUROKU_WAIT()"
 	},
+	"_CHK_ZUKAN_TOUROKU": {
+		"scope": "evscript",
+		"prefix": [
+			"_CHK_ZUKAN_TOUROKU",
+			"1087"
+		],
+		"body": "_CHK_ZUKAN_TOUROKU()"
+	},
 	"_AUTO_SAVE": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -620,6 +820,14 @@
 		],
 		"body": "_BICYCLE_COLOR_SET(${1:arg0})"
 	},
+	"_BICYCLE_COLOR_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_BICYCLE_COLOR_GET",
+			"1094"
+		],
+		"body": "_BICYCLE_COLOR_GET()"
+	},
 	"_PARK_ITEM_NAME": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -673,6 +881,14 @@
 			"1100"
 		],
 		"body": "_UMA_ANIME_ATTACH(${1:arg0}, ${2:arg1})"
+	},
+	"_UMA_PLAY_WAIT": {
+		"scope": "evscript",
+		"prefix": [
+			"_UMA_PLAY_WAIT",
+			"1101"
+		],
+		"body": "_UMA_PLAY_WAIT()"
 	},
 	"_OBJ_ANIME_SPEED": {
 		"scope": "evscript",
@@ -800,6 +1016,14 @@
 		],
 		"body": "_FUREAI_TALK_START(${1:arg0})"
 	},
+	"_FUREAI_TALK_END": {
+		"scope": "evscript",
+		"prefix": [
+			"_FUREAI_TALK_END",
+			"1116"
+		],
+		"body": "_FUREAI_TALK_END()"
+	},
 	"_PLAY_FUREAI_VOICE_NAKAYOSHIRANK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -808,6 +1032,14 @@
 			"1117"
 		],
 		"body": "_PLAY_FUREAI_VOICE_NAKAYOSHIRANK(${1:arg0})"
+	},
+	"_CREATE_HYOUTA": {
+		"scope": "evscript",
+		"prefix": [
+			"_CREATE_HYOUTA",
+			"1118"
+		],
+		"body": "_CREATE_HYOUTA()"
 	},
 	"_CALL_SHIP_DEMO_SEA_MAP": {
 		"scope": "evscript",
@@ -836,6 +1068,14 @@
 		],
 		"body": "_PC_DENDOU_SET_PROC_OPEN_WAIT()"
 	},
+	"_GET_POKETCH_APP_ID": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_POKETCH_APP_ID",
+			"1122"
+		],
+		"body": "_GET_POKETCH_APP_ID()"
+	},
 	"_FADE_DUNGEON_OUT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -845,6 +1085,22 @@
 		],
 		"body": "_FADE_DUNGEON_OUT()"
 	},
+	"_FADE_DUNGEON_IN": {
+		"scope": "evscript",
+		"prefix": [
+			"_FADE_DUNGEON_IN",
+			"1124"
+		],
+		"body": "_FADE_DUNGEON_IN()"
+	},
+	"_FADE_BUILDING_OUT": {
+		"scope": "evscript",
+		"prefix": [
+			"_FADE_BUILDING_OUT",
+			"1125"
+		],
+		"body": "_FADE_BUILDING_OUT()"
+	},
 	"_FADE_BUILDING_IN": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -853,6 +1109,14 @@
 			"1126"
 		],
 		"body": "_FADE_BUILDING_IN()"
+	},
+	"_FADE_AREA_OUT": {
+		"scope": "evscript",
+		"prefix": [
+			"_FADE_AREA_OUT",
+			"1127"
+		],
+		"body": "_FADE_AREA_OUT()"
 	},
 	"_FADE_AREA_IN": {
 		"scope": "evscript",
@@ -1052,14 +1316,54 @@
 		],
 		"body": "_SET_LIGHTINTENSITY(${1:arg0}, ${2:arg1})"
 	},
+	"_SET_LIGHTINTENSITY_CHARCTER": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_LIGHTINTENSITY_CHARCTER",
+			"1150"
+		],
+		"body": "_SET_LIGHTINTENSITY_CHARCTER()"
+	},
+	"_SET_LIGHTINTENSITY_POKE": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_LIGHTINTENSITY_POKE",
+			"1151"
+		],
+		"body": "_SET_LIGHTINTENSITY_POKE()"
+	},
+	"_END_LIGHTINTENSITY": {
+		"scope": "evscript",
+		"prefix": [
+			"_END_LIGHTINTENSITY",
+			"1152"
+		],
+		"body": "_END_LIGHTINTENSITY()"
+	},
+	"_END_LIGHTINTENSITY_CHARCTER": {
+		"scope": "evscript",
+		"prefix": [
+			"_END_LIGHTINTENSITY_CHARCTER",
+			"1153"
+		],
+		"body": "_END_LIGHTINTENSITY_CHARCTER()"
+	},
+	"_END_LIGHTINTENSITY_POKE": {
+		"scope": "evscript",
+		"prefix": [
+			"_END_LIGHTINTENSITY_POKE",
+			"1154"
+		],
+		"body": "_END_LIGHTINTENSITY_POKE()"
+	},
 	"_AC_ANIME_DURATION": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Sets the length of the next animation.",
 		"prefix": [
 			"_AC_ANIME_DURATION",
 			"1155"
 		],
-		"body": "_AC_ANIME_DURATION(${1:arg0})"
+		"body": "_AC_ANIME_DURATION(${1:Time})"
 	},
 	"_TV_RED_GYARADOS_ON": {
 		"scope": "evscript",
@@ -1169,6 +1473,30 @@
 		],
 		"body": "_ADD_WAZA(${1:arg0}, ${2:arg1}, ${3:arg2})"
 	},
+	"_NICKNAME_PLACEMENT": {
+		"scope": "evscript",
+		"prefix": [
+			"_NICKNAME_PLACEMENT",
+			"1168"
+		],
+		"body": "_NICKNAME_PLACEMENT()"
+	},
+	"_UNIQUE_POKE_TEMP": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNIQUE_POKE_TEMP",
+			"1169"
+		],
+		"body": "_UNIQUE_POKE_TEMP()"
+	},
+	"_UNIQUE_POKE_FIX": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNIQUE_POKE_FIX",
+			"1170"
+		],
+		"body": "_UNIQUE_POKE_FIX()"
+	},
 	"_GET_FORM": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -1277,6 +1605,14 @@
 		],
 		"body": "_DRESS_NAME(${1:arg0}, ${2:arg1})"
 	},
+	"_EVENT_ENTITY_VISIBLE": {
+		"scope": "evscript",
+		"prefix": [
+			"_EVENT_ENTITY_VISIBLE",
+			"1183"
+		],
+		"body": "_EVENT_ENTITY_VISIBLE()"
+	},
 	"_UG_LEAVE_HOYUTA": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -1384,6 +1720,14 @@
 			"1195"
 		],
 		"body": "_USE_SUB_ATTRIBUTE()"
+	},
+	"_ADD_CUSTUM_WIN_LABEL_TWO_WINDOW": {
+		"scope": "evscript",
+		"prefix": [
+			"_ADD_CUSTUM_WIN_LABEL_TWO_WINDOW",
+			"1196"
+		],
+		"body": "_ADD_CUSTUM_WIN_LABEL_TWO_WINDOW()"
 	},
 	"_POKE_LEVEL_GET_ALL": {
 		"scope": "evscript",
@@ -1500,7 +1844,7 @@
 			"_ADD_POKEMON_UI",
 			"1209"
 		],
-		"body": "_ADD_POKEMON_UI(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+		"body": "_ADD_POKEMON_UI(${1:Sphere}, ${2:Amount}, ${3:Unknown})"
 	},
 	"_GET_FUREAI_SELECT_POKE_TEMOTI_NO": {
 		"scope": "evscript",
@@ -1646,18 +1990,53 @@
 		],
 		"body": "_PLAY_REPORT_TRAINING()"
 	},
+	"_PLAY_REPORT_BTLTOWER_WIN": {
+		"scope": "evscript",
+		"prefix": [
+			"_PLAY_REPORT_BTLTOWER_WIN",
+			"1226"
+		],
+		"body": "_PLAY_REPORT_BTLTOWER_WIN()"
+	},
+	"CMD_NAME_END": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"CMD_NAME_END",
+			"1227"
+		],
+		"body": "CMD_NAME_END()"
+	},
 	"_NONE_USE_NUMBER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unused.",
 		"prefix": [
 			"_NONE_USE_NUMBER",
-			"-001"
+			"0000"
 		],
-		"body": "_NONE_USE_NUMBER(${1:arg0})"
+		"body": "_NONE_USE_NUMBER()"
+	},
+	"_NOP": {
+		"scope": "evscript",
+		"description": "Unused. Presumably does nothing.",
+		"prefix": [
+			"_NOP",
+			"0001"
+		],
+		"body": "_NOP()"
+	},
+	"_DUMMY": {
+		"scope": "evscript",
+		"description": "Unused. Presumably does nothing.",
+		"prefix": [
+			"_DUMMY",
+			"0002"
+		],
+		"body": "_DUMMY()"
 	},
 	"_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Ends the script.",
 		"prefix": [
 			"_END",
 			"0003"
@@ -1666,43 +2045,178 @@
 	},
 	"_TIME_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for the amount of frames provided, then continues execution.",
 		"prefix": [
 			"_TIME_WAIT",
 			"0004"
 		],
-		"body": "_TIME_WAIT(${1:arg0}, ${2:arg1})"
+		"body": "_TIME_WAIT(${1:Time}, ${2:Unknown})"
+	},
+	"_LD_REG_VAL": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_LD_REG_VAL",
+			"0005"
+		],
+		"body": "_LD_REG_VAL()"
+	},
+	"_LD_REG_WDATA": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_LD_REG_WDATA",
+			"0006"
+		],
+		"body": "_LD_REG_WDATA()"
+	},
+	"_LD_REG_ADR": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_LD_REG_ADR",
+			"0007"
+		],
+		"body": "_LD_REG_ADR()"
+	},
+	"_LD_ADR_VAL": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_LD_ADR_VAL",
+			"0008"
+		],
+		"body": "_LD_ADR_VAL()"
+	},
+	"_LD_ADR_REG": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_LD_ADR_REG",
+			"0009"
+		],
+		"body": "_LD_ADR_REG()"
+	},
+	"_LD_REG_REG": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_LD_REG_REG",
+			"0010"
+		],
+		"body": "_LD_REG_REG()"
+	},
+	"_LD_ADR_ADR": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_LD_ADR_ADR",
+			"0011"
+		],
+		"body": "_LD_ADR_ADR()"
+	},
+	"_CP_REG_REG": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_CP_REG_REG",
+			"0012"
+		],
+		"body": "_CP_REG_REG()"
+	},
+	"_CP_REG_VAL": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_CP_REG_VAL",
+			"0013"
+		],
+		"body": "_CP_REG_VAL()"
+	},
+	"_CP_REG_ADR": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_CP_REG_ADR",
+			"0014"
+		],
+		"body": "_CP_REG_ADR()"
+	},
+	"_CP_ADR_REG": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_CP_ADR_REG",
+			"0015"
+		],
+		"body": "_CP_ADR_REG()"
+	},
+	"_CP_ADR_VAL": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_CP_ADR_VAL",
+			"0016"
+		],
+		"body": "_CP_ADR_VAL()"
+	},
+	"_CP_ADR_ADR": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_CP_ADR_ADR",
+			"0017"
+		],
+		"body": "_CP_ADR_ADR()"
+	},
+	"_CMPVAL": {
+		"scope": "evscript",
+		"description": "Unused. Probably has arguments.",
+		"prefix": [
+			"_CMPVAL",
+			"0018"
+		],
+		"body": "_CMPVAL()"
 	},
 	"_CMPWK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Compares the value of a variable to the value of another variable. Used once in unused poison scripts.",
 		"prefix": [
 			"_CMPWK",
 			"0019"
 		],
-		"body": "_CMPWK(${1:arg0}, ${2:arg1})"
+		"body": "_CMPWK(${1:Var1}, ${2:Var2})"
 	},
 	"_DEBUG_WATCH_WORK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Logs the value of a variable.",
 		"prefix": [
 			"_DEBUG_WATCH_WORK",
 			"0020"
 		],
-		"body": "_DEBUG_WATCH_WORK(${1:arg0})"
+		"body": "_DEBUG_WATCH_WORK(${1:Var})"
+	},
+	"_VM_ADD": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_VM_ADD",
+			"0021"
+		],
+		"body": "_VM_ADD()"
 	},
 	"_CHG_COMMON_SCR": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Calls a script from the common_scr file.",
 		"prefix": [
 			"_CHG_COMMON_SCR",
 			"0022"
 		],
-		"body": "_CHG_COMMON_SCR(${1:arg0})"
+		"body": "_CHG_COMMON_SCR(${1:Script})"
 	},
 	"_CHG_LOCAL_SCR": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Return from the common_scr file after a _CHG_COMMON_SCR call.",
 		"prefix": [
 			"_CHG_LOCAL_SCR",
 			"0023"
@@ -1711,25 +2225,52 @@
 	},
 	"_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Jumps to a script.",
 		"prefix": [
 			"_JUMP",
 			"0024"
 		],
-		"body": "_JUMP(${1:arg0}, ${2:arg1})"
+		"body": "_JUMP(${1:Script})"
+	},
+	"_OBJ_ID_JUMP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_OBJ_ID_JUMP",
+			"0025"
+		],
+		"body": "_OBJ_ID_JUMP()"
+	},
+	"_BG_ID_JUMP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BG_ID_JUMP",
+			"0026"
+		],
+		"body": "_BG_ID_JUMP()"
+	},
+	"_PLAYER_DIR_JUMP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_PLAYER_DIR_JUMP",
+			"0027"
+		],
+		"body": "_PLAYER_DIR_JUMP()"
 	},
 	"_CALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Calls a script.",
 		"prefix": [
 			"_CALL",
 			"0028"
 		],
-		"body": "_CALL(${1:arg0})"
+		"body": "_CALL(${1:Script})"
 	},
 	"_RET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Returns after a call.",
 		"prefix": [
 			"_RET",
 			"0029"
@@ -1738,70 +2279,88 @@
 	},
 	"_IF_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Used after _CMPWK. Used once in unused poison scripts.",
 		"prefix": [
 			"_IF_JUMP",
 			"0030"
 		],
-		"body": "_IF_JUMP(${1:arg0}, ${2:arg1})"
+		"body": "_IF_JUMP(${1:Condition}, ${2:Script})"
+	},
+	"_IF_CALL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_IF_CALL",
+			"0031"
+		],
+		"body": "_IF_CALL()"
 	},
 	"_IFVAL_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Compares two values, then jumps to a script if true.",
 		"prefix": [
 			"_IFVAL_JUMP",
 			"0032"
 		],
-		"body": "_IFVAL_JUMP(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_IFVAL_JUMP(${1:Value1}, ${2:Condition}, ${3:Value2}, ${4:Script})"
 	},
 	"_IFVAL_CALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Compares two values, then calls a script if true.",
 		"prefix": [
 			"_IFVAL_CALL",
 			"0033"
 		],
-		"body": "_IFVAL_CALL(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_IFVAL_CALL(${1:Value1}, ${2:Condition}, ${3:Value2}, ${4:Script})"
 	},
 	"_IFWK_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Compares the value of a variable to a value, then jumps to a script if true.",
 		"prefix": [
 			"_IFWK_JUMP",
 			"0034"
 		],
-		"body": "_IFWK_JUMP(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_IFWK_JUMP(${1:Variable}, ${2:Condition}, ${3:Value}, ${4:Script})"
+	},
+	"_IFWK_CALL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_IFWK_CALL",
+			"0035"
+		],
+		"body": "_IFWK_CALL()"
 	},
 	"_SWITCH": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Begins a switch statement based on the value of a variable.",
 		"prefix": [
 			"_SWITCH",
 			"0036"
 		],
-		"body": "_SWITCH(${1:arg0})"
+		"body": "_SWITCH(${1:Variable})"
 	},
 	"_CASE_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Compares the value of the variable given to the last _SWITCH command ran to another value, then jumps to a script if they are equal.",
 		"prefix": [
 			"_CASE_JUMP",
 			"0037"
 		],
-		"body": "_CASE_JUMP(${1:arg0}, ${2:arg1})"
+		"body": "_CASE_JUMP(${1:Value}, ${2:Script})"
 	},
 	"_CASE_CANCEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Compares the value of the variable given to the last _SWITCH command ran to the value of \"Cancel\", then jumps to a script if they are equal.",
 		"prefix": [
 			"_CASE_CANCEL",
 			"0038"
 		],
-		"body": "_CASE_CANCEL(${1:arg0})"
+		"body": "_CASE_CANCEL(${1:Script})"
 	},
 	"_ADD_WAITICON": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Display the Autosave text in the corner.",
 		"prefix": [
 			"_ADD_WAITICON",
 			"0039"
@@ -1810,7 +2369,7 @@
 	},
 	"_DEL_WAITICON": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Remove the Autosave text in the corner.",
 		"prefix": [
 			"_DEL_WAITICON",
 			"0040"
@@ -1819,214 +2378,313 @@
 	},
 	"_FLAG_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Sets a flag.",
 		"prefix": [
 			"_FLAG_SET",
 			"0041"
 		],
-		"body": "_FLAG_SET(${1:arg0})"
+		"body": "_FLAG_SET(${1:Flag})"
 	},
 	"_ARRIVE_FLAG_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Sets location flag.",
 		"prefix": [
 			"_ARRIVE_FLAG_SET",
 			"0042"
 		],
-		"body": "_ARRIVE_FLAG_SET(${1:arg0})"
+		"body": "_ARRIVE_FLAG_SET(${1:Flag})"
 	},
 	"_FLAG_RESET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Clears a flag.",
 		"prefix": [
 			"_FLAG_RESET",
 			"0043"
 		],
-		"body": "_FLAG_RESET(${1:arg0})"
+		"body": "_FLAG_RESET(${1:Flag})"
+	},
+	"_FLAG_CHECK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_FLAG_CHECK",
+			"0044"
+		],
+		"body": "_FLAG_CHECK()"
 	},
 	"_IF_FLAGON_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks a flag and if it is set, jumps to a script.",
 		"prefix": [
 			"_IF_FLAGON_JUMP",
 			"0045"
 		],
-		"body": "_IF_FLAGON_JUMP(${1:arg0}, ${2:arg1})"
+		"body": "_IF_FLAGON_JUMP(${1:Flag}, ${2:Script})"
 	},
 	"_IF_FLAGOFF_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks a flag and if it isn't set, jumps to a script.",
 		"prefix": [
 			"_IF_FLAGOFF_JUMP",
 			"0046"
 		],
-		"body": "_IF_FLAGOFF_JUMP(${1:arg0}, ${2:arg1})"
+		"body": "_IF_FLAGOFF_JUMP(${1:Flag}, ${2:Script})"
 	},
 	"_IF_FLAGON_CALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks a flag and if it is set, calls a script.",
 		"prefix": [
 			"_IF_FLAGON_CALL",
 			"0047"
 		],
-		"body": "_IF_FLAGON_CALL(${1:arg0}, ${2:arg1})"
+		"body": "_IF_FLAGON_CALL(${1:Flag}, ${2:Script})"
 	},
 	"_IF_FLAGOFF_CALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks a flag and if it isn't set, calls a script.",
 		"prefix": [
 			"_IF_FLAGOFF_CALL",
 			"0048"
 		],
-		"body": "_IF_FLAGOFF_CALL(${1:arg0}, ${2:arg1})"
+		"body": "_IF_FLAGOFF_CALL(${1:Flag}, ${2:Script})"
+	},
+	"_FLAG_CHECK_WK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_FLAG_CHECK_WK",
+			"0049"
+		],
+		"body": "_FLAG_CHECK_WK()"
 	},
 	"_FLAG_SET_WK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Sets the flag designated by the value of a variable.",
 		"prefix": [
 			"_FLAG_SET_WK",
 			"0050"
 		],
-		"body": "_FLAG_SET_WK(${1:arg0})"
+		"body": "_FLAG_SET_WK(${1:Variable})"
 	},
 	"_TRAINER_FLAG_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Sets a trainer flag.",
 		"prefix": [
 			"_TRAINER_FLAG_SET",
 			"0051"
 		],
-		"body": "_TRAINER_FLAG_SET(${1:arg0})"
+		"body": "_TRAINER_FLAG_SET(${1:Flag})"
 	},
 	"_TRAINER_FLAG_RESET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Clears a trainer flag.",
 		"prefix": [
 			"_TRAINER_FLAG_RESET",
 			"0052"
 		],
-		"body": "_TRAINER_FLAG_RESET(${1:arg0})"
+		"body": "_TRAINER_FLAG_RESET(${1:Flag})"
 	},
 	"_TRAINER_FLAG_CHECK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks a trainer flag. Used in conjunction with _IF_TR_FLAGON_JUMP, _IF_TR_FLAGON_CALL, _IF_TR_FLAGOFF_JUMP, or _IF_TR_FLAGOFF_CALL.",
 		"prefix": [
 			"_TRAINER_FLAG_CHECK",
 			"0053"
 		],
-		"body": "_TRAINER_FLAG_CHECK(${1:arg0})"
+		"body": "_TRAINER_FLAG_CHECK(${1:Flag})"
 	},
 	"_IF_TR_FLAGON_JUMP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks a trainer flag. If it is set, jumps to a script.",
 		"prefix": [
 			"_IF_TR_FLAGON_JUMP",
 			"0054"
 		],
-		"body": "_IF_TR_FLAGON_JUMP(${1:arg0}, ${2:arg1})"
+		"body": "_IF_TR_FLAGON_JUMP(${1:Flag}, ${2:Script})"
+	},
+	"_IF_TR_FLAGOFF_JUMP": {
+		"scope": "evscript",
+		"description": "Unused. Checks a trainer flag. If it isn't set, jumps to a script.",
+		"prefix": [
+			"_IF_TR_FLAGOFF_JUMP",
+			"0055"
+		],
+		"body": "_IF_TR_FLAGOFF_JUMP(${1:Flag}, ${2:Script})"
+	},
+	"_IF_TR_FLAGON_CALL": {
+		"scope": "evscript",
+		"description": "Unused. Checks a trainer flag. If it is set, calls a script.",
+		"prefix": [
+			"_IF_TR_FLAGON_CALL",
+			"0056"
+		],
+		"body": "_IF_TR_FLAGON_CALL(${1:Flag}, ${2:Script})"
+	},
+	"_IF_TR_FLAGOFF_CALL": {
+		"scope": "evscript",
+		"description": "Unused. Checks a trainer flag. If it isn't set, calls a script.",
+		"prefix": [
+			"_IF_TR_FLAGOFF_CALL",
+			"0057"
+		],
+		"body": "_IF_TR_FLAGOFF_CALL(${1:Flag}, ${2:Script})"
 	},
 	"_ADD_WK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Add to the value of a variable.",
 		"prefix": [
 			"_ADD_WK",
 			"0058"
 		],
-		"body": "_ADD_WK(${1:arg0}, ${2:arg1})"
+		"body": "_ADD_WK(${1:Variable}, ${2:Value})"
 	},
 	"_SUB_WK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Subtract to the value of a variable.",
 		"prefix": [
 			"_SUB_WK",
 			"0059"
 		],
-		"body": "_SUB_WK(${1:arg0}, ${2:arg1})"
+		"body": "_SUB_WK(${1:Variable}, ${2:Value})"
 	},
 	"_LDVAL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Set a variable to a value.",
 		"prefix": [
 			"_LDVAL",
 			"0060"
 		],
-		"body": "_LDVAL(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_LDVAL(${1:Variable}, ${2:Value})"
 	},
 	"_LDWK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Set a variable to a value.",
 		"prefix": [
 			"_LDWK",
 			"0061"
 		],
-		"body": "_LDWK(${1:arg0}, ${2:arg1})"
+		"body": "_LDWK(${1:Variable}, ${2:Value})"
+	},
+	"_LDWKVAL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_LDWKVAL",
+			"0062"
+		],
+		"body": "_LDWKVAL()"
 	},
 	"_TALKMSG_ALLPUT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Only used in unused Pal Park scripts. Presumably shows a textbox.",
 		"prefix": [
 			"_TALKMSG_ALLPUT",
 			"0063"
 		],
-		"body": "_TALKMSG_ALLPUT(${1:arg0})"
+		"body": "_TALKMSG_ALLPUT(${1:Message})"
+	},
+	"_TALKMSG_ALLPUT_ARC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TALKMSG_ALLPUT_ARC",
+			"0064"
+		],
+		"body": "_TALKMSG_ALLPUT_ARC()"
 	},
 	"_TALKMSG_ARC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Something related to Mystery Gift. Presumably shows a textbox.",
 		"prefix": [
 			"_TALKMSG_ARC",
 			"0065"
 		],
-		"body": "_TALKMSG_ARC(${1:arg0}, ${2:arg1})"
+		"body": "_TALKMSG_ARC(${1:Unknown1}, ${2:Unknown2})"
+	},
+	"_TALKMSG_ALLPUT_PMS": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TALKMSG_ALLPUT_PMS",
+			"0066"
+		],
+		"body": "_TALKMSG_ALLPUT_PMS()"
+	},
+	"_TALKMSG_PMS": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TALKMSG_PMS",
+			"0067"
+		],
+		"body": "_TALKMSG_PMS()"
 	},
 	"_TALKMSG_BTOWER_APPEAR": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Textboxes related to Battle Tower.",
 		"prefix": [
 			"_TALKMSG_BTOWER_APPEAR",
 			"0068"
 		],
-		"body": "_TALKMSG_BTOWER_APPEAR(${1:arg0})"
+		"body": "_TALKMSG_BTOWER_APPEAR(${1:Unknown})"
 	},
 	"_TALKMSG_NG_POKE_NAME": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows a textbox with all Battle Tower illegal Pokémon.",
 		"prefix": [
 			"_TALKMSG_NG_POKE_NAME",
 			"0069"
 		],
-		"body": "_TALKMSG_NG_POKE_NAME(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_TALKMSG_NG_POKE_NAME(${1:Message}, ${2:Unknown1}, ${3:Unknown2}, ${4:Unknown3})"
 	},
 	"_TALKMSG": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows a textbox with the given message.",
 		"prefix": [
 			"_TALKMSG",
 			"0070"
 		],
-		"body": "_TALKMSG(${1:arg0}, ${2:arg1})"
+		"body": "_TALKMSG(${1:Message})"
 	},
 	"_TALKMSG_SP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Only used in union room. Presumably shows a textbox.",
 		"prefix": [
 			"_TALKMSG_SP",
 			"0071"
 		],
-		"body": "_TALKMSG_SP(${1:arg0})"
+		"body": "_TALKMSG_SP(${1:Unknown})"
 	},
 	"_TALKMSG_SP_AUTO": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Only used in union room. Presumably shows a textbox.",
 		"prefix": [
 			"_TALKMSG_SP_AUTO",
 			"0072"
 		],
-		"body": "_TALKMSG_SP_AUTO(${1:arg0})"
+		"body": "_TALKMSG_SP_AUTO(${1:Unknown})"
+	},
+	"_TALKMSG_NOSKIP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TALKMSG_NOSKIP",
+			"0073"
+		],
+		"body": "_TALKMSG_NOSKIP()"
+	},
+	"_TALKMSG_CON_SIO": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TALKMSG_CON_SIO",
+			"0074"
+		],
+		"body": "_TALKMSG_CON_SIO()"
 	},
 	"_TALKMSG_AUTOGET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Only used in one common script, unused otherwise.",
 		"prefix": [
 			"_TALKMSG_AUTOGET",
 			"0075"
@@ -2035,7 +2693,7 @@
 	},
 	"_AB_KEYWAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Some sort of key wait usually used before doing a screen fade-out.",
 		"prefix": [
 			"_AB_KEYWAIT",
 			"0076"
@@ -2044,25 +2702,34 @@
 	},
 	"_AB_KEY_TIME_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Some sort of key wait with a timer. Only used in union room.",
 		"prefix": [
 			"_AB_KEY_TIME_WAIT",
 			"0077"
 		],
-		"body": "_AB_KEY_TIME_WAIT(${1:arg0})"
+		"body": "_AB_KEY_TIME_WAIT(${1:Time})"
 	},
 	"_LAST_KEYWAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for a key press.",
 		"prefix": [
 			"_LAST_KEYWAIT",
 			"0078"
 		],
 		"body": "_LAST_KEYWAIT()"
 	},
+	"_NEXT_ANM_LAST_KEYWAIT": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_NEXT_ANM_LAST_KEYWAIT",
+			"0079"
+		],
+		"body": "_NEXT_ANM_LAST_KEYWAIT()"
+	},
 	"_TALK_OPEN": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens an empty textbox.",
 		"prefix": [
 			"_TALK_OPEN",
 			"0080"
@@ -2071,7 +2738,7 @@
 	},
 	"_TALK_CLOSE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Closes the currently open textbox.",
 		"prefix": [
 			"_TALK_CLOSE",
 			"0081"
@@ -2080,7 +2747,7 @@
 	},
 	"_TALK_CLOSE_NO_CLEAR": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Closes the currently open textbox. Used before shop commands.",
 		"prefix": [
 			"_TALK_CLOSE_NO_CLEAR",
 			"0082"
@@ -2089,88 +2756,132 @@
 	},
 	"_TALK_KEYWAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows a textbox with the given message.",
 		"prefix": [
 			"_TALK_KEYWAIT",
 			"0083"
 		],
-		"body": "_TALK_KEYWAIT(${1:arg0}, ${2:arg1})"
+		"body": "_TALK_KEYWAIT(${1:Message})"
 	},
 	"_EASY_OBJ_MSG": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Combines the commands _TALK_OBJ_START, _TALKMSG, _TALK_CLOSE, and _TALK_OBJ_END to show a textbox.",
 		"prefix": [
 			"_EASY_OBJ_MSG",
 			"0084"
 		],
-		"body": "_EASY_OBJ_MSG(${1:arg0})"
+		"body": "_EASY_OBJ_MSG(${1:Message})"
+	},
+	"_EASY_MSG": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_EASY_MSG",
+			"0085"
+		],
+		"body": "_EASY_MSG()"
+	},
+	"_BOARD_MAKE": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BOARD_MAKE",
+			"0086"
+		],
+		"body": "_BOARD_MAKE()"
+	},
+	"_INFOBOARD_MAKE": {
+		"scope": "evscript",
+		"prefix": [
+			"_INFOBOARD_MAKE",
+			"0087"
+		],
+		"body": "_INFOBOARD_MAKE()"
 	},
 	"_BOARD_REQ": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Makes a board request.",
 		"prefix": [
 			"_BOARD_REQ",
 			"0088"
 		],
-		"body": "_BOARD_REQ(${1:arg0})"
+		"body": "_BOARD_REQ(${1:Request})"
 	},
 	"_BOARD_REQ_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Waits on a board request made previously with command _BOARD_REQ.",
 		"prefix": [
 			"_BOARD_REQ_WAIT",
 			"0089"
 		],
 		"body": "_BOARD_REQ_WAIT()"
 	},
+	"_BOARD_MSG": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BOARD_MSG",
+			"0090"
+		],
+		"body": "_BOARD_MSG()"
+	},
 	"_BOARD_END_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Waits until the board is closed, then puts a value in a variable.",
 		"prefix": [
 			"_BOARD_END_WAIT",
 			"0091"
 		],
-		"body": "_BOARD_END_WAIT(${1:arg0})"
+		"body": "_BOARD_END_WAIT(${1:Unknown})"
 	},
 	"_EASY_BOARD_MSG": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows a sign message.",
 		"prefix": [
 			"_EASY_BOARD_MSG",
 			"0092"
 		],
-		"body": "_EASY_BOARD_MSG(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_EASY_BOARD_MSG(${1:Message}, ${2:Type}, ${3:Unknown}, ${4:Arrow?})"
 	},
 	"_EASY_INFOBOARD_MSG": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows an info sign message. Mostly used for Gym signs.",
 		"prefix": [
 			"_EASY_INFOBOARD_MSG",
 			"0093"
 		],
-		"body": "_EASY_INFOBOARD_MSG(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_EASY_INFOBOARD_MSG(${1:Message}, ${2:Type}, ${3:Unknown})"
 	},
 	"_MENU_REQ": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Menu request. Presumably opens the menu?",
 		"prefix": [
 			"_MENU_REQ",
 			"0094"
 		],
 		"body": "_MENU_REQ()"
 	},
+	"_BG_SCROLL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BG_SCROLL",
+			"0095"
+		],
+		"body": "_BG_SCROLL()"
+	},
 	"_YES_NO_WIN": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens a Yes/No choice window, then puts the result in a variable.",
 		"prefix": [
 			"_YES_NO_WIN",
 			"0096"
 		],
-		"body": "_YES_NO_WIN(${1:arg0})"
+		"body": "_YES_NO_WIN(${1:Result})"
 	},
 	"_GUINNESS_WIN": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Pretty much unused.",
 		"prefix": [
 			"_GUINNESS_WIN",
 			"0097"
@@ -2179,106 +2890,142 @@
 	},
 	"_BMPMENU_INIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Initializes an unused choice menu.",
 		"prefix": [
 			"_BMPMENU_INIT",
 			"0098"
 		],
-		"body": "_BMPMENU_INIT(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+		"body": "_BMPMENU_INIT(${1:Unknown1}, ${2:Unknown2}, ${3:Unknown3}, ${4:Unknown4}, ${5:Unknown5})"
 	},
 	"_BMPMENU_INIT_EX": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Initializes an unused choice menu.",
 		"prefix": [
 			"_BMPMENU_INIT_EX",
 			"0099"
 		],
-		"body": "_BMPMENU_INIT_EX(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+		"body": "_BMPMENU_INIT_EX(${1:Unknown1}, ${2:Unknown2}, ${3:Unknown3}, ${4:Unknown4}, ${5:Unknown5})"
 	},
 	"_BMPMENU_MAKE_LIST": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Adds an option to the unused choice menu previously initialized by _BMPMENU_INIT or _BMPMENU_INIT_EX.",
 		"prefix": [
 			"_BMPMENU_MAKE_LIST",
 			"0100"
 		],
-		"body": "_BMPMENU_MAKE_LIST(${1:arg0}, ${2:arg1})"
+		"body": "_BMPMENU_MAKE_LIST(${1:Option})"
+	},
+	"_BMPMENU_MAKE_LIST16": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BMPMENU_MAKE_LIST16",
+			"0101"
+		],
+		"body": "_BMPMENU_MAKE_LIST16()"
 	},
 	"_BMPMENU_START": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Shows the unused choice menu previously initialized by _BMPMENU_INIT or _BMPMENU_INIT_EX.",
 		"prefix": [
 			"_BMPMENU_START",
 			"0102"
 		],
 		"body": "_BMPMENU_START()"
 	},
+	"_SEL_WIN_JUMP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_SEL_WIN_JUMP",
+			"0103"
+		],
+		"body": "_SEL_WIN_JUMP()"
+	},
 	"_BMPLIST_INIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Initializes an unused exchange menu.",
 		"prefix": [
 			"_BMPLIST_INIT",
 			"0104"
 		],
-		"body": "_BMPLIST_INIT(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+		"body": "_BMPLIST_INIT(${1:Unknown1}, ${2:Unknown2}, ${3:Unknown3}, ${4:Unknown4}, ${5:Unknown5})"
+	},
+	"_BMPLIST_INIT_EX": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BMPLIST_INIT_EX",
+			"0105"
+		],
+		"body": "_BMPLIST_INIT_EX()"
 	},
 	"_BMPLIST_MAKE_LIST": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Adds an option to the unused choice menu previously initialized by _BMPLIST_INIT.",
 		"prefix": [
 			"_BMPLIST_MAKE_LIST",
 			"0106"
 		],
-		"body": "_BMPLIST_MAKE_LIST(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_BMPLIST_MAKE_LIST(${1:Option}, ${2:Unknown1}, ${3:Unknown2})"
 	},
 	"_BMPLIST_START": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Shows the unused choice menu previously initialized by _BMPLIST_INIT.",
 		"prefix": [
 			"_BMPLIST_START",
 			"0107"
 		],
 		"body": "_BMPLIST_START()"
 	},
+	"_BMPMENU_HV_START": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BMPMENU_HV_START",
+			"0108"
+		],
+		"body": "_BMPMENU_HV_START()"
+	},
 	"_SE_PLAY": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Plays a sound effect.",
 		"prefix": [
 			"_SE_PLAY",
 			"0109"
 		],
-		"body": "_SE_PLAY(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_SE_PLAY(${1:SoundEffect}, ${2:Unknown1?}, ${3:Unknown2?})"
 	},
 	"_SE_STOP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Stops a specific sound effect that is playing.",
 		"prefix": [
 			"_SE_STOP",
 			"0110"
 		],
-		"body": "_SE_STOP(${1:arg0})"
+		"body": "_SE_STOP(${1:SoundEffect})"
 	},
 	"_SE_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for a playing sound effect to finish before continuing.",
 		"prefix": [
 			"_SE_WAIT",
 			"0111"
 		],
-		"body": "_SE_WAIT(${1:arg0})"
+		"body": "_SE_WAIT(${1:SoundEffect})"
 	},
 	"_VOICE_PLAY": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Plays a Pokémon cry.",
 		"prefix": [
 			"_VOICE_PLAY",
 			"0112"
 		],
-		"body": "_VOICE_PLAY(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_VOICE_PLAY(${1:Pokémon}, ${2:Unknown1}, ${3:Unknown2})"
 	},
 	"_VOICE_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for a playing Pokémon cry to finish before continuing.",
 		"prefix": [
 			"_VOICE_WAIT",
 			"0113"
@@ -2287,25 +3034,25 @@
 	},
 	"_EASY_VOICE_MSG": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Combines multiple commands to show a textbox and play a Pokémon cry.",
 		"prefix": [
 			"_EASY_VOICE_MSG",
 			"0114"
 		],
-		"body": "_EASY_VOICE_MSG(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_EASY_VOICE_MSG(${1:Message}, ${2:Pokémon}, ${3:Unknown?})"
 	},
 	"_ME_PLAY": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Plays a fanfare.",
 		"prefix": [
 			"_ME_PLAY",
 			"0115"
 		],
-		"body": "_ME_PLAY(${1:arg0})"
+		"body": "_ME_PLAY(${1:Fanfare})"
 	},
 	"_ME_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for a playing fanfare to finish.",
 		"prefix": [
 			"_ME_WAIT",
 			"0116"
@@ -2314,25 +3061,43 @@
 	},
 	"_SND_INITIAL_VOL_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Sets the volume of a sound effect. Only used once in the player's room during the intro.",
 		"prefix": [
 			"_SND_INITIAL_VOL_SET",
 			"0117"
 		],
-		"body": "_SND_INITIAL_VOL_SET(${1:arg0}, ${2:arg1})"
+		"body": "_SND_INITIAL_VOL_SET(${1:SoundEffect}, ${2:Volume})"
 	},
 	"_BGM_PLAY": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Plays background music.",
 		"prefix": [
 			"_BGM_PLAY",
 			"0118"
 		],
-		"body": "_BGM_PLAY(${1:arg0})"
+		"body": "_BGM_PLAY(${1:BGM})"
+	},
+	"_BGM_PLAY_CHECK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BGM_PLAY_CHECK",
+			"0119"
+		],
+		"body": "_BGM_PLAY_CHECK()"
+	},
+	"_BGM_STOP": {
+		"scope": "evscript",
+		"description": "Unused. Presumably stops the currently playing background music.",
+		"prefix": [
+			"_BGM_STOP",
+			"0120"
+		],
+		"body": "_BGM_STOP()"
 	},
 	"_BGM_NOW_MAP_PLAY": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Plays the background music associated with the current map.",
 		"prefix": [
 			"_BGM_NOW_MAP_PLAY",
 			"0121"
@@ -2341,43 +3106,79 @@
 	},
 	"_BGM_SPECIAL_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Only used 4 times in the game.",
 		"prefix": [
 			"_BGM_SPECIAL_SET",
 			"0122"
 		],
-		"body": "_BGM_SPECIAL_SET(${1:arg0})"
+		"body": "_BGM_SPECIAL_SET(${1:Unknown})"
+	},
+	"_BGM_SPECIAL_CLR": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BGM_SPECIAL_CLR",
+			"0123"
+		],
+		"body": "_BGM_SPECIAL_CLR()"
 	},
 	"_BGM_FADEOUT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Fades the background music out to the specified volume.",
 		"prefix": [
 			"_BGM_FADEOUT",
 			"0124"
 		],
-		"body": "_BGM_FADEOUT(${1:arg0}, ${2:arg1})"
+		"body": "_BGM_FADEOUT(${1:Volume}, ${2:Unknown})"
+	},
+	"_BGM_FADEOUT_PLAY": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BGM_FADEOUT_PLAY",
+			"0125"
+		],
+		"body": "_BGM_FADEOUT_PLAY()"
 	},
 	"_BGM_FADEIN": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Only used once in an unused script.",
 		"prefix": [
 			"_BGM_FADEIN",
 			"0126"
 		],
-		"body": "_BGM_FADEIN(${1:arg0})"
+		"body": "_BGM_FADEIN(${1:Unknown})"
+	},
+	"_BGM_PLAYER_PAUSE": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BGM_PLAYER_PAUSE",
+			"0127"
+		],
+		"body": "_BGM_PLAYER_PAUSE()"
 	},
 	"_PLAYER_FIELD_DEMO_BGM_PLAY": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Plays the specified background music. Used for Dawn/Lucas, Rival, and getting shown around.",
 		"prefix": [
 			"_PLAYER_FIELD_DEMO_BGM_PLAY",
 			"0128"
 		],
-		"body": "_PLAYER_FIELD_DEMO_BGM_PLAY(${1:arg0})"
+		"body": "_PLAYER_FIELD_DEMO_BGM_PLAY(${1:BGM})"
+	},
+	"_CTRL_BGM_FLAG_SET": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CTRL_BGM_FLAG_SET",
+			"0129"
+		],
+		"body": "_CTRL_BGM_FLAG_SET()"
 	},
 	"_CTRL_BGM_FLAG_RESET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Only used once during the Spear Pillar cutscenes.",
 		"prefix": [
 			"_CTRL_BGM_FLAG_RESET",
 			"0130"
@@ -2386,25 +3187,25 @@
 	},
 	"_PERAP_DATA_CHECK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unused. Checks if there is Chatot cry data and put the result in a variable.",
 		"prefix": [
 			"_PERAP_DATA_CHECK",
 			"0131"
 		],
-		"body": "_PERAP_DATA_CHECK(${1:arg0})"
+		"body": "_PERAP_DATA_CHECK(${1:Result})"
 	},
 	"_PERAP_REC_START": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unused. Start recording the Chatot cry.",
 		"prefix": [
 			"_PERAP_REC_START",
 			"0132"
 		],
-		"body": "_PERAP_REC_START(${1:arg0})"
+		"body": "_PERAP_REC_START(${1:Unknown})"
 	},
 	"_PERAP_REC_STOP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unused. Stop recording the Chatot cry.",
 		"prefix": [
 			"_PERAP_REC_STOP",
 			"0133"
@@ -2413,7 +3214,7 @@
 	},
 	"_PERAP_SAVE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unused. Save the recorded Chatot cry.",
 		"prefix": [
 			"_PERAP_SAVE",
 			"0134"
@@ -2422,7 +3223,7 @@
 	},
 	"_SND_CLIMAX_DATA_LOAD": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Loads extra sound data during the Spear Pillar cutscenes.",
 		"prefix": [
 			"_SND_CLIMAX_DATA_LOAD",
 			"0135"
@@ -2431,34 +3232,61 @@
 	},
 	"_OBJ_ANIME": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Animates an actor based on a given animation script.",
 		"prefix": [
 			"_OBJ_ANIME",
 			"0136"
 		],
-		"body": "_OBJ_ANIME(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_OBJ_ANIME(${1:Actor}, ${2:Script}, ${3:Unknown?})"
+	},
+	"_OBJ_ANIME_POS": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_OBJ_ANIME_POS",
+			"0137"
+		],
+		"body": "_OBJ_ANIME_POS()"
+	},
+	"_ANIME_LABEL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ANIME_LABEL",
+			"0138"
+		],
+		"body": "_ANIME_LABEL()"
 	},
 	"_ANIME_DATA": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Executes an animation command without needing a separate script.",
 		"prefix": [
 			"_ANIME_DATA",
 			"0139"
 		],
-		"body": "_ANIME_DATA(${1:arg0}, ${2:arg1})"
+		"body": "_ANIME_DATA(${1:Command}, ${2:Arg1?}, ${3:Arg2?})"
 	},
 	"_OBJ_ANIME_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for the current actor animations to finish before resuming execution.",
 		"prefix": [
 			"_OBJ_ANIME_WAIT",
 			"0140"
 		],
 		"body": "_OBJ_ANIME_WAIT(${1:arg0}, ${2:arg1})"
 	},
+	"_TALK_OBJ_PAUSE_ALL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TALK_OBJ_PAUSE_ALL",
+			"0141"
+		],
+		"body": "_TALK_OBJ_PAUSE_ALL()"
+	},
 	"_OBJ_PAUSE_ALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Pauses the movement of all actors.",
 		"prefix": [
 			"_OBJ_PAUSE_ALL",
 			"0142"
@@ -2467,7 +3295,7 @@
 	},
 	"_OBJ_PAUSE_CLEAR_ALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unpauses the movement of all actors.",
 		"prefix": [
 			"_OBJ_PAUSE_CLEAR_ALL",
 			"0143"
@@ -2476,43 +3304,52 @@
 	},
 	"_OBJ_PAUSE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Pauses the movement of an actor.",
 		"prefix": [
 			"_OBJ_PAUSE",
 			"0144"
 		],
-		"body": "_OBJ_PAUSE(${1:arg0})"
+		"body": "_OBJ_PAUSE(${1:Actor})"
 	},
 	"_OBJ_PAUSE_CLEAR": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unpauses the movement of an actor.",
 		"prefix": [
 			"_OBJ_PAUSE_CLEAR",
 			"0145"
 		],
-		"body": "_OBJ_PAUSE_CLEAR(${1:arg0})"
+		"body": "_OBJ_PAUSE_CLEAR(${1:Actor})"
 	},
 	"_OBJ_ADD": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows an actor.",
 		"prefix": [
 			"_OBJ_ADD",
 			"0146"
 		],
-		"body": "_OBJ_ADD(${1:arg0})"
+		"body": "_OBJ_ADD(${1:Actor})"
 	},
 	"_OBJ_DEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Hides an actor.",
 		"prefix": [
 			"_OBJ_DEL",
 			"0147"
 		],
-		"body": "_OBJ_DEL(${1:arg0})"
+		"body": "_OBJ_DEL(${1:Actor})"
+	},
+	"_VANISH_DUMMY_OBJ_ADD": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_VANISH_DUMMY_OBJ_ADD",
+			"0148"
+		],
+		"body": "_VANISH_DUMMY_OBJ_ADD()"
 	},
 	"_VANISH_DUMMY_OBJ_DEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Only used once during the first Lake Verity visit.",
 		"prefix": [
 			"_VANISH_DUMMY_OBJ_DEL",
 			"0149"
@@ -2521,7 +3358,7 @@
 	},
 	"_TURN_HERO_SITE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Turns the actor to face the player.",
 		"prefix": [
 			"_TURN_HERO_SITE",
 			"0150"
@@ -2530,7 +3367,7 @@
 	},
 	"_TALK_OBJ_START": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Starts an object event with the actor turning to face the player. Combination of _TALK_START, _TALK_OPEN, and _TURN_HERO_SITE.",
 		"prefix": [
 			"_TALK_OBJ_START",
 			"0151"
@@ -2539,7 +3376,7 @@
 	},
 	"_TALK_OBJ_START_TURN_NOT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Starts an object event with the actor only turning their head to face the player. Combination of _TALK_START, _TALK_OPEN, and some third command.",
 		"prefix": [
 			"_TALK_OBJ_START_TURN_NOT",
 			"0152"
@@ -2548,7 +3385,7 @@
 	},
 	"_TALK_OBJ_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Ends an object event. Combination of _TALK_CLOSE and _TALK_END.",
 		"prefix": [
 			"_TALK_OBJ_END",
 			"0153"
@@ -2557,7 +3394,7 @@
 	},
 	"_TALK_START": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Starts a talking event.",
 		"prefix": [
 			"_TALK_START",
 			"0154"
@@ -2566,7 +3403,7 @@
 	},
 	"_EVENT_START": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Starts a cutscene event.",
 		"prefix": [
 			"_EVENT_START",
 			"0155"
@@ -2575,7 +3412,7 @@
 	},
 	"_TALK_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Ends the current talking event.",
 		"prefix": [
 			"_TALK_END",
 			"0156"
@@ -2584,7 +3421,7 @@
 	},
 	"_EVENT_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Ends a cutscene event.",
 		"prefix": [
 			"_EVENT_END",
 			"0157"
@@ -2593,70 +3430,88 @@
 	},
 	"_PLAYER_POS_GET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets the player's current XZ position and puts it into two variables.",
 		"prefix": [
 			"_PLAYER_POS_GET",
 			"0158"
 		],
-		"body": "_PLAYER_POS_GET(${1:arg0}, ${2:arg1})"
+		"body": "_PLAYER_POS_GET(${1:X}, ${2:Z})"
+	},
+	"_OBJ_POS_GET": {
+		"scope": "evscript",
+		"description": "Unused. Presumably gets the position of the actor the player is interacting with.",
+		"prefix": [
+			"_OBJ_POS_GET",
+			"0159"
+		],
+		"body": "_OBJ_POS_GET()"
 	},
 	"_PLAYER_POS_OFFSET_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Sets the player's position to specific coordinates. Only used in Battle Tower.",
 		"prefix": [
 			"_PLAYER_POS_OFFSET_SET",
 			"0160"
 		],
-		"body": "_PLAYER_POS_OFFSET_SET(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_PLAYER_POS_OFFSET_SET(${1:X}, ${2:Y}, ${3:Z})"
 	},
 	"_PLAYER_DIR_GET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets the direction the player is facing.",
 		"prefix": [
 			"_PLAYER_DIR_GET",
 			"0161"
 		],
-		"body": "_PLAYER_DIR_GET(${1:arg0})"
+		"body": "_PLAYER_DIR_GET(${1:Direction})"
 	},
 	"_NOT_ZONE_DEL_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Used in relation to partner trainers (Barry, Cheryl, etc.).",
 		"prefix": [
 			"_NOT_ZONE_DEL_SET",
 			"0162"
 		],
-		"body": "_NOT_ZONE_DEL_SET(${1:arg0}, ${2:arg1})"
+		"body": "_NOT_ZONE_DEL_SET(${1:Actor}, ${2:Unknown})"
 	},
 	"_MOVE_CODE_CHANGE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Changes the movement associated with an actor.",
 		"prefix": [
 			"_MOVE_CODE_CHANGE",
 			"0163"
 		],
-		"body": "_MOVE_CODE_CHANGE(${1:arg0}, ${2:arg1})"
+		"body": "_MOVE_CODE_CHANGE(${1:Actor}, ${2:Movement})"
+	},
+	"_MOVE_CODE_GET": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_MOVE_CODE_GET",
+			"0164"
+		],
+		"body": "_MOVE_CODE_GET()"
 	},
 	"_PAIR_OBJID_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Sets an actor as the partner trainer following the player.",
 		"prefix": [
 			"_PAIR_OBJID_SET",
 			"0165"
 		],
-		"body": "_PAIR_OBJID_SET(${1:arg0})"
+		"body": "_PAIR_OBJID_SET(${1:Actor})"
 	},
 	"_EVENT_DATA": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Only used in the Oreburgh Gym.",
 		"prefix": [
 			"_EVENT_DATA",
 			"0166"
 		],
-		"body": "_EVENT_DATA(${1:arg0})"
+		"body": "_EVENT_DATA(${1:Unknown})"
 	},
 	"_EVENT_DATA_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Only used once in Oreburgh Gym.",
 		"prefix": [
 			"_EVENT_DATA_END",
 			"0167"
@@ -2665,7 +3520,7 @@
 	},
 	"_SP_EVENT_DATA_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Ends the map script.",
 		"prefix": [
 			"_SP_EVENT_DATA_END",
 			"0168"
@@ -2674,25 +3529,25 @@
 	},
 	"_SCENE_CHANGE_LABEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Jumps to a script which contains map script commands.",
 		"prefix": [
 			"_SCENE_CHANGE_LABEL",
 			"0169"
 		],
-		"body": "_SCENE_CHANGE_LABEL(${1:arg0})"
+		"body": "_SCENE_CHANGE_LABEL(${1:Script})"
 	},
 	"_SCENE_CHANGE_DATA": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Calls a script of the main script file if the value of a variable matches a specific value.",
 		"prefix": [
 			"_SCENE_CHANGE_DATA",
 			"0170"
 		],
-		"body": "_SCENE_CHANGE_DATA(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_SCENE_CHANGE_DATA(${1:Variable}, ${2:Value}, ${3:Script})"
 	},
 	"_SCENE_CHANGE_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Ends the script containing the map script commands.",
 		"prefix": [
 			"_SCENE_CHANGE_END",
 			"0171"
@@ -2701,70 +3556,97 @@
 	},
 	"_FLAG_CHANGE_LABEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Calls a script of the main script file.",
 		"prefix": [
 			"_FLAG_CHANGE_LABEL",
 			"0172"
 		],
-		"body": "_FLAG_CHANGE_LABEL(${1:arg0})"
+		"body": "_FLAG_CHANGE_LABEL(${1:Script})"
 	},
 	"_OBJ_CHANGE_LABEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Calls a script of the main script file.",
 		"prefix": [
 			"_OBJ_CHANGE_LABEL",
 			"0173"
 		],
-		"body": "_OBJ_CHANGE_LABEL(${1:arg0})"
+		"body": "_OBJ_CHANGE_LABEL(${1:Script})"
+	},
+	"_INIT_CHANGE_LABEL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_INIT_CHANGE_LABEL",
+			"0174"
+		],
+		"body": "_INIT_CHANGE_LABEL()"
 	},
 	"_ADD_GOLD": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives money to the player.",
 		"prefix": [
 			"_ADD_GOLD",
 			"0175"
 		],
-		"body": "_ADD_GOLD(${1:arg0})"
+		"body": "_ADD_GOLD(${1:Amount})"
 	},
 	"_SUB_GOLD": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Takes money from the player.",
 		"prefix": [
 			"_SUB_GOLD",
 			"0176"
 		],
-		"body": "_SUB_GOLD(${1:arg0})"
+		"body": "_SUB_GOLD(${1:Amount})"
 	},
 	"_COMP_GOLD": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if the player has an amount of money.",
 		"prefix": [
 			"_COMP_GOLD",
 			"0177"
 		],
-		"body": "_COMP_GOLD(${1:arg0}, ${2:arg1})"
+		"body": "_COMP_GOLD(${1:Result}, ${2:Amount})"
 	},
 	"_GOLD_WIN_WRITE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows a window with the player's money.",
 		"prefix": [
 			"_GOLD_WIN_WRITE",
 			"0178"
 		],
-		"body": "_GOLD_WIN_WRITE(${1:arg0}, ${2:arg1})"
+		"body": "_GOLD_WIN_WRITE(${1:X}, ${2:Y})"
+	},
+	"_GOLD_WIN_DEL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_GOLD_WIN_DEL",
+			"0179"
+		],
+		"body": "_GOLD_WIN_DEL()"
+	},
+	"_GOLD_WRITE": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_GOLD_WRITE",
+			"0180"
+		],
+		"body": "_GOLD_WRITE()"
 	},
 	"_COIN_WIN_WRITE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows a window with the player's coins.",
 		"prefix": [
 			"_COIN_WIN_WRITE",
 			"0181"
 		],
-		"body": "_COIN_WIN_WRITE(${1:arg0}, ${2:arg1})"
+		"body": "_COIN_WIN_WRITE(${1:X}, ${2:Y})"
 	},
 	"_COIN_WIN_DEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Removes the window showing the player's coins.",
 		"prefix": [
 			"_COIN_WIN_DEL",
 			"0182"
@@ -2773,169 +3655,367 @@
 	},
 	"_COIN_WRITE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Updates the amount shown in the window showing the player's coins.",
 		"prefix": [
 			"_COIN_WRITE",
 			"0183"
 		],
 		"body": "_COIN_WRITE()"
 	},
+	"_GET_COIN_NUM": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_GET_COIN_NUM",
+			"0184"
+		],
+		"body": "_GET_COIN_NUM()"
+	},
+	"_ADD_COIN": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ADD_COIN",
+			"0185"
+		],
+		"body": "_ADD_COIN()"
+	},
+	"_SUB_COIN": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_SUB_COIN",
+			"0186"
+		],
+		"body": "_SUB_COIN()"
+	},
 	"_FLD_ITEM_EVENT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Executes an item pickup event.",
 		"prefix": [
 			"_FLD_ITEM_EVENT",
 			"0187"
 		],
-		"body": "_FLD_ITEM_EVENT(${1:arg0}, ${2:arg1})"
+		"body": "_FLD_ITEM_EVENT(${1:Unknown1}, ${2:Unknown2})"
+	},
+	"_HIDE_ITEM_EVENT": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_HIDE_ITEM_EVENT",
+			"0188"
+		],
+		"body": "_HIDE_ITEM_EVENT()"
 	},
 	"_ADD_ITEM": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives an amount of one item to the player.",
 		"prefix": [
 			"_ADD_ITEM",
 			"0189"
 		],
-		"body": "_ADD_ITEM(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_ADD_ITEM(${1:Item}, ${2:Amount}, ${3:Unknown})"
 	},
 	"_SUB_ITEM": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Takes an amount of an item from the player.",
 		"prefix": [
 			"_SUB_ITEM",
 			"0190"
 		],
-		"body": "_SUB_ITEM(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_SUB_ITEM(${1:Item}, ${2:Amount}, ${3:Unknown})"
 	},
 	"_ADD_ITEM_CHK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives an amount of one item to the player after checking if they have enough bag space.",
 		"prefix": [
 			"_ADD_ITEM_CHK",
 			"0191"
 		],
-		"body": "_ADD_ITEM_CHK(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_ADD_ITEM_CHK(${1:Item}, ${2:Amount}, ${3:Result})"
 	},
 	"_ITEM_CHK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if the player has an amount of an item.",
 		"prefix": [
 			"_ITEM_CHK",
 			"0192"
 		],
-		"body": "_ITEM_CHK(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_ITEM_CHK(${1:Item}, ${2:Amount}, ${3:Result})"
 	},
 	"_WAZA_ITEM_CHK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if an item is a TM/HM.",
 		"prefix": [
 			"_WAZA_ITEM_CHK",
 			"0193"
 		],
-		"body": "_WAZA_ITEM_CHK(${1:arg0}, ${2:arg1})"
+		"body": "_WAZA_ITEM_CHK(${1:Item}, ${2:Result})"
 	},
 	"_GET_POCKET_NO": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets which pocket an item goes in.",
 		"prefix": [
 			"_GET_POCKET_NO",
 			"0194"
 		],
-		"body": "_GET_POCKET_NO(${1:arg0}, ${2:arg1})"
+		"body": "_GET_POCKET_NO(${1:Item}, ${2:Result})"
 	},
 	"_CHECK_POCKET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if any item is present in a given pocket.",
 		"prefix": [
 			"_CHECK_POCKET",
 			"0195"
 		],
-		"body": "_CHECK_POCKET(${1:arg0}, ${2:arg1})"
+		"body": "_CHECK_POCKET(${1:Pocket}, ${2:Result})"
+	},
+	"_ADD_BOX_ITEM": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ADD_BOX_ITEM",
+			"0196"
+		],
+		"body": "_ADD_BOX_ITEM()"
+	},
+	"_CHK_BOX_ITEM": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CHK_BOX_ITEM",
+			"0197"
+		],
+		"body": "_CHK_BOX_ITEM()"
 	},
 	"_ADD_GOODS": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives an amount of one good to the player. Only used in one unused common script.",
 		"prefix": [
 			"_ADD_GOODS",
 			"0198"
 		],
-		"body": "_ADD_GOODS(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_ADD_GOODS(${1:Good}, ${2:Amount}, ${3:Unknown})"
+	},
+	"_SUB_GOODS": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_SUB_GOODS",
+			"0199"
+		],
+		"body": "_SUB_GOODS()"
+	},
+	"_ADD_GOODS_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ADD_GOODS_CHK",
+			"0200"
+		],
+		"body": "_ADD_GOODS_CHK()"
+	},
+	"_GOODS_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_GOODS_CHK",
+			"0201"
+		],
+		"body": "_GOODS_CHK()"
 	},
 	"_ADD_TRAP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives an amount of one trap to the player. Only used in one unused common script.",
 		"prefix": [
 			"_ADD_TRAP",
 			"0202"
 		],
-		"body": "_ADD_TRAP(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_ADD_TRAP(${1:Trap}, ${2:Amount}, ${3:Unknown})"
+	},
+	"_SUB_TRAP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_SUB_TRAP",
+			"0203"
+		],
+		"body": "_SUB_TRAP()"
+	},
+	"_ADD_TRAP_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ADD_TRAP_CHK",
+			"0204"
+		],
+		"body": "_ADD_TRAP_CHK()"
+	},
+	"_TRAP_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TRAP_CHK",
+			"0205"
+		],
+		"body": "_TRAP_CHK()"
+	},
+	"_ADD_TREASURE": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ADD_TREASURE",
+			"0206"
+		],
+		"body": "_ADD_TREASURE()"
+	},
+	"_SUB_TREASURE": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_SUB_TREASURE",
+			"0207"
+		],
+		"body": "_SUB_TREASURE()"
+	},
+	"_ADD_TREASURE_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ADD_TREASURE_CHK",
+			"0208"
+		],
+		"body": "_ADD_TREASURE_CHK()"
+	},
+	"_TREASURE_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TREASURE_CHK",
+			"0209"
+		],
+		"body": "_TREASURE_CHK()"
 	},
 	"_ADD_TAMA": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives an amount of one sphere to the player.",
 		"prefix": [
 			"_ADD_TAMA",
 			"0210"
 		],
-		"body": "_ADD_TAMA(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_ADD_TAMA(${1:Sphere}, ${2:Amount}, ${3:Unknown})"
+	},
+	"_SUB_TAMA": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_SUB_TAMA",
+			"0211"
+		],
+		"body": "_SUB_TAMA()"
+	},
+	"_ADD_TAMA_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_ADD_TAMA_CHK",
+			"0212"
+		],
+		"body": "_ADD_TAMA_CHK()"
+	},
+	"_TAMA_CHK": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_TAMA_CHK",
+			"0213"
+		],
+		"body": "_TAMA_CHK()"
+	},
+	"_CB_SEAL_KIND_NUM_GET": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CB_SEAL_KIND_NUM_GET",
+			"0214"
+		],
+		"body": "_CB_SEAL_KIND_NUM_GET()"
 	},
 	"_CB_ITEM_NUM_GET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks how many of a seal the player has.",
 		"prefix": [
 			"_CB_ITEM_NUM_GET",
 			"0215"
 		],
-		"body": "_CB_ITEM_NUM_GET(${1:arg0}, ${2:arg1})"
+		"body": "_CB_ITEM_NUM_GET(${1:Seal}, ${2:Result})"
 	},
 	"_CB_ITEM_NUM_ADD": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives an amount of one seal to the player.",
 		"prefix": [
 			"_CB_ITEM_NUM_ADD",
 			"0216"
 		],
-		"body": "_CB_ITEM_NUM_ADD(${1:arg0}, ${2:arg1})"
+		"body": "_CB_ITEM_NUM_ADD(${1:Seal}, ${2:Amount})"
 	},
 	"_UNKNOWN_FORM_GET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets the form of an Unown.",
 		"prefix": [
 			"_UNKNOWN_FORM_GET",
 			"0217"
 		],
-		"body": "_UNKNOWN_FORM_GET(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_UNKNOWN_FORM_GET(${1:Position1}, ${2:Position2}, ${3:Result})"
 	},
 	"_ADD_POKEMON": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives a Pokémon to the player.",
 		"prefix": [
 			"_ADD_POKEMON",
 			"0218"
 		],
-		"body": "_ADD_POKEMON(${1:monsNo}, ${2:level}, ${3:arg2}, ${4:arg3})"
+		"body": "_ADD_POKEMON(${1:Species}, ${2:Level}, ${3:Item}, ${4:Unknown})"
 	},
 	"_ADD_TAMAGO": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gives an egg to the player.",
 		"prefix": [
 			"_ADD_TAMAGO",
 			"0219"
 		],
-		"body": "_ADD_TAMAGO(${1:arg0}, ${2:arg1})"
+		"body": "_ADD_TAMAGO(${1:Species}, ${2:Origin})"
+	},
+	"_CHG_POKE_WAZA": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CHG_POKE_WAZA",
+			"0220"
+		],
+		"body": "_CHG_POKE_WAZA()"
 	},
 	"_CHK_POKE_WAZA": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if a Pokémon in a specific position has a specific move.",
 		"prefix": [
 			"_CHK_POKE_WAZA",
 			"0221"
 		],
-		"body": "_CHK_POKE_WAZA(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_CHK_POKE_WAZA(${1:Result}, ${2:Move}, ${3:Position}, ${4:Unknown})"
+	},
+	"_CHK_POKE_WAZA_GROUP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CHK_POKE_WAZA_GROUP",
+			"0222"
+		],
+		"body": "_CHK_POKE_WAZA_GROUP()"
 	},
 	"_APPROVE_POISON_DEAD": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Only used once in unused poison scripts.",
 		"prefix": [
 			"_APPROVE_POISON_DEAD",
 			"0223"
@@ -2944,16 +4024,61 @@
 	},
 	"_REVENGE_TRAINER_SEARCH": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if a trainer is currently looking for a rematch.",
 		"prefix": [
 			"_REVENGE_TRAINER_SEARCH",
 			"0224"
 		],
-		"body": "_REVENGE_TRAINER_SEARCH(${1:arg0}, ${2:arg1})"
+		"body": "_REVENGE_TRAINER_SEARCH(${1:Trainer}, ${2:Result})"
+	},
+	"_INIT_WEATHER": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_INIT_WEATHER",
+			"0225"
+		],
+		"body": "_INIT_WEATHER()"
+	},
+	"_SET_WEATHER": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_SET_WEATHER",
+			"0226"
+		],
+		"body": "_SET_WEATHER()"
+	},
+	"_UPDATE_WEATHER": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_UPDATE_WEATHER",
+			"0227"
+		],
+		"body": "_UPDATE_WEATHER()"
+	},
+	"_GET_MAP_POS": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_GET_MAP_POS",
+			"0228"
+		],
+		"body": "_GET_MAP_POS()"
+	},
+	"_GET_TEMOTI_POKE_NUM": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_GET_TEMOTI_POKE_NUM",
+			"0229"
+		],
+		"body": "_GET_TEMOTI_POKE_NUM()"
 	},
 	"_SET_MAP_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Refreshes the map after commands that load a new scene.",
 		"prefix": [
 			"_SET_MAP_PROC",
 			"0230"
@@ -2962,7 +4087,7 @@
 	},
 	"_FINISH_MAP_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Finishes refreshing the map after closing the town map in a Pokémon Center.",
 		"prefix": [
 			"_FINISH_MAP_PROC",
 			"0231"
@@ -2971,52 +4096,70 @@
 	},
 	"_WIFI_AUTO_REG": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Registers a friend in the Pal Pad (DP). Likely does nothing.",
 		"prefix": [
 			"_WIFI_AUTO_REG",
 			"0232"
 		],
 		"body": "_WIFI_AUTO_REG()"
 	},
+	"_WIFI_P2P_MATCH_EVENT_CALL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_WIFI_P2P_MATCH_EVENT_CALL",
+			"0233"
+		],
+		"body": "_WIFI_P2P_MATCH_EVENT_CALL()"
+	},
+	"_WIFI_P2P_MATCH_SET_DEL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_WIFI_P2P_MATCH_SET_DEL",
+			"0234"
+		],
+		"body": "_WIFI_P2P_MATCH_SET_DEL()"
+	},
 	"_COMM_GET_CURRENT_ID": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if this player is the host of the Battle Tower multi-battle group or if they joined.",
 		"prefix": [
 			"_COMM_GET_CURRENT_ID",
 			"0235"
 		],
-		"body": "_COMM_GET_CURRENT_ID(${1:arg0})"
+		"body": "_COMM_GET_CURRENT_ID(${1:Result})"
 	},
 	"_DENDOU_NUM_GET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets the amount of times the player has entered the Hall of Fame.",
 		"prefix": [
 			"_DENDOU_NUM_GET",
 			"0236"
 		],
-		"body": "_DENDOU_NUM_GET(${1:arg0})"
+		"body": "_DENDOU_NUM_GET(${1:Var})"
 	},
 	"_POKE_WINDOW_PUT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens a window showing a Pokémon.",
 		"prefix": [
 			"_POKE_WINDOW_PUT",
 			"0237"
 		],
-		"body": "_POKE_WINDOW_PUT(${1:arg0})"
+		"body": "_POKE_WINDOW_PUT(${1:Species})"
 	},
 	"_POKE_WINDOW_PUT_PP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens a window showing a Pokémon. Only used in Chatot scripts.",
 		"prefix": [
 			"_POKE_WINDOW_PUT_PP",
 			"0238"
 		],
-		"body": "_POKE_WINDOW_PUT_PP(${1:arg0})"
+		"body": "_POKE_WINDOW_PUT_PP(${1:Species})"
 	},
 	"_POKE_WINDOW_DEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Closes a window showing a Pokémon.",
 		"prefix": [
 			"_POKE_WINDOW_DEL",
 			"0239"
@@ -3025,7 +4168,7 @@
 	},
 	"_POKE_WINDOW_ANM": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Animates the Pokémon shown in a window.",
 		"prefix": [
 			"_POKE_WINDOW_ANM",
 			"0240"
@@ -3034,43 +4177,70 @@
 	},
 	"_POKE_WINDOW_ANM_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for the animation of the Pokémon shown in a window to end.",
 		"prefix": [
 			"_POKE_WINDOW_ANM_WAIT",
 			"0241"
 		],
-		"body": "_POKE_WINDOW_ANM_WAIT(${1:arg0})"
+		"body": "_POKE_WINDOW_ANM_WAIT(${1:Unknown})"
 	},
 	"_BTL_SEARCHER_EVENT_CALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks the battery of the VS Seeker.",
 		"prefix": [
 			"_BTL_SEARCHER_EVENT_CALL",
 			"0242"
 		],
-		"body": "_BTL_SEARCHER_EVENT_CALL(${1:arg0}, ${2:arg1})"
+		"body": "_BTL_SEARCHER_EVENT_CALL(${1:Result}, ${2:Battery})"
 	},
 	"_BTL_SEARCHER_DIR_MV_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Something related to the VS Seeker.",
 		"prefix": [
 			"_BTL_SEARCHER_DIR_MV_SET",
 			"0243"
 		],
 		"body": "_BTL_SEARCHER_DIR_MV_SET()"
 	},
+	"_MSG_BOY_EVENT": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_MSG_BOY_EVENT",
+			"0244"
+		],
+		"body": "_MSG_BOY_EVENT()"
+	},
+	"_IMAGE_CLIP_SET_PROC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_IMAGE_CLIP_SET_PROC",
+			"0245"
+		],
+		"body": "_IMAGE_CLIP_SET_PROC()"
+	},
+	"_IMAGE_CLIP_VIEW_TV_SET_PROC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_IMAGE_CLIP_VIEW_TV_SET_PROC",
+			"0246"
+		],
+		"body": "_IMAGE_CLIP_VIEW_TV_SET_PROC()"
+	},
 	"_IMAGE_CLIP_VIEW_CON_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Something related to contests.",
 		"prefix": [
 			"_IMAGE_CLIP_VIEW_CON_SET_PROC",
 			"0247"
 		],
-		"body": "_IMAGE_CLIP_VIEW_CON_SET_PROC(${1:arg0})"
+		"body": "_IMAGE_CLIP_VIEW_CON_SET_PROC(${1:Unknown})"
 	},
 	"_CUSTOM_BALL_EVENT_CALL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the Ball Capsule menu.",
 		"prefix": [
 			"_CUSTOM_BALL_EVENT_CALL",
 			"0248"
@@ -3079,7 +4249,7 @@
 	},
 	"_TMAP_BG_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the Town Map from Pokémon Centers.",
 		"prefix": [
 			"_TMAP_BG_SET_PROC",
 			"0249"
@@ -3088,7 +4258,7 @@
 	},
 	"_BOX_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the boxes menu.",
 		"prefix": [
 			"_BOX_SET_PROC",
 			"0250"
@@ -3097,7 +4267,7 @@
 	},
 	"_OEKAKI_BOARD_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Shows a menu related to the Union Room.",
 		"prefix": [
 			"_OEKAKI_BOARD_SET_PROC",
 			"0251"
@@ -3106,7 +4276,7 @@
 	},
 	"_TR_CARD_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the trainer card of another player in Union Room.",
 		"prefix": [
 			"_TR_CARD_SET_PROC",
 			"0252"
@@ -3115,7 +4285,7 @@
 	},
 	"_TRADE_LIST_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the trade menu in Union Room.",
 		"prefix": [
 			"_TRADE_LIST_SET_PROC",
 			"0253"
@@ -3124,7 +4294,7 @@
 	},
 	"_RECORD_CORNER_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the Record Corner menu in Union Room.",
 		"prefix": [
 			"_RECORD_CORNER_SET_PROC",
 			"0254"
@@ -3133,7 +4303,7 @@
 	},
 	"_DENDOU_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Adds an entry to Hall of Fame.",
 		"prefix": [
 			"_DENDOU_SET_PROC",
 			"0255"
@@ -3142,16 +4312,34 @@
 	},
 	"_PC_DENDOU_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the Hall of Fame records menu.",
 		"prefix": [
 			"_PC_DENDOU_SET_PROC",
 			"0256"
 		],
 		"body": "_PC_DENDOU_SET_PROC()"
 	},
+	"_WORLDTRADE_SET_PROC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_WORLDTRADE_SET_PROC",
+			"0257"
+		],
+		"body": "_WORLDTRADE_SET_PROC()"
+	},
+	"_DPW_INIT_PROC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_DPW_INIT_PROC",
+			"0258"
+		],
+		"body": "_DPW_INIT_PROC()"
+	},
 	"_FIRST_POKE_SELECT_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the starter choice menu.",
 		"prefix": [
 			"_FIRST_POKE_SELECT_PROC",
 			"0259"
@@ -3160,16 +4348,25 @@
 	},
 	"_FIRST_POKE_SELECT_SET_AND_DEL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Sets the selected starter to some place in memory. Used right after _FIRST_POKE_SELECT_PROC.",
 		"prefix": [
 			"_FIRST_POKE_SELECT_SET_AND_DEL",
 			"0260"
 		],
 		"body": "_FIRST_POKE_SELECT_SET_AND_DEL()"
 	},
+	"_BAG_SET_PROC_NORMAL": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_BAG_SET_PROC_NORMAL",
+			"0261"
+		],
+		"body": "_BAG_SET_PROC_NORMAL()"
+	},
 	"_BAG_SET_PROC_KINOMI": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the bag menu in Berry mode.",
 		"prefix": [
 			"_BAG_SET_PROC_KINOMI",
 			"0262"
@@ -3178,25 +4375,34 @@
 	},
 	"_BAG_GET_RESULT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Puts the chosen item in the bag into a variable.",
 		"prefix": [
 			"_BAG_GET_RESULT",
 			"0263"
 		],
-		"body": "_BAG_GET_RESULT(${1:arg0})"
+		"body": "_BAG_GET_RESULT(${1:Result})"
 	},
 	"_POKELIST_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the Pokémon selection menu.",
 		"prefix": [
 			"_POKELIST_SET_PROC",
 			"0264"
 		],
-		"body": "_POKELIST_SET_PROC(${1:arg0})"
+		"body": "_POKELIST_SET_PROC(${1:Procedure})"
+	},
+	"_NPC_TRADE_POKELIST_SET_PROC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_NPC_TRADE_POKELIST_SET_PROC",
+			"0265"
+		],
+		"body": "_NPC_TRADE_POKELIST_SET_PROC()"
 	},
 	"_UNION_POKELIST_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Opens the party in Union Room.",
 		"prefix": [
 			"_UNION_POKELIST_SET_PROC",
 			"0266"
@@ -3205,79 +4411,124 @@
 	},
 	"_POKELIST_GET_RESULT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Returns the chosen Pokémon in the previous Pokémon selection menu.",
 		"prefix": [
 			"_POKELIST_GET_RESULT",
 			"0267"
 		],
-		"body": "_POKELIST_GET_RESULT(${1:arg0}, ${2:arg1})"
+		"body": "_POKELIST_GET_RESULT(${1:Pokémon1}, ${2:Pokémon2})"
+	},
+	"_CON_POKELIST_SET_PROC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CON_POKELIST_SET_PROC",
+			"0268"
+		],
+		"body": "_CON_POKELIST_SET_PROC()"
+	},
+	"_CON_POKELIST_GET_RESULT": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CON_POKELIST_GET_RESULT",
+			"0269"
+		],
+		"body": "_CON_POKELIST_GET_RESULT()"
+	},
+	"_CON_POKESTATUS_SET_PROC": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_CON_POKESTATUS_SET_PROC",
+			"0270"
+		],
+		"body": "_CON_POKESTATUS_SET_PROC()"
+	},
+	"_POKESTATUS_GET_RESULT": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_POKESTATUS_GET_RESULT",
+			"0271"
+		],
+		"body": "_POKESTATUS_GET_RESULT()"
 	},
 	"_WIFI_EARTH_SET_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Opens the GWS menu.",
 		"prefix": [
 			"_WIFI_EARTH_SET_PROC",
 			"0272"
 		],
-		"body": "_WIFI_EARTH_SET_PROC(${1:arg0}, ${2:arg1})"
+		"body": "_WIFI_EARTH_SET_PROC(${1:Unknown1?}, ${2:Unknown2?})"
 	},
 	"_EYE_TRAINER_MOVE_SET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the trainer(s) that just saw the player.",
 		"prefix": [
 			"_EYE_TRAINER_MOVE_SET",
 			"0273"
 		],
-		"body": "_EYE_TRAINER_MOVE_SET(${1:arg0})"
+		"body": "_EYE_TRAINER_MOVE_SET(${1:Trainer})"
 	},
 	"_EYE_TRAINER_MOVE_CHECK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Checks if the trainer that was just moved by _EYE_TRAINER_MOVE_SET is still moving.",
 		"prefix": [
 			"_EYE_TRAINER_MOVE_CHECK",
 			"0274"
 		],
-		"body": "_EYE_TRAINER_MOVE_CHECK(${1:arg0}, ${2:arg1})"
+		"body": "_EYE_TRAINER_MOVE_CHECK(${1:Trainer}, ${2:Result})"
 	},
 	"_EYE_TRAINER_TYPE_GET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets the type of fight that was started. (Single, double, two trainers)",
 		"prefix": [
 			"_EYE_TRAINER_TYPE_GET",
 			"0275"
 		],
-		"body": "_EYE_TRAINER_TYPE_GET(${1:arg0})"
+		"body": "_EYE_TRAINER_TYPE_GET(${1:Result})"
 	},
 	"_EYE_TRAINER_ID_GET": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets the ID of the trainer(s) that saw the player.",
 		"prefix": [
 			"_EYE_TRAINER_ID_GET",
 			"0276"
 		],
-		"body": "_EYE_TRAINER_ID_GET(${1:arg0}, ${2:arg1})"
+		"body": "_EYE_TRAINER_ID_GET(${1:Trainer}, ${2:Result})"
+	},
+	"_NAMEIN": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"_NAMEIN",
+			"0277"
+		],
+		"body": "_NAMEIN()"
 	},
 	"_NAMEIN_POKE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Renames the given Pokémon.",
 		"prefix": [
 			"_NAMEIN_POKE",
 			"0278"
 		],
-		"body": "_NAMEIN_POKE(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_NAMEIN_POKE(${1:Pokémon1}, ${2:Pokémon2}, ${3:Result})"
 	},
 	"_WIPE_FADE_START": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Only used in unused scripts.",
 		"prefix": [
 			"_WIPE_FADE_START",
 			"0279"
 		],
-		"body": "_WIPE_FADE_START(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_WIPE_FADE_START(${1:Unknown1}, ${2:Unknown2}, ${3:Unknown3}, ${4:Unknown4})"
 	},
 	"_WIPE_FADE_END_CHECK": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for a fade-in or fade-out to end.",
 		"prefix": [
 			"_WIPE_FADE_END_CHECK",
 			"0280"
@@ -3286,57 +4537,57 @@
 	},
 	"_WHITE_OUT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Fades the screen into white.",
 		"prefix": [
 			"_WHITE_OUT",
 			"0281"
 		],
-		"body": "_WHITE_OUT(${1:arg0}, ${2:arg1})"
+		"body": "_WHITE_OUT(${1:Unknown1?}, ${2:Unknown2?})"
 	},
 	"_WHITE_IN": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Fades the screen back in from white.",
 		"prefix": [
 			"_WHITE_IN",
 			"0282"
 		],
-		"body": "_WHITE_IN(${1:arg0}, ${2:arg1})"
+		"body": "_WHITE_IN(${1:Unknown1?}, ${2:Unknown2?})"
 	},
 	"_BLACK_OUT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Fades the screen into black.",
 		"prefix": [
 			"_BLACK_OUT",
 			"0283"
 		],
-		"body": "_BLACK_OUT(${1:arg0}, ${2:arg1})"
+		"body": "_BLACK_OUT(${1:Unknown1?}, ${2:Unknown2?})"
 	},
 	"_BLACK_IN": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Fades the screen back in from black.",
 		"prefix": [
 			"_BLACK_IN",
 			"0284"
 		],
-		"body": "_BLACK_IN(${1:arg0}, ${2:arg1})"
+		"body": "_BLACK_IN(${1:Unknown1?}, ${2:Unknown2?})"
 	},
 	"_MAP_CHANGE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Warps the player to a map.",
 		"prefix": [
 			"_MAP_CHANGE",
 			"0285"
 		],
-		"body": "_MAP_CHANGE(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+		"body": "_MAP_CHANGE(${1:Map}, ${2:Warp}, ${3:X?}, ${4:Z?}, ${5:Y?})"
 	},
 	"_MAP_CHANGE_NONE_FADE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Warps the player to a map without fading.",
 		"prefix": [
 			"_MAP_CHANGE_NONE_FADE",
 			"0286"
 		],
-		"body": "_MAP_CHANGE_NONE_FADE(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+		"body": "_MAP_CHANGE_NONE_FADE(${1:Map}, ${2:Warp}, ${3:X?}, ${4:Z?}, ${5:Y?})"
 	},
 	"_COLOSSEUM_MAP_CHANGE_IN": {
 		"scope": "evscript",
@@ -3427,6 +4678,30 @@
 			"0296"
 		],
 		"body": "_CYCLING_ROAD_SET(${1:arg0})"
+	},
+	"_PLAYER_FORM_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_PLAYER_FORM_GET",
+			"0297"
+		],
+		"body": "_PLAYER_FORM_GET()"
+	},
+	"_PLAYER_REQ_BIT_ON": {
+		"scope": "evscript",
+		"prefix": [
+			"_PLAYER_REQ_BIT_ON",
+			"0298"
+		],
+		"body": "_PLAYER_REQ_BIT_ON()"
+	},
+	"_PLAYER_REQ_START": {
+		"scope": "evscript",
+		"prefix": [
+			"_PLAYER_REQ_START",
+			"0299"
+		],
+		"body": "_PLAYER_REQ_START()"
 	},
 	"_TAKINOBORI": {
 		"scope": "evscript",
@@ -3520,12 +4795,12 @@
 	},
 	"_ITEM_NAME": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Puts the name of the given item into a buffer.",
 		"prefix": [
 			"_ITEM_NAME",
 			"0310"
 		],
-		"body": "_ITEM_NAME(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_ITEM_NAME(${1:Buffer}, ${2:Item}, ${3:Amount})"
 	},
 	"_POCKET_NAME": {
 		"scope": "evscript",
@@ -3617,6 +4892,14 @@
 		],
 		"body": "_TR_TYPE_NAME(${1:arg0}, ${2:arg1})"
 	},
+	"_MY_TR_TYPE_NAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_MY_TR_TYPE_NAME",
+			"0321"
+		],
+		"body": "_MY_TR_TYPE_NAME()"
+	},
 	"_POKEMON_NAME_EXTRA": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3707,6 +4990,14 @@
 		],
 		"body": "_TAMA_NAME(${1:arg0}, ${2:arg1})"
 	},
+	"_ZONE_NAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_ZONE_NAME",
+			"0332"
+		],
+		"body": "_ZONE_NAME()"
+	},
 	"_GENERATE_INFO_GET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3770,6 +5061,14 @@
 		],
 		"body": "_REVENGE_TRAINER_TALK_TYPE_GET(${1:arg0}, ${2:arg1}, ${3:arg2})"
 	},
+	"_TRAINER_TYPE_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_TRAINER_TYPE_GET",
+			"0340"
+		],
+		"body": "_TRAINER_TYPE_GET()"
+	},
 	"_TRAINER_BGM_SET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3806,6 +5105,14 @@
 		],
 		"body": "_NORMAL_LOSE()"
 	},
+	"_LOSE_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_LOSE_CHECK",
+			"0345"
+		],
+		"body": "_LOSE_CHECK()"
+	},
 	"_SEACRET_POKE_RETRY_CHECK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3814,6 +5121,14 @@
 			"0346"
 		],
 		"body": "_SEACRET_POKE_RETRY_CHECK(${1:arg0}, ${2:arg1})"
+	},
+	"_HAIFU_POKE_RETRY_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_HAIFU_POKE_RETRY_CHECK",
+			"0347"
+		],
+		"body": "_HAIFU_POKE_RETRY_CHECK()"
 	},
 	"_2VS2_BATTLE_CHECK": {
 		"scope": "evscript",
@@ -3851,6 +5166,14 @@
 		],
 		"body": "_DEBUG_TRAINER_FLAG_ON_JUMP(${1:arg0})"
 	},
+	"_DEBUG_TR_TALK_BTL": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_TR_TALK_BTL",
+			"0352"
+		],
+		"body": "_DEBUG_TR_TALK_BTL()"
+	},
 	"_SEL_PARENT_WIN": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3869,6 +5192,22 @@
 		],
 		"body": "_SEL_CHILD_WIN(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
 	},
+	"_DEBUG_PARENT_WIN": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_PARENT_WIN",
+			"0355"
+		],
+		"body": "_DEBUG_PARENT_WIN()"
+	},
+	"_DEBUG_CHILD_WIN": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_CHILD_WIN",
+			"0356"
+		],
+		"body": "_DEBUG_CHILD_WIN()"
+	},
 	"_DEBUG_SIO_ENCOUNT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3877,6 +5216,86 @@
 			"0357"
 		],
 		"body": "_DEBUG_SIO_ENCOUNT()"
+	},
+	"_DEBUG_SIO_CONTEST": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_SIO_CONTEST",
+			"0358"
+		],
+		"body": "_DEBUG_SIO_CONTEST()"
+	},
+	"_CONSIO_TIMING_SEND": {
+		"scope": "evscript",
+		"prefix": [
+			"_CONSIO_TIMING_SEND",
+			"0359"
+		],
+		"body": "_CONSIO_TIMING_SEND()"
+	},
+	"_CONSIO_TIMING_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_CONSIO_TIMING_CHECK",
+			"0360"
+		],
+		"body": "_CONSIO_TIMING_CHECK()"
+	},
+	"_CON_SYSTEM_CREATE": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_SYSTEM_CREATE",
+			"0361"
+		],
+		"body": "_CON_SYSTEM_CREATE()"
+	},
+	"_CON_SYSTEM_EXIT": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_SYSTEM_EXIT",
+			"0362"
+		],
+		"body": "_CON_SYSTEM_EXIT()"
+	},
+	"_CON_JUDGE_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_JUDGE_NAME_GET",
+			"0363"
+		],
+		"body": "_CON_JUDGE_NAME_GET()"
+	},
+	"_CON_BREEDER_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_BREEDER_NAME_GET",
+			"0364"
+		],
+		"body": "_CON_BREEDER_NAME_GET()"
+	},
+	"_CON_NICK_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_NICK_NAME_GET",
+			"0365"
+		],
+		"body": "_CON_NICK_NAME_GET()"
+	},
+	"_CON_NUM_TAG_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_NUM_TAG_SET",
+			"0366"
+		],
+		"body": "_CON_NUM_TAG_SET()"
+	},
+	"_CON_SIO_PARAM_INIT_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_SIO_PARAM_INIT_SET",
+			"0367"
+		],
+		"body": "_CON_SIO_PARAM_INIT_SET()"
 	},
 	"_CONTEST_PROC": {
 		"scope": "evscript",
@@ -3887,6 +5306,166 @@
 		],
 		"body": "_CONTEST_PROC()"
 	},
+	"_CON_RANK_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_RANK_NAME_GET",
+			"0369"
+		],
+		"body": "_CON_RANK_NAME_GET()"
+	},
+	"_CON_TYPE_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_TYPE_NAME_GET",
+			"0370"
+		],
+		"body": "_CON_TYPE_NAME_GET()"
+	},
+	"_CON_VICTORY_BREEDER_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_VICTORY_BREEDER_NAME_GET",
+			"0371"
+		],
+		"body": "_CON_VICTORY_BREEDER_NAME_GET()"
+	},
+	"_CON_VICTORY_ITEM_NO_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_VICTORY_ITEM_NO_GET",
+			"0372"
+		],
+		"body": "_CON_VICTORY_ITEM_NO_GET()"
+	},
+	"_CON_VICTORY_NICK_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_VICTORY_NICK_NAME_GET",
+			"0373"
+		],
+		"body": "_CON_VICTORY_NICK_NAME_GET()"
+	},
+	"_CON_RANKING_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_RANKING_CHECK",
+			"0374"
+		],
+		"body": "_CON_RANKING_CHECK()"
+	},
+	"_CON_VICTORY_ENTRY_NO_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_VICTORY_ENTRY_NO_GET",
+			"0375"
+		],
+		"body": "_CON_VICTORY_ENTRY_NO_GET()"
+	},
+	"_CON_MY_ENTRY_NO_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_MY_ENTRY_NO_GET",
+			"0376"
+		],
+		"body": "_CON_MY_ENTRY_NO_GET()"
+	},
+	"_CON_OBJ_CODE_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_OBJ_CODE_GET",
+			"0377"
+		],
+		"body": "_CON_OBJ_CODE_GET()"
+	},
+	"_CON_POPULARITY_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_POPULARITY_GET",
+			"0378"
+		],
+		"body": "_CON_POPULARITY_GET()"
+	},
+	"_CON_DESK_MODE_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_DESK_MODE_GET",
+			"0379"
+		],
+		"body": "_CON_DESK_MODE_GET()"
+	},
+	"_CON_HAVE_RIBBON_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_HAVE_RIBBON_CHECK",
+			"0380"
+		],
+		"body": "_CON_HAVE_RIBBON_CHECK()"
+	},
+	"_CON_RIBBON_NAME_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_RIBBON_NAME_GET",
+			"0381"
+		],
+		"body": "_CON_RIBBON_NAME_GET()"
+	},
+	"_CON_ACCE_NO_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_ACCE_NO_GET",
+			"0382"
+		],
+		"body": "_CON_ACCE_NO_GET()"
+	},
+	"_CON_ENTRY_PARAM_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_ENTRY_PARAM_GET",
+			"0383"
+		],
+		"body": "_CON_ENTRY_PARAM_GET()"
+	},
+	"_CON_CAMERA_FLASH_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_CAMERA_FLASH_SET",
+			"0384"
+		],
+		"body": "_CON_CAMERA_FLASH_SET()"
+	},
+	"_CON_CAMERA_FLASH_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_CAMERA_FLASH_CHECK",
+			"0385"
+		],
+		"body": "_CON_CAMERA_FLASH_CHECK()"
+	},
+	"_CON_HBLANK_STOP": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_HBLANK_STOP",
+			"0386"
+		],
+		"body": "_CON_HBLANK_STOP()"
+	},
+	"_CON_HBLANK_START": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_HBLANK_START",
+			"0387"
+		],
+		"body": "_CON_HBLANK_START()"
+	},
+	"_CON_ENDING_SKIP_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_ENDING_SKIP_CHECK",
+			"0388"
+		],
+		"body": "_CON_ENDING_SKIP_CHECK()"
+	},
 	"_CON_RECORD_DISP": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3895,6 +5474,22 @@
 			"0389"
 		],
 		"body": "_CON_RECORD_DISP()"
+	},
+	"_CON_MSGPRINT_FLAG_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_MSGPRINT_FLAG_SET",
+			"0390"
+		],
+		"body": "_CON_MSGPRINT_FLAG_SET()"
+	},
+	"_CON_MSGPRINT_FLAG_RESET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_MSGPRINT_FLAG_RESET",
+			"0391"
+		],
+		"body": "_CON_MSGPRINT_FLAG_RESET()"
 	},
 	"_SP_LOCATION_SET": {
 		"scope": "evscript",
@@ -3905,6 +5500,22 @@
 		],
 		"body": "_SP_LOCATION_SET(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
 	},
+	"_ELEVATOR_FLOOR_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_ELEVATOR_FLOOR_GET",
+			"0393"
+		],
+		"body": "_ELEVATOR_FLOOR_GET()"
+	},
+	"_ELEVATOR_FLOOR_WRITE": {
+		"scope": "evscript",
+		"prefix": [
+			"_ELEVATOR_FLOOR_WRITE",
+			"0394"
+		],
+		"body": "_ELEVATOR_FLOOR_WRITE()"
+	},
 	"_SHINOU_ZUKAN_SEE_NUM": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3914,6 +5525,22 @@
 		],
 		"body": "_SHINOU_ZUKAN_SEE_NUM(${1:arg0})"
 	},
+	"_SHINOU_ZUKAN_GET_NUM": {
+		"scope": "evscript",
+		"prefix": [
+			"_SHINOU_ZUKAN_GET_NUM",
+			"0396"
+		],
+		"body": "_SHINOU_ZUKAN_GET_NUM()"
+	},
+	"_ZENKOKU_ZUKAN_SEE_NUM": {
+		"scope": "evscript",
+		"prefix": [
+			"_ZENKOKU_ZUKAN_SEE_NUM",
+			"0397"
+		],
+		"body": "_ZENKOKU_ZUKAN_SEE_NUM()"
+	},
 	"_ZENKOKU_ZUKAN_GET_NUM": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -3922,6 +5549,22 @@
 			"0398"
 		],
 		"body": "_ZENKOKU_ZUKAN_GET_NUM(${1:arg0})"
+	},
+	"_CHK_ZENKOKU_ZUKAN": {
+		"scope": "evscript",
+		"prefix": [
+			"_CHK_ZENKOKU_ZUKAN",
+			"0399"
+		],
+		"body": "_CHK_ZENKOKU_ZUKAN()"
+	},
+	"_GET_HYOUKA_MSGID": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_HYOUKA_MSGID",
+			"0400"
+		],
+		"body": "_GET_HYOUKA_MSGID()"
 	},
 	"_WILD_BTL_SET": {
 		"scope": "evscript",
@@ -3995,6 +5638,14 @@
 		],
 		"body": "_HONEY_TREE_AFTER_SET()"
 	},
+	"_TSIGN_SET_PROC": {
+		"scope": "evscript",
+		"prefix": [
+			"_TSIGN_SET_PROC",
+			"0409"
+		],
+		"body": "_TSIGN_SET_PROC()"
+	},
 	"_REPORT_SAVE_CHECK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4030,6 +5681,30 @@
 			"0413"
 		],
 		"body": "_REPORT_WIN_CLOSE()"
+	},
+	"_CLIP_TVSAVEDATA_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_CLIP_TVSAVEDATA_CHECK",
+			"0414"
+		],
+		"body": "_CLIP_TVSAVEDATA_CHECK()"
+	},
+	"_CLIP_CONSAVEDATA_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_CLIP_CONSAVEDATA_CHECK",
+			"0415"
+		],
+		"body": "_CLIP_CONSAVEDATA_CHECK()"
+	},
+	"_CLIP_TV_TITLE_SAVE": {
+		"scope": "evscript",
+		"prefix": [
+			"_CLIP_TV_TITLE_SAVE",
+			"0416"
+		],
+		"body": "_CLIP_TV_TITLE_SAVE()"
 	},
 	"_GET_POKETCH": {
 		"scope": "evscript",
@@ -4084,6 +5759,14 @@
 			"0422"
 		],
 		"body": "_COMM_RESET()"
+	},
+	"_UNION_PARENT_CARD_TALK_NO": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNION_PARENT_CARD_TALK_NO",
+			"0423"
+		],
+		"body": "_UNION_PARENT_CARD_TALK_NO()"
 	},
 	"_UNION_GET_INFO_TALK_NO": {
 		"scope": "evscript",
@@ -4220,6 +5903,54 @@
 		],
 		"body": "_UNION_CONNECT_START(${1:arg0}, ${2:arg1})"
 	},
+	"_UNION_MAP_CHANGE": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNION_MAP_CHANGE",
+			"0439"
+		],
+		"body": "_UNION_MAP_CHANGE()"
+	},
+	"_UNION_VIEW_TR_SEL_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNION_VIEW_TR_SEL_SET",
+			"0440"
+		],
+		"body": "_UNION_VIEW_TR_SEL_SET()"
+	},
+	"_UNION_VIEW_TR_TYPE_MSG_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNION_VIEW_TR_TYPE_MSG_GET",
+			"0441"
+		],
+		"body": "_UNION_VIEW_TR_TYPE_MSG_GET()"
+	},
+	"_UNION_VIEW_TR_TYPE_NO_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNION_VIEW_TR_TYPE_NO_GET",
+			"0442"
+		],
+		"body": "_UNION_VIEW_TR_TYPE_NO_GET()"
+	},
+	"_UNION_VIEW_MY_STATUS_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNION_VIEW_MY_STATUS_SET",
+			"0443"
+		],
+		"body": "_UNION_VIEW_MY_STATUS_SET()"
+	},
+	"_SYS_FLAG_ZUKAN_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_ZUKAN_GET",
+			"0444"
+		],
+		"body": "_SYS_FLAG_ZUKAN_GET()"
+	},
 	"_SYS_FLAG_ZUKAN_SET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4228,6 +5959,14 @@
 			"0445"
 		],
 		"body": "_SYS_FLAG_ZUKAN_SET()"
+	},
+	"_SYS_FLAG_SHOES_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_SHOES_GET",
+			"0446"
+		],
+		"body": "_SYS_FLAG_SHOES_GET()"
 	},
 	"_SYS_FLAG_SHOES_SET": {
 		"scope": "evscript",
@@ -4264,6 +6003,14 @@
 			"0450"
 		],
 		"body": "_SYS_FLAG_BADGE_COUNT(${1:arg0})"
+	},
+	"_SYS_FLAG_BAG_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_BAG_GET",
+			"0451"
+		],
+		"body": "_SYS_FLAG_BAG_GET()"
 	},
 	"_SYS_FLAG_BAG_SET": {
 		"scope": "evscript",
@@ -4310,6 +6057,22 @@
 		],
 		"body": "_SYS_FLAG_ONE_STEP_GET(${1:arg0})"
 	},
+	"_SYS_FLAG_ONE_STEP_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_ONE_STEP_SET",
+			"0457"
+		],
+		"body": "_SYS_FLAG_ONE_STEP_SET()"
+	},
+	"_SYS_FLAG_ONE_STEP_RESET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_ONE_STEP_RESET",
+			"0458"
+		],
+		"body": "_SYS_FLAG_ONE_STEP_RESET()"
+	},
 	"_SYS_FLAG_GAME_CLEAR_GET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4319,6 +6082,14 @@
 		],
 		"body": "_SYS_FLAG_GAME_CLEAR_GET(${1:arg0})"
 	},
+	"_SYS_FLAG_GAME_CLEAR_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_GAME_CLEAR_SET",
+			"0460"
+		],
+		"body": "_SYS_FLAG_GAME_CLEAR_SET()"
+	},
 	"_SYS_FLAG_KAIRIKI_SET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4327,6 +6098,14 @@
 			"0461"
 		],
 		"body": "_SYS_FLAG_KAIRIKI_SET()"
+	},
+	"_SYS_FLAG_KAIRIKI_RESET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_KAIRIKI_RESET",
+			"0462"
+		],
+		"body": "_SYS_FLAG_KAIRIKI_RESET()"
 	},
 	"_SYS_FLAG_KAIRIKI_GET": {
 		"scope": "evscript",
@@ -4346,6 +6125,22 @@
 		],
 		"body": "_SYS_FLAG_FLASH_SET()"
 	},
+	"_SYS_FLAG_FLASH_RESET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_FLASH_RESET",
+			"0465"
+		],
+		"body": "_SYS_FLAG_FLASH_RESET()"
+	},
+	"_SYS_FLAG_FLASH_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_FLASH_GET",
+			"0466"
+		],
+		"body": "_SYS_FLAG_FLASH_GET()"
+	},
 	"_SYS_FLAG_KIRIBARAI_SET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4354,6 +6149,22 @@
 			"0467"
 		],
 		"body": "_SYS_FLAG_KIRIBARAI_SET()"
+	},
+	"_SYS_FLAG_KIRIBARAI_RESET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_KIRIBARAI_RESET",
+			"0468"
+		],
+		"body": "_SYS_FLAG_KIRIBARAI_RESET()"
+	},
+	"_SYS_FLAG_KIRIBARAI_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_SYS_FLAG_KIRIBARAI_GET",
+			"0469"
+		],
+		"body": "_SYS_FLAG_KIRIBARAI_GET()"
 	},
 	"_SHOP_CALL": {
 		"scope": "evscript",
@@ -4373,6 +6184,14 @@
 		],
 		"body": "_FIX_SHOP_CALL(${1:arg0})"
 	},
+	"_FIX_GOODS_CALL": {
+		"scope": "evscript",
+		"prefix": [
+			"_FIX_GOODS_CALL",
+			"0472"
+		],
+		"body": "_FIX_GOODS_CALL()"
+	},
 	"_FIX_SEAL_CALL": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4381,6 +6200,30 @@
 			"0473"
 		],
 		"body": "_FIX_SEAL_CALL(${1:arg0})"
+	},
+	"_ACCE_SHOP_CALL": {
+		"scope": "evscript",
+		"prefix": [
+			"_ACCE_SHOP_CALL",
+			"0474"
+		],
+		"body": "_ACCE_SHOP_CALL()"
+	},
+	"_PLAYER_REPORT_DRAW_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_PLAYER_REPORT_DRAW_SET",
+			"0475"
+		],
+		"body": "_PLAYER_REPORT_DRAW_SET()"
+	},
+	"_PLAYER_REPORT_DRAW_DEL": {
+		"scope": "evscript",
+		"prefix": [
+			"_PLAYER_REPORT_DRAW_DEL",
+			"0476"
+		],
+		"body": "_PLAYER_REPORT_DRAW_DEL()"
 	},
 	"_GAME_OVER_CALL": {
 		"scope": "evscript",
@@ -4508,6 +6351,30 @@
 		],
 		"body": "_SEQ_CLOSE_DOOR(${1:arg0})"
 	},
+	"_PMS_INPUT_SINGLE": {
+		"scope": "evscript",
+		"prefix": [
+			"_PMS_INPUT_SINGLE",
+			"0491"
+		],
+		"body": "_PMS_INPUT_SINGLE()"
+	},
+	"_PMS_INPUT_DOUBLE": {
+		"scope": "evscript",
+		"prefix": [
+			"_PMS_INPUT_DOUBLE",
+			"0492"
+		],
+		"body": "_PMS_INPUT_DOUBLE()"
+	},
+	"_PMS_BUF": {
+		"scope": "evscript",
+		"prefix": [
+			"_PMS_BUF",
+			"0493"
+		],
+		"body": "_PMS_BUF()"
+	},
 	"_GET_SEED_STATUS": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4526,6 +6393,22 @@
 		],
 		"body": "_GET_SEED_TYPE(${1:arg0})"
 	},
+	"_GET_SEED_COMPOST": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_SEED_COMPOST",
+			"0496"
+		],
+		"body": "_GET_SEED_COMPOST()"
+	},
+	"_GET_SEED_GROUND": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_SEED_GROUND",
+			"0497"
+		],
+		"body": "_GET_SEED_GROUND()"
+	},
 	"_GET_SEED_COUNT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4535,14 +6418,22 @@
 		],
 		"body": "_GET_SEED_COUNT(${1:arg0})"
 	},
+	"_SET_SEED_COMPOST": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_SEED_COMPOST",
+			"0499"
+		],
+		"body": "_SET_SEED_COMPOST()"
+	},
 	"_SET_SEED_NUTS": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Plants the given berry.",
 		"prefix": [
 			"_SET_SEED_NUTS",
 			"0500"
 		],
-		"body": "_SET_SEED_NUTS(${1:arg0})"
+		"body": "_SET_SEED_NUTS(${1:Berry})"
 	},
 	"_SET_SEED_WATER": {
 		"scope": "evscript",
@@ -4634,6 +6525,30 @@
 		],
 		"body": "_RETURN_SCRIPT_WK_SET(${1:arg0})"
 	},
+	"_MSGEXPANDBUF": {
+		"scope": "evscript",
+		"prefix": [
+			"_MSGEXPANDBUF",
+			"0511"
+		],
+		"body": "_MSGEXPANDBUF()"
+	},
+	"_GET_SODATE_NAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_SODATE_NAME",
+			"0512"
+		],
+		"body": "_GET_SODATE_NAME()"
+	},
+	"_GET_SODATEYA_ZIISAN": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_SODATEYA_ZIISAN",
+			"0513"
+		],
+		"body": "_GET_SODATEYA_ZIISAN()"
+	},
 	"_INIT_WATER_GYM": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4669,6 +6584,14 @@
 			"0517"
 		],
 		"body": "_MOVE_GHOST_GYM_LIFT()"
+	},
+	"_INIT_STEEL_GYM": {
+		"scope": "evscript",
+		"prefix": [
+			"_INIT_STEEL_GYM",
+			"0518"
+		],
+		"body": "_INIT_STEEL_GYM()"
 	},
 	"_INIT_COMBAT_GYM": {
 		"scope": "evscript",
@@ -4733,6 +6656,14 @@
 		],
 		"body": "_GET_POKE_COUNT4(${1:arg0})"
 	},
+	"_GET_TAMAGO_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_TAMAGO_COUNT",
+			"0526"
+		],
+		"body": "_GET_TAMAGO_COUNT()"
+	},
 	"_UG_SHOP_MENU_INIT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4760,6 +6691,102 @@
 		],
 		"body": "_UG_SHOP_TALK_END()"
 	},
+	"_UG_SHOP_ITEM_NAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_UG_SHOP_ITEM_NAME",
+			"0530"
+		],
+		"body": "_UG_SHOP_ITEM_NAME()"
+	},
+	"_UG_SHOP_TRAP_NAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_UG_SHOP_TRAP_NAME",
+			"0531"
+		],
+		"body": "_UG_SHOP_TRAP_NAME()"
+	},
+	"_DEL_SODATEYA_EGG": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEL_SODATEYA_EGG",
+			"0532"
+		],
+		"body": "_DEL_SODATEYA_EGG()"
+	},
+	"_GET_SODATEYA_EGG": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_SODATEYA_EGG",
+			"0533"
+		],
+		"body": "_GET_SODATEYA_EGG()"
+	},
+	"_MSG_SODATEYA_AISHOU": {
+		"scope": "evscript",
+		"prefix": [
+			"_MSG_SODATEYA_AISHOU",
+			"0534"
+		],
+		"body": "_MSG_SODATEYA_AISHOU()"
+	},
+	"_MSG_AZUKE_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_MSG_AZUKE_SET",
+			"0535"
+		],
+		"body": "_MSG_AZUKE_SET()"
+	},
+	"_SET_SODATEYA_POKE": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_SODATEYA_POKE",
+			"0536"
+		],
+		"body": "_SET_SODATEYA_POKE()"
+	},
+	"_SODATEYA_POKELIST": {
+		"scope": "evscript",
+		"prefix": [
+			"_SODATEYA_POKELIST",
+			"0537"
+		],
+		"body": "_SODATEYA_POKELIST()"
+	},
+	"_HIKITORI_LIST": {
+		"scope": "evscript",
+		"prefix": [
+			"_HIKITORI_LIST",
+			"0538"
+		],
+		"body": "_HIKITORI_LIST()"
+	},
+	"_SODATE_POKE_LEVEL_STR": {
+		"scope": "evscript",
+		"prefix": [
+			"_SODATE_POKE_LEVEL_STR",
+			"0539"
+		],
+		"body": "_SODATE_POKE_LEVEL_STR()"
+	},
+	"_HIKITORI_RYOUKIN": {
+		"scope": "evscript",
+		"prefix": [
+			"_HIKITORI_RYOUKIN",
+			"0540"
+		],
+		"body": "_HIKITORI_RYOUKIN()"
+	},
+	"_HIKITORI_POKE": {
+		"scope": "evscript",
+		"prefix": [
+			"_HIKITORI_POKE",
+			"0541"
+		],
+		"body": "_HIKITORI_POKE()"
+	},
 	"_TAMAGO_DEMO": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4771,12 +6798,20 @@
 	},
 	"_TEMOTI_MONSNO": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Gets the NatDex Number of the Pokémon in slot #<Slot> of the player's party and returns it in <Result>.",
 		"prefix": [
 			"_TEMOTI_MONSNO",
 			"0543"
 		],
-		"body": "_TEMOTI_MONSNO(${1:arg0}, ${2:arg1})"
+		"body": "_TEMOTI_MONSNO(${1:Slot}, ${2:Result})"
+	},
+	"_MONS_OWN_CHK": {
+		"scope": "evscript",
+		"prefix": [
+			"_MONS_OWN_CHK",
+			"0544"
+		],
+		"body": "_MONS_OWN_CHK()"
 	},
 	"_CHK_TEMOTI_POKERUS": {
 		"scope": "evscript",
@@ -4786,6 +6821,30 @@
 			"0545"
 		],
 		"body": "_CHK_TEMOTI_POKERUS(${1:arg0})"
+	},
+	"_TEMOTI_POKE_SEX_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_TEMOTI_POKE_SEX_GET",
+			"0546"
+		],
+		"body": "_TEMOTI_POKE_SEX_GET()"
+	},
+	"_SUB_MY_GOLD": {
+		"scope": "evscript",
+		"prefix": [
+			"_SUB_MY_GOLD",
+			"0547"
+		],
+		"body": "_SUB_MY_GOLD()"
+	},
+	"_COMP_MY_GOLD": {
+		"scope": "evscript",
+		"prefix": [
+			"_COMP_MY_GOLD",
+			"0548"
+		],
+		"body": "_COMP_MY_GOLD()"
 	},
 	"_OBJ_VISIBLE": {
 		"scope": "evscript",
@@ -4804,6 +6863,22 @@
 			"0550"
 		],
 		"body": "_OBJ_INVISIBLE(${1:arg0})"
+	},
+	"_MAILBOX": {
+		"scope": "evscript",
+		"prefix": [
+			"_MAILBOX",
+			"0551"
+		],
+		"body": "_MAILBOX()"
+	},
+	"_GET_MAILBOX_DATANUM": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_MAILBOX_DATANUM",
+			"0552"
+		],
+		"body": "_GET_MAILBOX_DATANUM()"
 	},
 	"_RANKING_VIEW": {
 		"scope": "evscript",
@@ -4859,6 +6934,38 @@
 		],
 		"body": "_ADD_NATSUKI(${1:arg0}, ${2:arg1}, ${3:arg2})"
 	},
+	"_SUB_NATSUKI": {
+		"scope": "evscript",
+		"prefix": [
+			"_SUB_NATSUKI",
+			"0559"
+		],
+		"body": "_SUB_NATSUKI()"
+	},
+	"_HIKITORI_LIST_NAME_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_HIKITORI_LIST_NAME_SET",
+			"0560"
+		],
+		"body": "_HIKITORI_LIST_NAME_SET()"
+	},
+	"_GET_SODATEYA_AISHOU": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_SODATEYA_AISHOU",
+			"0561"
+		],
+		"body": "_GET_SODATEYA_AISHOU()"
+	},
+	"_SODATEYA_TAMAGO_CHK": {
+		"scope": "evscript",
+		"prefix": [
+			"_SODATEYA_TAMAGO_CHK",
+			"0562"
+		],
+		"body": "_SODATEYA_TAMAGO_CHK()"
+	},
 	"_TEMOTI_POKE_CHK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4913,6 +7020,22 @@
 		],
 		"body": "_OOKISA_KURABE_INIT()"
 	},
+	"_WAZALIST_SET_PROC": {
+		"scope": "evscript",
+		"prefix": [
+			"_WAZALIST_SET_PROC",
+			"0569"
+		],
+		"body": "_WAZALIST_SET_PROC()"
+	},
+	"_WAZALIST_GET_RESULT": {
+		"scope": "evscript",
+		"prefix": [
+			"_WAZALIST_GET_RESULT",
+			"0570"
+		],
+		"body": "_WAZALIST_GET_RESULT()"
+	},
 	"_WAZA_COUNT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4930,6 +7053,14 @@
 			"0572"
 		],
 		"body": "_WAZA_DEL(${1:arg0}, ${2:arg1}, ${3:arg2})"
+	},
+	"_TEMOTI_WAZANO": {
+		"scope": "evscript",
+		"prefix": [
+			"_TEMOTI_WAZANO",
+			"0573"
+		],
+		"body": "_TEMOTI_WAZANO()"
 	},
 	"_TEMOTI_WAZA_NAME": {
 		"scope": "evscript",
@@ -4958,6 +7089,14 @@
 		],
 		"body": "_FNOTE_DATA_MAKE(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
 	},
+	"_FNOTE_DATA_SAVE": {
+		"scope": "evscript",
+		"prefix": [
+			"_FNOTE_DATA_SAVE",
+			"0577"
+		],
+		"body": "_FNOTE_DATA_SAVE()"
+	},
 	"_IMC_ACCE_ADD_ITEM": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -4975,6 +7114,14 @@
 			"0579"
 		],
 		"body": "_IMC_ACCE_ADD_ITEM_CHK(${1:arg0}, ${2:arg1}, ${3:arg2})"
+	},
+	"_IMC_ACCE_ITEM_CHK": {
+		"scope": "evscript",
+		"prefix": [
+			"_IMC_ACCE_ITEM_CHK",
+			"0580"
+		],
+		"body": "_IMC_ACCE_ITEM_CHK()"
 	},
 	"_IMC_BG_ADD_ITEM": {
 		"scope": "evscript",
@@ -5066,6 +7213,30 @@
 		],
 		"body": "_URAYAMA_ENCOUNT_NO_CHK(${1:arg0})"
 	},
+	"_POKE_MAIL_CHK": {
+		"scope": "evscript",
+		"prefix": [
+			"_POKE_MAIL_CHK",
+			"0591"
+		],
+		"body": "_POKE_MAIL_CHK()"
+	},
+	"_PAPERPLANE_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_PAPERPLANE_SET",
+			"0592"
+		],
+		"body": "_PAPERPLANE_SET()"
+	},
+	"_POKE_MAIL_DEL": {
+		"scope": "evscript",
+		"prefix": [
+			"_POKE_MAIL_DEL",
+			"0593"
+		],
+		"body": "_POKE_MAIL_DEL()"
+	},
 	"_KASEKI_COUNT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5074,6 +7245,22 @@
 			"0594"
 		],
 		"body": "_KASEKI_COUNT(${1:arg0})"
+	},
+	"_ITEMLIST_SET_PROC": {
+		"scope": "evscript",
+		"prefix": [
+			"_ITEMLIST_SET_PROC",
+			"0595"
+		],
+		"body": "_ITEMLIST_SET_PROC()"
+	},
+	"_ITEMLIST_GET_RESULT": {
+		"scope": "evscript",
+		"prefix": [
+			"_ITEMLIST_GET_RESULT",
+			"0596"
+		],
+		"body": "_ITEMLIST_GET_RESULT()"
 	},
 	"_ITEMNO_TO_MONSNO": {
 		"scope": "evscript",
@@ -5120,6 +7307,14 @@
 		],
 		"body": "_BTOWER_WORK_CLEAR()"
 	},
+	"_BTOWER_WORK_INIT": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTOWER_WORK_INIT",
+			"0602"
+		],
+		"body": "_BTOWER_WORK_INIT()"
+	},
 	"_BTOWER_WORK_RELEASE": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5147,6 +7342,22 @@
 		],
 		"body": "_BTOWER_SEVEN_POKE_GET(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
 	},
+	"_BTOWER_PRIZE_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTOWER_PRIZE_GET",
+			"0606"
+		],
+		"body": "_BTOWER_PRIZE_GET()"
+	},
+	"_BTOWER_PRIZEMAN_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTOWER_PRIZEMAN_SET",
+			"0607"
+		],
+		"body": "_BTOWER_PRIZEMAN_SET()"
+	},
 	"_BTOWER_SEND_BUF": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5165,6 +7376,22 @@
 		],
 		"body": "_BTOWER_RECV_BUF(${1:arg0}, ${2:arg1})"
 	},
+	"_BTOWER_GET_LEADER_ROOMID": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTOWER_GET_LEADER_ROOMID",
+			"0610"
+		],
+		"body": "_BTOWER_GET_LEADER_ROOMID()"
+	},
+	"_BTOWER_IS_LEADER_EXIST": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTOWER_IS_LEADER_EXIST",
+			"0611"
+		],
+		"body": "_BTOWER_IS_LEADER_EXIST()"
+	},
 	"_RECORD_INC": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5173,6 +7400,38 @@
 			"0612"
 		],
 		"body": "_RECORD_INC(${1:arg0})"
+	},
+	"_RECORD_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_RECORD_GET",
+			"0613"
+		],
+		"body": "_RECORD_GET()"
+	},
+	"_RECORD_ADD": {
+		"scope": "evscript",
+		"prefix": [
+			"_RECORD_ADD",
+			"0614"
+		],
+		"body": "_RECORD_ADD()"
+	},
+	"_RECORD_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_RECORD_SET",
+			"0615"
+		],
+		"body": "_RECORD_SET()"
+	},
+	"_RECORD_SETIFLARGE": {
+		"scope": "evscript",
+		"prefix": [
+			"_RECORD_SETIFLARGE",
+			"0616"
+		],
+		"body": "_RECORD_SETIFLARGE()"
 	},
 	"_SAFARI_START": {
 		"scope": "evscript",
@@ -5264,6 +7523,14 @@
 		],
 		"body": "_CHK_POKE_SEIKAKU_ALL(${1:arg0}, ${2:arg1})"
 	},
+	"_UNDERGROUND_TALK_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNDERGROUND_TALK_COUNT",
+			"0627"
+		],
+		"body": "_UNDERGROUND_TALK_COUNT()"
+	},
 	"_NATURAL_PARK_WALK_COUNT_CLEAR": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5273,6 +7540,22 @@
 		],
 		"body": "_NATURAL_PARK_WALK_COUNT_CLEAR(${1:arg0})"
 	},
+	"_NATURAL_PARK_WALK_COUNT_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_NATURAL_PARK_WALK_COUNT_GET",
+			"0629"
+		],
+		"body": "_NATURAL_PARK_WALK_COUNT_GET()"
+	},
+	"_NATURAL_PARK_ACCESSORY_NO_GET": {
+		"scope": "evscript",
+		"prefix": [
+			"_NATURAL_PARK_ACCESSORY_NO_GET",
+			"0630"
+		],
+		"body": "_NATURAL_PARK_ACCESSORY_NO_GET()"
+	},
 	"_GET_NEWS_POKE_NO": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5281,6 +7564,14 @@
 			"0631"
 		],
 		"body": "_GET_NEWS_POKE_NO(${1:arg0})"
+	},
+	"_NEWS_COUNT_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_NEWS_COUNT_SET",
+			"0632"
+		],
+		"body": "_NEWS_COUNT_SET()"
 	},
 	"_NEWS_COUNT_CHK": {
 		"scope": "evscript",
@@ -5309,6 +7600,14 @@
 		],
 		"body": "_ADD_MOVE_POKE(${1:arg0})"
 	},
+	"_OSHIE_WAZA_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_OSHIE_WAZA_COUNT",
+			"0636"
+		],
+		"body": "_OSHIE_WAZA_COUNT()"
+	},
 	"_REMAIND_WAZA_COUNT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5317,6 +7616,86 @@
 			"0637"
 		],
 		"body": "_REMAIND_WAZA_COUNT(${1:arg0}, ${2:arg1}, ${3:arg2})"
+	},
+	"_OSHIE_WAZALIST_SET_PROC": {
+		"scope": "evscript",
+		"prefix": [
+			"_OSHIE_WAZALIST_SET_PROC",
+			"0638"
+		],
+		"body": "_OSHIE_WAZALIST_SET_PROC()"
+	},
+	"_REMAIND_WAZALIST_SET_PROC": {
+		"scope": "evscript",
+		"prefix": [
+			"_REMAIND_WAZALIST_SET_PROC",
+			"0639"
+		],
+		"body": "_REMAIND_WAZALIST_SET_PROC()"
+	},
+	"_OSHIE_WAZALIST_GET_RESULT": {
+		"scope": "evscript",
+		"prefix": [
+			"_OSHIE_WAZALIST_GET_RESULT",
+			"0640"
+		],
+		"body": "_OSHIE_WAZALIST_GET_RESULT()"
+	},
+	"_REMAIND_WAZALIST_GET_RESULT": {
+		"scope": "evscript",
+		"prefix": [
+			"_REMAIND_WAZALIST_GET_RESULT",
+			"0641"
+		],
+		"body": "_REMAIND_WAZALIST_GET_RESULT()"
+	},
+	"_NORMAL_WAZALIST_SET_PROC": {
+		"scope": "evscript",
+		"prefix": [
+			"_NORMAL_WAZALIST_SET_PROC",
+			"0642"
+		],
+		"body": "_NORMAL_WAZALIST_SET_PROC()"
+	},
+	"_NORMAL_WAZALIST_GET_RESULT": {
+		"scope": "evscript",
+		"prefix": [
+			"_NORMAL_WAZALIST_GET_RESULT",
+			"0643"
+		],
+		"body": "_NORMAL_WAZALIST_GET_RESULT()"
+	},
+	"_FLD_TRADE_ALLOC": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLD_TRADE_ALLOC",
+			"0644"
+		],
+		"body": "_FLD_TRADE_ALLOC()"
+	},
+	"_FLD_TRADE_MONSNO": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLD_TRADE_MONSNO",
+			"0645"
+		],
+		"body": "_FLD_TRADE_MONSNO()"
+	},
+	"_FLD_TRADE_CHG_MONSNO": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLD_TRADE_CHG_MONSNO",
+			"0646"
+		],
+		"body": "_FLD_TRADE_CHG_MONSNO()"
+	},
+	"_FLD_TRADE_EVENT": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLD_TRADE_EVENT",
+			"0647"
+		],
+		"body": "_FLD_TRADE_EVENT()"
 	},
 	"_FLD_TRADE_DEL": {
 		"scope": "evscript",
@@ -5353,6 +7732,14 @@
 			"0651"
 		],
 		"body": "_ZENKOKU_ZUKAN_FLAG(${1:arg0}, ${2:arg1})"
+	},
+	"_CHK_RIBBON_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_CHK_RIBBON_COUNT",
+			"0652"
+		],
+		"body": "_CHK_RIBBON_COUNT()"
 	},
 	"_CHK_RIBBON_COUNT_ALL": {
 		"scope": "evscript",
@@ -5426,6 +7813,14 @@
 		],
 		"body": "_TV_ENTRY_WATCH_CHANGE_NAME(${1:arg0}, ${2:arg1})"
 	},
+	"_REGULATION_LIST_CALL": {
+		"scope": "evscript",
+		"prefix": [
+			"_REGULATION_LIST_CALL",
+			"0661"
+		],
+		"body": "_REGULATION_LIST_CALL()"
+	},
 	"_ASHIATO_CHK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5462,6 +7857,38 @@
 		],
 		"body": "_CALL_SHIP_DEMO(${1:arg0}, ${2:arg1})"
 	},
+	"_DEBUG_PRINT_WORK": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_PRINT_WORK",
+			"0666"
+		],
+		"body": "_DEBUG_PRINT_WORK()"
+	},
+	"_DEBUG_PRINT_FLAG": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_PRINT_FLAG",
+			"0667"
+		],
+		"body": "_DEBUG_PRINT_FLAG()"
+	},
+	"_DEBUG_PRINT_WORK_STATIONED": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_PRINT_WORK_STATIONED",
+			"0668"
+		],
+		"body": "_DEBUG_PRINT_WORK_STATIONED()"
+	},
+	"_DEBUG_PRINT_FLAG_STATIONED": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_PRINT_FLAG_STATIONED",
+			"0669"
+		],
+		"body": "_DEBUG_PRINT_FLAG_STATIONED()"
+	},
 	"_PM_VERSION_GET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5488,6 +7915,22 @@
 			"0672"
 		],
 		"body": "_TEMOTI_POKE_TYPE(${1:arg0}, ${2:arg1}, ${3:arg2})"
+	},
+	"_AIKOTOBA_KABEGAMI_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_AIKOTOBA_KABEGAMI_SET",
+			"0673"
+		],
+		"body": "_AIKOTOBA_KABEGAMI_SET()"
+	},
+	"_GET_UG_HATA_NUM": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_UG_HATA_NUM",
+			"0674"
+		],
+		"body": "_GET_UG_HATA_NUM()"
 	},
 	"_SETUP_PASO_ANM": {
 		"scope": "evscript",
@@ -5543,6 +7986,14 @@
 		],
 		"body": "_KUJI_ATARI_INIT()"
 	},
+	"_NICK_NAME_PC": {
+		"scope": "evscript",
+		"prefix": [
+			"_NICK_NAME_PC",
+			"0681"
+		],
+		"body": "_NICK_NAME_PC()"
+	},
 	"_TV_INTERVIEWER_CHECK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5570,6 +8021,14 @@
 		],
 		"body": "_POKEPARK_CONTROL(${1:arg0})"
 	},
+	"_POKEPARK_DEPOSIT_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_POKEPARK_DEPOSIT_COUNT",
+			"0685"
+		],
+		"body": "_POKEPARK_DEPOSIT_COUNT()"
+	},
 	"_POKEPARK_TRANS_MONS": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5587,6 +8046,14 @@
 			"0687"
 		],
 		"body": "_POKEPARK_GET_SCORE(${1:arg0}, ${2:arg1})"
+	},
+	"_DENDOU_BALL_ANM": {
+		"scope": "evscript",
+		"prefix": [
+			"_DENDOU_BALL_ANM",
+			"0688"
+		],
+		"body": "_DENDOU_BALL_ANM()"
 	},
 	"_INIT_FLD_LIFT": {
 		"scope": "evscript",
@@ -5696,6 +8163,14 @@
 		],
 		"body": "_POKETCH_HOOK_RESET()"
 	},
+	"_SLOT_MACHINE": {
+		"scope": "evscript",
+		"prefix": [
+			"_SLOT_MACHINE",
+			"0701"
+		],
+		"body": "_SLOT_MACHINE()"
+	},
 	"_GET_NOW_HOUR": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5705,6 +8180,38 @@
 		],
 		"body": "_GET_NOW_HOUR(${1:arg0})"
 	},
+	"_FLDOBJ_SHAKE_ANM": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLDOBJ_SHAKE_ANM",
+			"0703"
+		],
+		"body": "_FLDOBJ_SHAKE_ANM()"
+	},
+	"_FLDOBJ_BLINK_ANM": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLDOBJ_BLINK_ANM",
+			"0704"
+		],
+		"body": "_FLDOBJ_BLINK_ANM()"
+	},
+	"_D20R0106_LEGEND_IS_UNSEAL": {
+		"scope": "evscript",
+		"prefix": [
+			"_D20R0106_LEGEND_IS_UNSEAL",
+			"0705"
+		],
+		"body": "_D20R0106_LEGEND_IS_UNSEAL()"
+	},
+	"_DRESSING_IMC_ACCE_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_DRESSING_IMC_ACCE_CHECK",
+			"0706"
+		],
+		"body": "_DRESSING_IMC_ACCE_CHECK()"
+	},
 	"_AGB_CARTRIDGE_VER_GET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5713,6 +8220,14 @@
 			"0707"
 		],
 		"body": "_AGB_CARTRIDGE_VER_GET(${1:arg0})"
+	},
+	"_UNDERGROUND_TALK_COUNT_CLEAR": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNDERGROUND_TALK_COUNT_CLEAR",
+			"0708"
+		],
+		"body": "_UNDERGROUND_TALK_COUNT_CLEAR()"
 	},
 	"_HIDEMAP_STATE_CHG": {
 		"scope": "evscript",
@@ -5750,6 +8265,30 @@
 		],
 		"body": "_IMC_BG_NAME(${1:arg0}, ${2:arg1})"
 	},
+	"_COMP_COIN": {
+		"scope": "evscript",
+		"prefix": [
+			"_COMP_COIN",
+			"0713"
+		],
+		"body": "_COMP_COIN()"
+	},
+	"_SLOT_RENTYAN_CHK": {
+		"scope": "evscript",
+		"prefix": [
+			"_SLOT_RENTYAN_CHK",
+			"0714"
+		],
+		"body": "_SLOT_RENTYAN_CHK()"
+	},
+	"_ADD_COIN_CHK": {
+		"scope": "evscript",
+		"prefix": [
+			"_ADD_COIN_CHK",
+			"0715"
+		],
+		"body": "_ADD_COIN_CHK()"
+	},
 	"_LEVEL_JIJII_NO": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5767,6 +8306,14 @@
 			"0717"
 		],
 		"body": "_POKE_LEVEL_GET(${1:arg0}, ${2:arg1})"
+	},
+	"_IMC_ACCE_SUB_ITEM": {
+		"scope": "evscript",
+		"prefix": [
+			"_IMC_ACCE_SUB_ITEM",
+			"0718"
+		],
+		"body": "_IMC_ACCE_SUB_ITEM()"
 	},
 	"_C08R0801SCOPECAMERASET": {
 		"scope": "evscript",
@@ -5786,6 +8333,14 @@
 		],
 		"body": "_LEVEL_JIJII_INIT()"
 	},
+	"_NEW_NANKAI_WORD_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_NEW_NANKAI_WORD_SET",
+			"0721"
+		],
+		"body": "_NEW_NANKAI_WORD_SET()"
+	},
 	"_REGULAR_CHECK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5795,6 +8350,14 @@
 		],
 		"body": "_REGULAR_CHECK(${1:arg0})"
 	},
+	"_NEW_NANKAI_WORD_COMPLETE_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_NEW_NANKAI_WORD_COMPLETE_CHECK",
+			"0723"
+		],
+		"body": "_NEW_NANKAI_WORD_COMPLETE_CHECK()"
+	},
 	"_TEMOTI_POKE_CONTEST_STATUS_GET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5803,6 +8366,46 @@
 			"0724"
 		],
 		"body": "_TEMOTI_POKE_CONTEST_STATUS_GET(${1:arg0}, ${2:arg1}, ${3:arg2})"
+	},
+	"_D17SYSTEM_MAP_SELECT": {
+		"scope": "evscript",
+		"prefix": [
+			"_D17SYSTEM_MAP_SELECT",
+			"0725"
+		],
+		"body": "_D17SYSTEM_MAP_SELECT()"
+	},
+	"_UNDERGROUND_TOOL_GIVE_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNDERGROUND_TOOL_GIVE_COUNT",
+			"0726"
+		],
+		"body": "_UNDERGROUND_TOOL_GIVE_COUNT()"
+	},
+	"_UNDERGROUND_KASEKI_DIG_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNDERGROUND_KASEKI_DIG_COUNT",
+			"0727"
+		],
+		"body": "_UNDERGROUND_KASEKI_DIG_COUNT()"
+	},
+	"_UNDERGROUND_TRAP_HIT_COUNT": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNDERGROUND_TRAP_HIT_COUNT",
+			"0728"
+		],
+		"body": "_UNDERGROUND_TRAP_HIT_COUNT()"
+	},
+	"_POFIN_ADD": {
+		"scope": "evscript",
+		"prefix": [
+			"_POFIN_ADD",
+			"0729"
+		],
+		"body": "_POFIN_ADD()"
 	},
 	"_POFIN_ADD_CHK": {
 		"scope": "evscript",
@@ -5822,6 +8425,22 @@
 		],
 		"body": "_IS_HAIHU_EVENT_ENABLE(${1:arg0}, ${2:arg1})"
 	},
+	"_SODATEYA_POKELIST_SET_PROC": {
+		"scope": "evscript",
+		"prefix": [
+			"_SODATEYA_POKELIST_SET_PROC",
+			"0732"
+		],
+		"body": "_SODATEYA_POKELIST_SET_PROC()"
+	},
+	"_SODATEYA_POKELIST_GET_RESULT": {
+		"scope": "evscript",
+		"prefix": [
+			"_SODATEYA_POKELIST_GET_RESULT",
+			"0733"
+		],
+		"body": "_SODATEYA_POKELIST_GET_RESULT()"
+	},
 	"_GET_RANDOM_HIT": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5831,6 +8450,14 @@
 		],
 		"body": "_GET_RANDOM_HIT(${1:arg0}, ${2:arg1})"
 	},
+	"_UNDERGROUND_TALK_COUNT2": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNDERGROUND_TALK_COUNT2",
+			"0735"
+		],
+		"body": "_UNDERGROUND_TALK_COUNT2()"
+	},
 	"_HIDENEFF_START": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5839,6 +8466,78 @@
 			"0736"
 		],
 		"body": "_HIDENEFF_START(${1:arg0}, ${2:arg1})"
+	},
+	"_ZISHIN": {
+		"scope": "evscript",
+		"prefix": [
+			"_ZISHIN",
+			"0737"
+		],
+		"body": "_ZISHIN()"
+	},
+	"_BTL_POINT_WIN_WRITE": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTL_POINT_WIN_WRITE",
+			"0738"
+		],
+		"body": "_BTL_POINT_WIN_WRITE()"
+	},
+	"_BTL_POINT_WIN_DEL": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTL_POINT_WIN_DEL",
+			"0739"
+		],
+		"body": "_BTL_POINT_WIN_DEL()"
+	},
+	"_BTL_POINT_WRITE": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTL_POINT_WRITE",
+			"0740"
+		],
+		"body": "_BTL_POINT_WRITE()"
+	},
+	"_GET_BTL_POINT": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_BTL_POINT",
+			"0741"
+		],
+		"body": "_GET_BTL_POINT()"
+	},
+	"_BTL_POINT_ADD": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTL_POINT_ADD",
+			"0742"
+		],
+		"body": "_BTL_POINT_ADD()"
+	},
+	"_BTL_POINT_SUB": {
+		"scope": "evscript",
+		"prefix": [
+			"_BTL_POINT_SUB",
+			"0743"
+		],
+		"body": "_BTL_POINT_SUB()"
+	},
+	"_COMP_BTL_POINT": {
+		"scope": "evscript",
+		"prefix": [
+			"_COMP_BTL_POINT",
+			"0744"
+		],
+		"body": "_COMP_BTL_POINT()"
+	},
+	"_GET_BP_GIFT": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_BP_GIFT",
+			"0745"
+		],
+		"body": "_GET_BP_GIFT()"
 	},
 	"_UG_BALLITEM_CHECK": {
 		"scope": "evscript",
@@ -5857,6 +8556,22 @@
 			"0747"
 		],
 		"body": "_AUSU_ITEM_CHECK(${1:arg0}, ${2:arg1})"
+	},
+	"_CHECK_MY_GSID": {
+		"scope": "evscript",
+		"prefix": [
+			"_CHECK_MY_GSID",
+			"0748"
+		],
+		"body": "_CHECK_MY_GSID()"
+	},
+	"_FRIEND_DATA_NUM": {
+		"scope": "evscript",
+		"prefix": [
+			"_FRIEND_DATA_NUM",
+			"0749"
+		],
+		"body": "_FRIEND_DATA_NUM()"
 	},
 	"_GET_COIN_GIFT": {
 		"scope": "evscript",
@@ -5885,6 +8600,22 @@
 		],
 		"body": "_COMP_WK_COIN(${1:arg0}, ${2:arg1})"
 	},
+	"_AIKOTOBA_OKURIMONO_CHK": {
+		"scope": "evscript",
+		"prefix": [
+			"_AIKOTOBA_OKURIMONO_CHK",
+			"0753"
+		],
+		"body": "_AIKOTOBA_OKURIMONO_CHK()"
+	},
+	"_WIFI_HUSIGINAOKURIMONO_OPEN_FLAG_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_WIFI_HUSIGINAOKURIMONO_OPEN_FLAG_SET",
+			"0754"
+		],
+		"body": "_WIFI_HUSIGINAOKURIMONO_OPEN_FLAG_SET()"
+	},
 	"_UNION_GET_CARD_TALK_NO": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -5893,6 +8624,22 @@
 			"0755"
 		],
 		"body": "_UNION_GET_CARD_TALK_NO(${1:arg0})"
+	},
+	"_WIRELESS_ICON_EASY": {
+		"scope": "evscript",
+		"prefix": [
+			"_WIRELESS_ICON_EASY",
+			"0756"
+		],
+		"body": "_WIRELESS_ICON_EASY()"
+	},
+	"_WIRELESS_ICON_EASY_END": {
+		"scope": "evscript",
+		"prefix": [
+			"_WIRELESS_ICON_EASY_END",
+			"0757"
+		],
+		"body": "_WIRELESS_ICON_EASY_END()"
 	},
 	"_SAVE_FIELD_OBJ": {
 		"scope": "evscript",
@@ -5966,81 +8713,106 @@
 		],
 		"body": "_GET_TRCARD_RANK(${1:arg0})"
 	},
+	"_FLD_SCOPE_MODE_ON": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLD_SCOPE_MODE_ON",
+			"0766"
+		],
+		"body": "_FLD_SCOPE_MODE_ON()"
+	},
+	"_FLD_SCOPE_MODE_OFF": {
+		"scope": "evscript",
+		"prefix": [
+			"_FLD_SCOPE_MODE_OFF",
+			"0767"
+		],
+		"body": "_FLD_SCOPE_MODE_OFF()"
+	},
 	"_AC_UP": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor up an amount of tiles over an amount of frames.",
 		"prefix": [
 			"_AC_UP",
 			"0768"
 		],
-		"body": "_AC_UP(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_AC_UP(${1:Tiles}, ${2:Time}, ${3:Unknown?})"
 	},
 	"_AC_DOWN": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor down an amount of tiles over an amount of frames.",
 		"prefix": [
 			"_AC_DOWN",
 			"0769"
 		],
-		"body": "_AC_DOWN(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_AC_DOWN(${1:Tiles}, ${2:Time}, ${3:Unknown?})"
 	},
 	"_AC_LEFT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor left an amount of tiles over an amount of frames.",
 		"prefix": [
 			"_AC_LEFT",
 			"0770"
 		],
-		"body": "_AC_LEFT(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_AC_LEFT(${1:Tiles}, ${2:Time}, ${3:Unknown?})"
 	},
 	"_AC_RIGHT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor right an amount of tiles over an amount of frames.",
 		"prefix": [
 			"_AC_RIGHT",
 			"0771"
 		],
-		"body": "_AC_RIGHT(${1:arg0}, ${2:arg1}, ${3:arg2})"
+		"body": "_AC_RIGHT(${1:Tiles}, ${2:Time}, ${3:Unknown?})"
+	},
+	"AC_LOOP": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_LOOP",
+			"0772"
+		],
+		"body": "AC_LOOP()"
 	},
 	"_AC_DIR_U": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Turns the affected actor up over an amount of frames.",
 		"prefix": [
 			"_AC_DIR_U",
 			"0773"
 		],
-		"body": "_AC_DIR_U(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DIR_U(${1:Time}, ${2:Unknown?})"
 	},
 	"_AC_DIR_R": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Turns the affected actor right over an amount of frames.",
 		"prefix": [
 			"_AC_DIR_R",
 			"0774"
 		],
-		"body": "_AC_DIR_R(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DIR_R(${1:Time}, ${2:Unknown?})"
 	},
 	"_AC_DIR_D": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Turns the affected actor down over an amount of frames.",
 		"prefix": [
 			"_AC_DIR_D",
 			"0775"
 		],
-		"body": "_AC_DIR_D(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DIR_D(${1:Time}, ${2:Unknown?})"
 	},
 	"_AC_DIR_L": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Turns the affected actor left over an amount of frames.",
 		"prefix": [
 			"_AC_DIR_L",
 			"0776"
 		],
-		"body": "_AC_DIR_L(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DIR_L(${1:Time}, ${2:Unknown?})"
 	},
 	"_ACMD_END": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Ends a movement script.",
 		"prefix": [
 			"_ACMD_END",
 			"0777"
@@ -6049,21 +8821,37 @@
 	},
 	"_AC_DIR_VAL": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Turns the affected actor to a specific angle over an amount of frames.",
 		"prefix": [
 			"_AC_DIR_VAL",
 			"0778"
 		],
-		"body": "_AC_DIR_VAL(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DIR_VAL(${1:Time}, ${2:Angle})"
 	},
 	"_AC_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for the specified amount of frames before continuing the movement script.",
 		"prefix": [
 			"_AC_WAIT",
 			"0779"
 		],
-		"body": "_AC_WAIT(${1:arg0})"
+		"body": "_AC_WAIT(${1:Time})"
+	},
+	"_SET_TURN_HERO_FRAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_TURN_HERO_FRAME",
+			"0780"
+		],
+		"body": "_SET_TURN_HERO_FRAME()"
+	},
+	"_SET_TURN_OBJ_FRAME": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_TURN_OBJ_FRAME",
+			"0781"
+		],
+		"body": "_SET_TURN_OBJ_FRAME()"
 	},
 	"_DEBUG_PRINT": {
 		"scope": "evscript",
@@ -6076,12 +8864,12 @@
 	},
 	"_AC_MARK_GYOE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows a [!] bubble above the affected actor.",
 		"prefix": [
 			"_AC_MARK_GYOE",
 			"0783"
 		],
-		"body": "_AC_MARK_GYOE(${1:arg0})"
+		"body": "_AC_MARK_GYOE(${1:Unknown?})"
 	},
 	"_FADE_WAIT": {
 		"scope": "evscript",
@@ -6121,84 +8909,109 @@
 	},
 	"_AC_HERO_MATCH_X": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor up or down to match the X position of the player.",
 		"prefix": [
 			"_AC_HERO_MATCH_X",
 			"0788"
 		],
-		"body": "_AC_HERO_MATCH_X(${1:arg0})"
+		"body": "_AC_HERO_MATCH_X(${1:Time})"
 	},
 	"_AC_HERO_MATCH_Z": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor left or right to match the Z position of the player.",
 		"prefix": [
 			"_AC_HERO_MATCH_Z",
 			"0789"
 		],
-		"body": "_AC_HERO_MATCH_Z(${1:arg0})"
+		"body": "_AC_HERO_MATCH_Z(${1:Time})"
+	},
+	"_SET_POS_HERO_MATCH_X": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_POS_HERO_MATCH_X",
+			"0790"
+		],
+		"body": "_SET_POS_HERO_MATCH_X()"
+	},
+	"_SET_POS_HERO_MATCH_Z": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_POS_HERO_MATCH_Z",
+			"0791"
+		],
+		"body": "_SET_POS_HERO_MATCH_Z()"
 	},
 	"_AC_UP_CENTER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor up an amount of tiles over an amount of frames. The actor ends on the center of the final tile.",
 		"prefix": [
 			"_AC_UP_CENTER",
 			"0792"
 		],
-		"body": "_AC_UP_CENTER(${1:arg0}, ${2:arg1})"
+		"body": "_AC_UP_CENTER(${1:Tiles}, ${2:Time})"
 	},
 	"_AC_DOWN_CENTER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor down an amount of tiles over an amount of frames. The actor ends on the center of the final tile.",
 		"prefix": [
 			"_AC_DOWN_CENTER",
 			"0793"
 		],
-		"body": "_AC_DOWN_CENTER(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DOWN_CENTER(${1:Tiles}, ${2:Time})"
 	},
 	"_AC_LEFT_CENTER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor left an amount of tiles over an amount of frames. The actor ends on the center of the final tile.",
 		"prefix": [
 			"_AC_LEFT_CENTER",
 			"0794"
 		],
-		"body": "_AC_LEFT_CENTER(${1:arg0}, ${2:arg1})"
+		"body": "_AC_LEFT_CENTER(${1:Tiles}, ${2:Time})"
 	},
 	"_AC_RIGHT_CENTER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Moves the affected actor right an amount of tiles over an amount of frames. The actor ends on the center of the final tile.",
 		"prefix": [
 			"_AC_RIGHT_CENTER",
 			"0795"
 		],
-		"body": "_AC_RIGHT_CENTER(${1:arg0}, ${2:arg1})"
+		"body": "_AC_RIGHT_CENTER(${1:Tiles}, ${2:Time})"
 	},
 	"_AC_DIR_UP_CENTER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Turns the affected actor up and centers it on the tile.",
 		"prefix": [
 			"_AC_DIR_UP_CENTER",
 			"0796"
 		],
 		"body": "_AC_DIR_UP_CENTER(${1:arg0}, ${2:arg1})"
 	},
+	"AC_DIR_DOWN_CENTER": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_DIR_DOWN_CENTER",
+			"0797"
+		],
+		"body": "AC_DIR_DOWN_CENTER()"
+	},
 	"_AC_DIR_LEFT_CENTER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Turns the affected actor left and centers it on the tile.",
 		"prefix": [
 			"_AC_DIR_LEFT_CENTER",
 			"0798"
 		],
-		"body": "_AC_DIR_LEFT_CENTER(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DIR_LEFT_CENTER(${1:Unknown1}, ${2:Unknown2})"
 	},
 	"_AC_DIR_RIGHT_CENTER": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "(?) Turns the affected actor right and centers it on the tile.",
 		"prefix": [
 			"_AC_DIR_RIGHT_CENTER",
 			"0799"
 		],
-		"body": "_AC_DIR_RIGHT_CENTER(${1:arg0}, ${2:arg1})"
+		"body": "_AC_DIR_RIGHT_CENTER(${1:Unknown1}, ${2:Unknown2})"
 	},
 	"_AC_VANISH_ON": {
 		"scope": "evscript",
@@ -6220,21 +9033,100 @@
 	},
 	"_AC_DIR_PAUSE_ON": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Locks the direction of the affected actor.",
 		"prefix": [
 			"_AC_DIR_PAUSE_ON",
 			"0802"
 		],
-		"body": "_AC_DIR_PAUSE_ON(${1:arg0})"
+		"body": "_AC_DIR_PAUSE_ON(${1:Unknown})"
 	},
 	"_AC_DIR_PAUSE_OFF": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unlocks the direction of the affected actor.",
 		"prefix": [
 			"_AC_DIR_PAUSE_OFF",
 			"0803"
 		],
-		"body": "_AC_DIR_PAUSE_OFF(${1:arg0})"
+		"body": "_AC_DIR_PAUSE_OFF(${1:Unknown})"
+	},
+	"AC_ANM_PAUSE_ON": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_ANM_PAUSE_ON",
+			"0804"
+		],
+		"body": "AC_ANM_PAUSE_ON()"
+	},
+	"AC_ANM_PAUSE_OFF": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_ANM_PAUSE_OFF",
+			"0805"
+		],
+		"body": "AC_ANM_PAUSE_OFF()"
+	},
+	"AC_PC_BOW": {
+		"scope": "evscript",
+		"prefix": [
+			"AC_PC_BOW",
+			"0806"
+		],
+		"body": "AC_PC_BOW()"
+	},
+	"AC_HIDE_PULLOFF": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_HIDE_PULLOFF",
+			"0807"
+		],
+		"body": "AC_HIDE_PULLOFF()"
+	},
+	"AC_HERO_BANZAI": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_HERO_BANZAI",
+			"0808"
+		],
+		"body": "AC_HERO_BANZAI()"
+	},
+	"AC_MARK_SAISEN": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_MARK_SAISEN",
+			"0809"
+		],
+		"body": "AC_MARK_SAISEN()"
+	},
+	"AC_HERO_BANZAI_UKE": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"AC_HERO_BANZAI_UKE",
+			"0810"
+		],
+		"body": "AC_HERO_BANZAI_UKE()"
+	},
+	"ACMD_NOT": {
+		"scope": "evscript",
+		"description": "Unused.",
+		"prefix": [
+			"ACMD_NOT",
+			"0811"
+		],
+		"body": "ACMD_NOT()"
+	},
+	"_GET_LANGUAGE": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_LANGUAGE",
+			"0812"
+		],
+		"body": "_GET_LANGUAGE()"
 	},
 	"_GET_REL_POS_HERO": {
 		"scope": "evscript",
@@ -6299,6 +9191,14 @@
 		],
 		"body": "_DUMMY_SET_POS_HERO()"
 	},
+	"_SET_CUSTUM_WIN_MSBT": {
+		"scope": "evscript",
+		"prefix": [
+			"_SET_CUSTUM_WIN_MSBT",
+			"0820"
+		],
+		"body": "_SET_CUSTUM_WIN_MSBT()"
+	},
 	"_ADD_CUSTUM_WIN_LABEL": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -6316,6 +9216,14 @@
 			"0822"
 		],
 		"body": "_OPEN_CUSTUM_WIN(${1:arg0}, ${2:arg1})"
+	},
+	"_VISIBLE_OBJ_PROP": {
+		"scope": "evscript",
+		"prefix": [
+			"_VISIBLE_OBJ_PROP",
+			"0823"
+		],
+		"body": "_VISIBLE_OBJ_PROP()"
 	},
 	"_INVISIBLE_OBJ_PROP": {
 		"scope": "evscript",
@@ -6407,9 +9315,17 @@
 		],
 		"body": "_TEMOTI_ROTOMU_FORM_WAZA_CHG(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
 	},
+	"_EVENT_GET_TEMOTI_POKE_CHK_GET_POS": {
+		"scope": "evscript",
+		"prefix": [
+			"_EVENT_GET_TEMOTI_POKE_CHK_GET_POS",
+			"0834"
+		],
+		"body": "_EVENT_GET_TEMOTI_POKE_CHK_GET_POS()"
+	},
 	"_TURN_HERO_TALK_OBJ": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Turns the player to face the actor.",
 		"prefix": [
 			"_TURN_HERO_TALK_OBJ",
 			"0835"
@@ -6418,12 +9334,28 @@
 	},
 	"_FADE_SPEED": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Sets the speed of fade-ins and fade-outs.",
 		"prefix": [
 			"_FADE_SPEED",
 			"0836"
 		],
-		"body": "_FADE_SPEED(${1:arg0})"
+		"body": "_FADE_SPEED(${1:Time})"
+	},
+	"_FADE_BALL": {
+		"scope": "evscript",
+		"prefix": [
+			"_FADE_BALL",
+			"0837"
+		],
+		"body": "_FADE_BALL()"
+	},
+	"_FADE_DEFAULT": {
+		"scope": "evscript",
+		"prefix": [
+			"_FADE_DEFAULT",
+			"0838"
+		],
+		"body": "_FADE_DEFAULT()"
 	},
 	"_DOOR_FORCE_ANIME_END": {
 		"scope": "evscript",
@@ -6442,6 +9374,14 @@
 			"0840"
 		],
 		"body": "_LDVAL_VERSION(${1:arg0}, ${2:arg1})"
+	},
+	"_LDVAL_SEX": {
+		"scope": "evscript",
+		"prefix": [
+			"_LDVAL_SEX",
+			"0841"
+		],
+		"body": "_LDVAL_SEX()"
 	},
 	"_TV_ENTRY_PARKINFO_INIT": {
 		"scope": "evscript",
@@ -6551,6 +9491,14 @@
 		],
 		"body": "_MYSTERY_PRESENT_CHECK(${1:arg0})"
 	},
+	"_MYSTERY_GET_PRESENT_ID": {
+		"scope": "evscript",
+		"prefix": [
+			"_MYSTERY_GET_PRESENT_ID",
+			"0854"
+		],
+		"body": "_MYSTERY_GET_PRESENT_ID()"
+	},
 	"_MYSTERY_RECEIVE_CHECK": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -6605,6 +9553,22 @@
 		],
 		"body": "_MYSTERY_POSTMAN_SAVE_END()"
 	},
+	"_UNKNOWN_MSG": {
+		"scope": "evscript",
+		"prefix": [
+			"_UNKNOWN_MSG",
+			"0861"
+		],
+		"body": "_UNKNOWN_MSG()"
+	},
+	"_TV_INTERVIEW_MSG": {
+		"scope": "evscript",
+		"prefix": [
+			"_TV_INTERVIEW_MSG",
+			"0862"
+		],
+		"body": "_TV_INTERVIEW_MSG()"
+	},
 	"_TV_INTERVIEW_ENTRY": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -6641,23 +9605,55 @@
 		],
 		"body": "_TV_START_NUMBER(${1:arg0})"
 	},
+	"_TV_SET_ENDFLAG": {
+		"scope": "evscript",
+		"prefix": [
+			"_TV_SET_ENDFLAG",
+			"0867"
+		],
+		"body": "_TV_SET_ENDFLAG()"
+	},
+	"_TV_MAKE_MSG": {
+		"scope": "evscript",
+		"prefix": [
+			"_TV_MAKE_MSG",
+			"0868"
+		],
+		"body": "_TV_MAKE_MSG()"
+	},
+	"_TV_GET_DATA_TOTAL": {
+		"scope": "evscript",
+		"prefix": [
+			"_TV_GET_DATA_TOTAL",
+			"0869"
+		],
+		"body": "_TV_GET_DATA_TOTAL()"
+	},
 	"_AC_INDEX_ANIME": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Animates the affected actor with a specific animation.",
 		"prefix": [
 			"_AC_INDEX_ANIME",
 			"0870"
 		],
-		"body": "_AC_INDEX_ANIME(${1:arg0}, ${2:arg1})"
+		"body": "_AC_INDEX_ANIME(${1:Animation}, ${2:Unknown?})"
 	},
 	"_AC_INDEX_ANIME_WAIT": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Waits for the currently playing animation from AC_INDEX_ANIME to end.",
 		"prefix": [
 			"_AC_INDEX_ANIME_WAIT",
 			"0871"
 		],
 		"body": "_AC_INDEX_ANIME_WAIT()"
+	},
+	"_DEBUG_RESET_WORK": {
+		"scope": "evscript",
+		"prefix": [
+			"_DEBUG_RESET_WORK",
+			"0872"
+		],
+		"body": "_DEBUG_RESET_WORK()"
 	},
 	"_SET_SYS_FLAG": {
 		"scope": "evscript",
@@ -6695,6 +9691,22 @@
 		],
 		"body": "_CAMERA_COS_ANGLE_WAIT()"
 	},
+	"_HERO_MOVE_GRID_CENTER_FRONT": {
+		"scope": "evscript",
+		"prefix": [
+			"_HERO_MOVE_GRID_CENTER_FRONT",
+			"0877"
+		],
+		"body": "_HERO_MOVE_GRID_CENTER_FRONT()"
+	},
+	"_WARP_ENABLE_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_WARP_ENABLE_SET",
+			"0878"
+		],
+		"body": "_WARP_ENABLE_SET()"
+	},
 	"_DOOR_ENABLE_SET": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -6731,6 +9743,14 @@
 		],
 		"body": "_SET_OFFSET(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
 	},
+	"_OFFSET_WAIT": {
+		"scope": "evscript",
+		"prefix": [
+			"_OFFSET_WAIT",
+			"0883"
+		],
+		"body": "_OFFSET_WAIT()"
+	},
 	"_NAMINORI_END": {
 		"scope": "evscript",
 		"description": "[TODO] Update description",
@@ -6748,6 +9768,14 @@
 			"0885"
 		],
 		"body": "_TAKIKUDARI()"
+	},
+	"_KABENOBORI_CHECK": {
+		"scope": "evscript",
+		"prefix": [
+			"_KABENOBORI_CHECK",
+			"0886"
+		],
+		"body": "_KABENOBORI_CHECK()"
 	},
 	"_TALK_POKE_GET_TEMOTI_INDEX": {
 		"scope": "evscript",
@@ -6868,12 +9896,12 @@
 	},
 	"_AC_MARK_EMO": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Shows an emotion bubble above the affected actor.",
 		"prefix": [
 			"_AC_MARK_EMO",
 			"0900"
 		],
-		"body": "_AC_MARK_EMO(${1:arg0})"
+		"body": "_AC_MARK_EMO(${1:Emotion})"
 	},
 	"_CON_CATEGORY_AND_RANK_SET": {
 		"scope": "evscript",
@@ -6883,6 +9911,14 @@
 			"0901"
 		],
 		"body": "_CON_CATEGORY_AND_RANK_SET(${1:arg0}, ${2:arg1})"
+	},
+	"_CON_RANK_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_RANK_SET",
+			"0902"
+		],
+		"body": "_CON_RANK_SET()"
 	},
 	"_NATURAL_PARK_POKE_CREATE": {
 		"scope": "evscript",
@@ -6931,12 +9967,12 @@
 	},
 	"_AC_NECK_ROTATE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Rotates the head of the affected actor.",
 		"prefix": [
 			"_AC_NECK_ROTATE",
 			"0908"
 		],
-		"body": "_AC_NECK_ROTATE(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3})"
+		"body": "_AC_NECK_ROTATE(${1:Rotation1}, ${2:Rotation2}, ${3:Rotation3}, ${4:Time})"
 	},
 	"_CON_RESET_PARAMETER": {
 		"scope": "evscript",
@@ -6955,6 +9991,14 @@
 			"0910"
 		],
 		"body": "_CON_SELECT_SINGLE_MODE()"
+	},
+	"_CON_SELECT_MULTI_MODE": {
+		"scope": "evscript",
+		"prefix": [
+			"_CON_SELECT_MULTI_MODE",
+			"0911"
+		],
+		"body": "_CON_SELECT_MULTI_MODE()"
 	},
 	"_DPR_SHOP_OPEN": {
 		"scope": "evscript",
@@ -6985,12 +10029,12 @@
 	},
 	"_IMAGE_CLIP_VIEW_CON_CHECK_PROC": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unknown use. Something related to contests.",
 		"prefix": [
 			"_IMAGE_CLIP_VIEW_CON_CHECK_PROC",
 			"0915"
 		],
-		"body": "_IMAGE_CLIP_VIEW_CON_CHECK_PROC(${1:arg0}, ${2:arg1})"
+		"body": "_IMAGE_CLIP_VIEW_CON_CHECK_PROC(${1:Unknown1}, ${2:Unknown2})"
 	},
 	"_MOVE_COMBAT_GYM_WALL": {
 		"scope": "evscript",
@@ -7027,6 +10071,14 @@
 			"0919"
 		],
 		"body": "_EV_ENTITY_PLAYER_MOVE_RESET()"
+	},
+	"_CHECK_CAN_SEED_WATER": {
+		"scope": "evscript",
+		"prefix": [
+			"_CHECK_CAN_SEED_WATER",
+			"0920"
+		],
+		"body": "_CHECK_CAN_SEED_WATER()"
 	},
 	"_SHOP_OPEN_FIXED": {
 		"scope": "evscript",
@@ -7219,12 +10271,12 @@
 	},
 	"_EVENT_CAMERA_INDEX": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Changes the camera used.",
 		"prefix": [
 			"_EVENT_CAMERA_INDEX",
 			"0942"
 		],
-		"body": "_EVENT_CAMERA_INDEX(${1:arg0})"
+		"body": "_EVENT_CAMERA_INDEX(${1:Camera})"
 	},
 	"_EVENT_CAMERA_END_WAIT": {
 		"scope": "evscript",
@@ -7417,7 +10469,7 @@
 	},
 	"_AC_INVISIBLE_ON": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Hides the affected actor.",
 		"prefix": [
 			"_AC_INVISIBLE_ON",
 			"0964"
@@ -7426,7 +10478,7 @@
 	},
 	"_AC_INVISIBLE_OFF": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Unhides the affected actor.",
 		"prefix": [
 			"_AC_INVISIBLE_OFF",
 			"0965"
@@ -7514,14 +10566,22 @@
 		],
 		"body": "_EVENT_ENTITY_CLIP_WAIT(${1:arg0})"
 	},
+	"_FACE_INDEX": {
+		"scope": "evscript",
+		"prefix": [
+			"_FACE_INDEX",
+			"0975"
+		],
+		"body": "_FACE_INDEX()"
+	},
 	"_AC_FACE_INDEX": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Changes the face of the affected actor.",
 		"prefix": [
 			"_AC_FACE_INDEX",
 			"0976"
 		],
-		"body": "_AC_FACE_INDEX(${1:arg0})"
+		"body": "_AC_FACE_INDEX(${1:Face})"
 	},
 	"_TEMOTI_BALL_LOAD": {
 		"scope": "evscript",
@@ -7579,7 +10639,7 @@
 	},
 	"_TALK_OBJ_START_LOOK_NONE": {
 		"scope": "evscript",
-		"description": "[TODO] Update description",
+		"description": "Starts an object event without the actor turning to face the player. Combination of _TALK_START and _TALK_OPEN.",
 		"prefix": [
 			"_TALK_OBJ_START_LOOK_NONE",
 			"0983"
@@ -7603,6 +10663,14 @@
 			"0985"
 		],
 		"body": "_HIDENEFF_WAIT()"
+	},
+	"_GET_URAYAMA_ENCOUNT_INDEX": {
+		"scope": "evscript",
+		"prefix": [
+			"_GET_URAYAMA_ENCOUNT_INDEX",
+			"0986"
+		],
+		"body": "_GET_URAYAMA_ENCOUNT_INDEX()"
 	},
 	"_CUSTOM_BALL_NUM_ADD": {
 		"scope": "evscript",
@@ -7657,6 +10725,14 @@
 			"0992"
 		],
 		"body": "_OPEN_PASSWORD_SWKEYBOARD(${1:arg0})"
+	},
+	"_DENDOU_NUM_SET": {
+		"scope": "evscript",
+		"prefix": [
+			"_DENDOU_NUM_SET",
+			"0993"
+		],
+		"body": "_DENDOU_NUM_SET()"
 	},
 	"_TEMOTI_BOX_POKE_CHK": {
 		"scope": "evscript",
