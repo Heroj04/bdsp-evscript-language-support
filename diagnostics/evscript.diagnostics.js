@@ -160,12 +160,12 @@ async function doDocumentDiagnostics(document) {
 				if (latestCommand == null) {
 					continue;
 				}
-				let expectedTypesString = latestCommand.validArgs[argumentIndex].validArgTypes.map((value) => argTypes[value]).join(' or ');
 				if (argumentIndex >= latestCommand.validArgs.length) {
 					let error = `Parameter not expected`;
 					diagnostics.push(new vscode.Diagnostic(new vscode.Range(i, token.startIndex, i, token.startIndex + 1), error, vscode.DiagnosticSeverity.Error))
 					continue;
 				}
+				let expectedTypesString = latestCommand.validArgs[argumentIndex].validArgTypes.map((value) => argTypes[value]).join(' or ');
 				if (token.scopes.includes('constant.numeric.evscript') && !latestCommand.validArgs[argumentIndex].validArgTypes.includes(1)) {
 					let error = `Expected Paramenter type of '${expectedTypesString}' but got 'Value'`;
 					diagnostics.push(new vscode.Diagnostic(new vscode.Range(i, token.startIndex, i, token.startIndex + 1), error, vscode.DiagnosticSeverity.Error))
