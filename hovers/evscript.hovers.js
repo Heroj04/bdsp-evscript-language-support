@@ -66,7 +66,7 @@ module.exports = {
 						});
 						mainLine = mainLine.substring(0, mainLine.length - 3)
 						mainLine += ", "
-						descLine += `@param \`${arg.name}\` - ${arg.description}  \n\n`
+						descLine += `@param \`${arg.optional ? '[' : ''}${arg.name}${arg.optional ? ']' : ''}\` - ${arg.description}  \n\n`
 					});
 					mainLine = evCmd.validArgs.length > 0 ? mainLine.substring(0, mainLine.length - 2) : mainLine
 					mainLine += ")\n\`\`\`"
