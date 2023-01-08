@@ -8,7 +8,7 @@ const path = require("path");
 var ev_scripts;
 const argTypes = {
 	0: "CmdType",
-    1: "Value",
+    1: "Number",
     2: "Work",
     3: "Flag",
     4: "SysFlag",
@@ -167,7 +167,7 @@ async function doDocumentDiagnostics(document) {
 				}
 				let expectedTypesString = latestCommand.validArgs[argumentIndex].validArgTypes.map((value) => argTypes[value]).join(' or ');
 				if (token.scopes.includes('constant.numeric.evscript') && !latestCommand.validArgs[argumentIndex].validArgTypes.includes(1)) {
-					let error = `Expected Paramenter type of '${expectedTypesString}' but got 'Value'`;
+					let error = `Expected Paramenter type of '${expectedTypesString}' but got 'Number'`;
 					diagnostics.push(new vscode.Diagnostic(new vscode.Range(i, token.startIndex, i, token.startIndex + 1), error, vscode.DiagnosticSeverity.Error))
 					continue;
 				}

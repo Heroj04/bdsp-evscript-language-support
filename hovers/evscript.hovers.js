@@ -6,7 +6,7 @@ var ev_scripts;
 const enums = JSON.parse(fs.readFileSync(path.join(__dirname, "../enums.json")))
 const argTypes = {
 	0: "CmdType",
-    1: "Value",
+    1: "Number",
     2: "Work",
     3: "Flag",
     4: "SysFlag",
