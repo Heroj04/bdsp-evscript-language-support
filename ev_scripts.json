@@ -6,9 +6,153 @@
             {
                 "description": "[TODO] Update description",
                 "name": "arg0",
-                "optional": false,
+                "optional": true,
                 "validArgTypes": [
                     5,
+                    1
+                ]
+            }
+        ]
+    },
+    "-070": {
+        "description": "Shows a textbox with the given message.",
+        "name": "_MACRO_TALKMSG",
+        "validArgs": [
+            {
+                "description": "Message file.",
+                "name": "File",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message Name.",
+                "name": "Name",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message to show.",
+                "name": "Message",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Unknown",
+                "name": "Unknown",
+                "optional": true,
+                "validArgTypes": [
+                    1
+                ]
+            }
+        ]
+    },
+    "-083": {
+        "description": "Shows a textbox with the given message.",
+        "name": "_MACRO_TALK_KEYWAIT",
+        "validArgs": [
+            {
+                "description": "Message file.",
+                "name": "File",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message Name.",
+                "name": "Name",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message to show.",
+                "name": "Message",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Unknown",
+                "name": "Unknown",
+                "optional": true,
+                "validArgTypes": [
+                    1
+                ]
+            }
+        ]
+    },
+    "-084": {
+        "description": "Combines the commands _TALK_OBJ_START, _TALKMSG, _TALK_CLOSE, and _TALK_OBJ_END to show a textbox.",
+        "name": "_MACRO_EASY_OBJ_MSG",
+        "validArgs": [
+            {
+                "description": "Message file.",
+                "name": "File",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message Name.",
+                "name": "Name",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message to show.",
+                "name": "Message",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            }
+        ]
+    },
+    "-821": {
+        "description": "[TODO] Update description",
+        "name": "_MACRO_ADD_CUSTUM_WIN_LABEL",
+        "validArgs": [
+            {
+                "description": "Message file.",
+                "name": "File",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message Name.",
+                "name": "Name",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "Message to show.",
+                "name": "Message",
+                "optional": false,
+                "validArgTypes": [
+                    5
+                ]
+            },
+            {
+                "description": "[TODO] Update description",
+                "name": "arg1",
+                "optional": false,
+                "validArgTypes": [
                     1
                 ]
             }
@@ -20,12 +164,12 @@
         "validArgs": []
     },
     "0001": {
-        "description": "Unused. Presumably does nothing.",
+        "description": "Unused. Ends the script. Functionally the same as _END.",
         "name": "_NOP",
         "validArgs": []
     },
     "0002": {
-        "description": "Unused. Presumably does nothing.",
+        "description": "Unused. Does nothing.",
         "name": "_DUMMY",
         "validArgs": []
     },
@@ -58,72 +202,72 @@
         ]
     },
     "0005": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_LD_REG_VAL",
         "validArgs": []
     },
     "0006": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_LD_REG_WDATA",
         "validArgs": []
     },
     "0007": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_LD_REG_ADR",
         "validArgs": []
     },
     "0008": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_LD_ADR_VAL",
         "validArgs": []
     },
     "0009": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_LD_ADR_REG",
         "validArgs": []
     },
     "0010": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_LD_REG_REG",
         "validArgs": []
     },
     "0011": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_LD_ADR_ADR",
         "validArgs": []
     },
     "0012": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_CP_REG_REG",
         "validArgs": []
     },
     "0013": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_CP_REG_VAL",
         "validArgs": []
     },
     "0014": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_CP_REG_ADR",
         "validArgs": []
     },
     "0015": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_CP_ADR_REG",
         "validArgs": []
     },
     "0016": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_CP_ADR_VAL",
         "validArgs": []
     },
     "0017": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_CP_ADR_ADR",
         "validArgs": []
     },
     "0018": {
-        "description": "Unused. Probably has arguments.",
+        "description": "Unused.",
         "name": "_CMPVAL",
         "validArgs": []
     },
@@ -150,11 +294,11 @@
         ]
     },
     "0020": {
-        "description": "(?) Logs the value of a variable.",
+        "description": "Unknown use.",
         "name": "_DEBUG_WATCH_WORK",
         "validArgs": [
             {
-                "description": "Variable to log.",
+                "description": "Variable.",
                 "name": "Var",
                 "optional": false,
                 "validArgTypes": [
@@ -169,11 +313,11 @@
         "validArgs": []
     },
     "0022": {
-        "description": "Calls a script from the common_scr file.",
+        "description": "Calls a script.",
         "name": "_CHG_COMMON_SCR",
         "validArgs": [
             {
-                "description": "Script of common_scr to call.",
+                "description": "Script to call.",
                 "name": "Script",
                 "optional": false,
                 "validArgTypes": [
@@ -183,7 +327,7 @@
         ]
     },
     "0023": {
-        "description": "Return from the common_scr file after a _CHG_COMMON_SCR call.",
+        "description": "Returns after a call.",
         "name": "_CHG_LOCAL_SCR",
         "validArgs": []
     },
@@ -442,12 +586,12 @@
         ]
     },
     "0039": {
-        "description": "Display the Autosave text in the corner.",
+        "description": "Unknown use.",
         "name": "_ADD_WAITICON",
         "validArgs": []
     },
     "0040": {
-        "description": "Remove the Autosave text in the corner.",
+        "description": "Unknown use.",
         "name": "_DEL_WAITICON",
         "validArgs": []
     },
@@ -861,7 +1005,7 @@
         "validArgs": []
     },
     "0063": {
-        "description": "Only used in unused Pal Park scripts. Presumably shows a textbox.",
+        "description": "Only used in unused Pal Park scripts.",
         "name": "_TALKMSG_ALLPUT",
         "validArgs": [
             {
@@ -880,7 +1024,7 @@
         "validArgs": []
     },
     "0065": {
-        "description": "(?) Something related to Mystery Gift. Presumably shows a textbox.",
+        "description": "Unknown use.",
         "name": "_TALKMSG_ARC",
         "validArgs": [
             {
@@ -926,7 +1070,7 @@
         ]
     },
     "0069": {
-        "description": "Shows a textbox with all Battle Tower illegal Pokémon.",
+        "description": "Presumably is supposed to show a textbox with all Battle Tower illegal Pokémon.",
         "name": "_TALKMSG_NG_POKE_NAME",
         "validArgs": [
             {
@@ -992,7 +1136,7 @@
         ]
     },
     "0072": {
-        "description": "(?) Only used in union room. Presumably shows a textbox.",
+        "description": "Only used in union room.",
         "name": "_TALKMSG_SP_AUTO",
         "validArgs": [
             {
@@ -1062,12 +1206,12 @@
         "validArgs": []
     },
     "0082": {
-        "description": "Closes the currently open textbox. Used before shop commands.",
+        "description": "Closes the currently open textbox. Used before shop commands. Functionally the same as _TALK_CLOSE.",
         "name": "_TALK_CLOSE_NO_CLEAR",
         "validArgs": []
     },
     "0083": {
-        "description": "Shows a textbox with the given message.",
+        "description": "Shows a textbox with the given message. Functionally the same as _TALKMSG.",
         "name": "_TALK_KEYWAIT",
         "validArgs": [
             {
@@ -1133,7 +1277,7 @@
         "validArgs": []
     },
     "0091": {
-        "description": "(?) Waits until the board is closed, then puts a value in a variable.",
+        "description": "(?) Waits until the board is closed, then puts a value in a variable. Functionally the same as _BOARD_MSG.",
         "name": "_BOARD_END_WAIT",
         "validArgs": [
             {
@@ -1528,8 +1672,8 @@
                 ]
             },
             {
-                "description": "Unknown use.",
-                "name": "Unknown1",
+                "description": "ID of the form of the Pokémon whose cry is played.",
+                "name": "Form",
                 "optional": false,
                 "validArgTypes": [
                     1,
@@ -1538,7 +1682,7 @@
             },
             {
                 "description": "Unknown use. Always 0.",
-                "name": "Unknown2",
+                "name": "VoiceType",
                 "optional": false,
                 "validArgTypes": [
                     1
@@ -1564,7 +1708,7 @@
                 ]
             },
             {
-                "description": "Label of format PLAY_PV_EV_###_00_##, where ### is the Pokémon ID and ## is 02 for Pikachu, 00 otherwise.",
+                "description": "Label of format PLAY_PV_EV_000_11_22, where 000 is the Pokémon ID, 11 is the form ID and 22 is the voice type.",
                 "name": "Pokémon",
                 "optional": false,
                 "validArgTypes": [
@@ -1582,7 +1726,7 @@
         ]
     },
     "0115": {
-        "description": "Plays a fanfare.",
+        "description": "Plays a fanfare. Functionally the same as _SE_PLAY.",
         "name": "_ME_PLAY",
         "validArgs": [
             {
@@ -1623,7 +1767,7 @@
         ]
     },
     "0118": {
-        "description": "Plays background music.",
+        "description": "Overrides the background music completely until _BGM_NOW_MAP_PLAY is called.",
         "name": "_BGM_PLAY",
         "validArgs": [
             {
@@ -1861,7 +2005,7 @@
             {
                 "description": "[TODO] Update description",
                 "name": "arg0",
-                "optional": false,
+                "optional": true,
                 "validArgTypes": [
                     5
                 ]
@@ -1869,7 +2013,7 @@
             {
                 "description": "[TODO] Update description",
                 "name": "arg1",
-                "optional": false,
+                "optional": true,
                 "validArgTypes": [
                     5
                 ]
@@ -5122,7 +5266,7 @@
         "validArgs": [
             {
                 "description": "[TODO] Update description",
-                "name": "arg0",
+                "name": "PokemonNo",
                 "optional": false,
                 "validArgTypes": [
                     1,
@@ -5131,32 +5275,35 @@
             },
             {
                 "description": "[TODO] Update description",
-                "name": "arg1",
+                "name": "Level",
                 "optional": false,
                 "validArgTypes": [
                     1
                 ]
             },
             {
+                "default": 0,
                 "description": "[TODO] Update description",
-                "name": "arg2",
-                "optional": false,
+                "name": "CantUseBall",
+                "optional": true,
                 "validArgTypes": [
                     1
                 ]
             },
             {
+                "default": 0,
                 "description": "[TODO] Update description",
-                "name": "arg3",
-                "optional": false,
+                "name": "FormNo",
+                "optional": true,
                 "validArgTypes": [
                     1
                 ]
             },
             {
+                "default": 0,
                 "description": "[TODO] Update description",
-                "name": "arg4",
-                "optional": false,
+                "name": "HiddenAbility",
+                "optional": true,
                 "validArgTypes": [
                     1
                 ]
@@ -6543,7 +6690,7 @@
                 "name": "Slot",
                 "optional": false,
                 "validArgTypes": [
-                    null
+                    2
                 ]
             },
             {
@@ -9825,7 +9972,7 @@
             {
                 "description": "[TODO] Update description",
                 "name": "arg0",
-                "optional": false,
+                "optional": true,
                 "validArgTypes": [
                     1
                 ]
@@ -10036,7 +10183,7 @@
             {
                 "description": "[TODO] Update description",
                 "name": "arg1",
-                "optional": false,
+                "optional": true,
                 "validArgTypes": [
                     1
                 ]

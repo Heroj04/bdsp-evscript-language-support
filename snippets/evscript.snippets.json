@@ -2016,9 +2016,45 @@
 		],
 		"body": "_NONE_USE_NUMBER()"
 	},
+	"_MACRO_TALKMSG": {
+		"scope": "evscript",
+		"description": "Shows a textbox with the given message.",
+		"prefix": [
+			"_MACRO_TALKMSG",
+			"-070"
+		],
+		"body": "_MACRO_TALKMSG(${1:File}, ${2:Name}, ${3:Message}, ${4:Unknown?})"
+	},
+	"_MACRO_TALK_KEYWAIT": {
+		"scope": "evscript",
+		"description": "Shows a textbox with the given message.",
+		"prefix": [
+			"_MACRO_TALK_KEYWAIT",
+			"-083"
+		],
+		"body": "_MACRO_TALK_KEYWAIT(${1:File}, ${2:Name}, ${3:Message}, ${4:Unknown?})"
+	},
+	"_MACRO_EASY_OBJ_MSG": {
+		"scope": "evscript",
+		"description": "Combines the commands _TALK_OBJ_START, _TALKMSG, _TALK_CLOSE, and _TALK_OBJ_END to show a textbox.",
+		"prefix": [
+			"_MACRO_EASY_OBJ_MSG",
+			"-084"
+		],
+		"body": "_MACRO_EASY_OBJ_MSG(${1:File}, ${2:Name}, ${3:Message})"
+	},
+	"_MACRO_ADD_CUSTUM_WIN_LABEL": {
+		"scope": "evscript",
+		"description": "[TODO] Update description",
+		"prefix": [
+			"_MACRO_ADD_CUSTUM_WIN_LABEL",
+			"-821"
+		],
+		"body": "_MACRO_ADD_CUSTUM_WIN_LABEL(${1:File}, ${2:Name}, ${3:Message}, ${4:arg1})"
+	},
 	"_NOP": {
 		"scope": "evscript",
-		"description": "Unused. Presumably does nothing.",
+		"description": "Unused. Ends the script. Functionally the same as _END.",
 		"prefix": [
 			"_NOP",
 			"0001"
@@ -2027,7 +2063,7 @@
 	},
 	"_DUMMY": {
 		"scope": "evscript",
-		"description": "Unused. Presumably does nothing.",
+		"description": "Unused. Does nothing.",
 		"prefix": [
 			"_DUMMY",
 			"0002"
@@ -2054,7 +2090,7 @@
 	},
 	"_LD_REG_VAL": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_LD_REG_VAL",
 			"0005"
@@ -2063,7 +2099,7 @@
 	},
 	"_LD_REG_WDATA": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_LD_REG_WDATA",
 			"0006"
@@ -2072,7 +2108,7 @@
 	},
 	"_LD_REG_ADR": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_LD_REG_ADR",
 			"0007"
@@ -2081,7 +2117,7 @@
 	},
 	"_LD_ADR_VAL": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_LD_ADR_VAL",
 			"0008"
@@ -2090,7 +2126,7 @@
 	},
 	"_LD_ADR_REG": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_LD_ADR_REG",
 			"0009"
@@ -2099,7 +2135,7 @@
 	},
 	"_LD_REG_REG": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_LD_REG_REG",
 			"0010"
@@ -2108,7 +2144,7 @@
 	},
 	"_LD_ADR_ADR": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_LD_ADR_ADR",
 			"0011"
@@ -2117,7 +2153,7 @@
 	},
 	"_CP_REG_REG": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_CP_REG_REG",
 			"0012"
@@ -2126,7 +2162,7 @@
 	},
 	"_CP_REG_VAL": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_CP_REG_VAL",
 			"0013"
@@ -2135,7 +2171,7 @@
 	},
 	"_CP_REG_ADR": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_CP_REG_ADR",
 			"0014"
@@ -2144,7 +2180,7 @@
 	},
 	"_CP_ADR_REG": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_CP_ADR_REG",
 			"0015"
@@ -2153,7 +2189,7 @@
 	},
 	"_CP_ADR_VAL": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_CP_ADR_VAL",
 			"0016"
@@ -2162,7 +2198,7 @@
 	},
 	"_CP_ADR_ADR": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_CP_ADR_ADR",
 			"0017"
@@ -2171,7 +2207,7 @@
 	},
 	"_CMPVAL": {
 		"scope": "evscript",
-		"description": "Unused. Probably has arguments.",
+		"description": "Unused.",
 		"prefix": [
 			"_CMPVAL",
 			"0018"
@@ -2189,7 +2225,7 @@
 	},
 	"_DEBUG_WATCH_WORK": {
 		"scope": "evscript",
-		"description": "(?) Logs the value of a variable.",
+		"description": "Unknown use.",
 		"prefix": [
 			"_DEBUG_WATCH_WORK",
 			"0020"
@@ -2207,7 +2243,7 @@
 	},
 	"_CHG_COMMON_SCR": {
 		"scope": "evscript",
-		"description": "Calls a script from the common_scr file.",
+		"description": "Calls a script.",
 		"prefix": [
 			"_CHG_COMMON_SCR",
 			"0022"
@@ -2216,7 +2252,7 @@
 	},
 	"_CHG_LOCAL_SCR": {
 		"scope": "evscript",
-		"description": "Return from the common_scr file after a _CHG_COMMON_SCR call.",
+		"description": "Returns after a call.",
 		"prefix": [
 			"_CHG_LOCAL_SCR",
 			"0023"
@@ -2360,7 +2396,7 @@
 	},
 	"_ADD_WAITICON": {
 		"scope": "evscript",
-		"description": "Display the Autosave text in the corner.",
+		"description": "Unknown use.",
 		"prefix": [
 			"_ADD_WAITICON",
 			"0039"
@@ -2369,7 +2405,7 @@
 	},
 	"_DEL_WAITICON": {
 		"scope": "evscript",
-		"description": "Remove the Autosave text in the corner.",
+		"description": "Unknown use.",
 		"prefix": [
 			"_DEL_WAITICON",
 			"0040"
@@ -2576,7 +2612,7 @@
 	},
 	"_TALKMSG_ALLPUT": {
 		"scope": "evscript",
-		"description": "Only used in unused Pal Park scripts. Presumably shows a textbox.",
+		"description": "Only used in unused Pal Park scripts.",
 		"prefix": [
 			"_TALKMSG_ALLPUT",
 			"0063"
@@ -2594,7 +2630,7 @@
 	},
 	"_TALKMSG_ARC": {
 		"scope": "evscript",
-		"description": "(?) Something related to Mystery Gift. Presumably shows a textbox.",
+		"description": "Unknown use.",
 		"prefix": [
 			"_TALKMSG_ARC",
 			"0065"
@@ -2630,7 +2666,7 @@
 	},
 	"_TALKMSG_NG_POKE_NAME": {
 		"scope": "evscript",
-		"description": "Shows a textbox with all Battle Tower illegal Pokémon.",
+		"description": "Presumably is supposed to show a textbox with all Battle Tower illegal Pokémon.",
 		"prefix": [
 			"_TALKMSG_NG_POKE_NAME",
 			"0069"
@@ -2657,7 +2693,7 @@
 	},
 	"_TALKMSG_SP_AUTO": {
 		"scope": "evscript",
-		"description": "(?) Only used in union room. Presumably shows a textbox.",
+		"description": "Only used in union room.",
 		"prefix": [
 			"_TALKMSG_SP_AUTO",
 			"0072"
@@ -2747,7 +2783,7 @@
 	},
 	"_TALK_CLOSE_NO_CLEAR": {
 		"scope": "evscript",
-		"description": "Closes the currently open textbox. Used before shop commands.",
+		"description": "Closes the currently open textbox. Used before shop commands. Functionally the same as _TALK_CLOSE.",
 		"prefix": [
 			"_TALK_CLOSE_NO_CLEAR",
 			"0082"
@@ -2756,7 +2792,7 @@
 	},
 	"_TALK_KEYWAIT": {
 		"scope": "evscript",
-		"description": "Shows a textbox with the given message.",
+		"description": "Shows a textbox with the given message. Functionally the same as _TALKMSG.",
 		"prefix": [
 			"_TALK_KEYWAIT",
 			"0083"
@@ -2827,7 +2863,7 @@
 	},
 	"_BOARD_END_WAIT": {
 		"scope": "evscript",
-		"description": "(?) Waits until the board is closed, then puts a value in a variable.",
+		"description": "(?) Waits until the board is closed, then puts a value in a variable. Functionally the same as _BOARD_MSG.",
 		"prefix": [
 			"_BOARD_END_WAIT",
 			"0091"
@@ -3021,7 +3057,7 @@
 			"_VOICE_PLAY",
 			"0112"
 		],
-		"body": "_VOICE_PLAY(${1:Pokémon}, ${2:Unknown1}, ${3:Unknown2})"
+		"body": "_VOICE_PLAY(${1:Pokémon}, ${2:Form}, ${3:VoiceType})"
 	},
 	"_VOICE_WAIT": {
 		"scope": "evscript",
@@ -3043,7 +3079,7 @@
 	},
 	"_ME_PLAY": {
 		"scope": "evscript",
-		"description": "Plays a fanfare.",
+		"description": "Plays a fanfare. Functionally the same as _SE_PLAY.",
 		"prefix": [
 			"_ME_PLAY",
 			"0115"
@@ -3070,7 +3106,7 @@
 	},
 	"_BGM_PLAY": {
 		"scope": "evscript",
-		"description": "Plays background music.",
+		"description": "Overrides the background music completely until _BGM_NOW_MAP_PLAY is called.",
 		"prefix": [
 			"_BGM_PLAY",
 			"0118"
@@ -3273,7 +3309,7 @@
 			"_OBJ_ANIME_WAIT",
 			"0140"
 		],
-		"body": "_OBJ_ANIME_WAIT(${1:arg0}, ${2:arg1})"
+		"body": "_OBJ_ANIME_WAIT(${1:arg0?}, ${2:arg1?})"
 	},
 	"_TALK_OBJ_PAUSE_ALL": {
 		"scope": "evscript",
@@ -5582,7 +5618,7 @@
 			"_SP_WILD_BTL_SET",
 			"0402"
 		],
-		"body": "_SP_WILD_BTL_SET(${1:arg0}, ${2:arg1}, ${3:arg2}, ${4:arg3}, ${5:arg4})"
+		"body": "_SP_WILD_BTL_SET(${1:PokemonNo}, ${2:Level}, ${3:CantUseBall?}, ${4:FormNo?}, ${5:HiddenAbility?})"
 	},
 	"_FIRST_BTL_SET": {
 		"scope": "evscript",
@@ -9020,7 +9056,7 @@
 			"_AC_VANISH_ON",
 			"0800"
 		],
-		"body": "_AC_VANISH_ON(${1:arg0})"
+		"body": "_AC_VANISH_ON(${1:arg0?})"
 	},
 	"_AC_VANISH_OFF": {
 		"scope": "evscript",
@@ -9215,7 +9251,7 @@
 			"_OPEN_CUSTUM_WIN",
 			"0822"
 		],
-		"body": "_OPEN_CUSTUM_WIN(${1:arg0}, ${2:arg1})"
+		"body": "_OPEN_CUSTUM_WIN(${1:arg0}, ${2:arg1?})"
 	},
 	"_VISIBLE_OBJ_PROP": {
 		"scope": "evscript",
